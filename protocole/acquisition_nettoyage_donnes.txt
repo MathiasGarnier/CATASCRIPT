@@ -1,0 +1,29 @@
+Utilisation de OpenLibrary, Google books et archive.org pour récupérer les catalogues.
+
+Description de CatalogOfRomances_vol_1.txt (pour mieux le nettoyer):
+
+    lignes 1 à 192 on s'en fout (description + Google)
+    la présentation du début (point par point) a vraiment été explosée par l'OCR
+    ça commence vraiment à partir de la ligne 3813
+
+
+    pages (annonce différente en fonction de si recto ou verso)
+        816  MISCELLANEOUS  BOMANGES. 
+        MISCELLANEOUS  ROMANCES.  817 
+
+
+    y'a quand même des trucs qui déconnent : e.g. '5^o>>-\ 
+    ou encore:      c.  Part  in.  Poethomerica,  in  776  lines.  Headed :  "  To5  aSnov 
+                        irepl  T&v  irapoKevrropAiHov  r^  ofiriptp*^  Begins:  ** AvrcLp  hrel 
+                        iroif)<Tav  vif>  eicTOpl  oaaa  eci/ret."  Ends :  "  oiKoZi  r  iXjOifievtu 
+                        \uypbv  voarov  ISovra^.**     f.  30  b. 
+                    le grec est pas du tout passé!!!
+
+    ? prendre en compte les scores de confiance de l'OCR ? (niveau mot + reconstruire score niveau ligne & paragraphe?)
+    problème: les scores ne veulent essentiellement rien dire...
+
+
+Pour le vol 2: https://books.google.fr/books?id=p-gtAAAAIAAJ l'OCR a l'air très très bon.
+
+
+https://www.persee.fr/doc/jds_0021-8103_1911_num_9_2_3686_t1_0091_0000_2 critique
