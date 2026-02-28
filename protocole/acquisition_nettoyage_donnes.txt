@@ -1,5 +1,13 @@
 Utilisation de OpenLibrary, Google books et archive.org pour récupérer les catalogues.
 
+Plusieurs versions différentes, e.g.
+https://archive.org/details/catalogueromanc00wardgoog/page/n12/mode/2up
+https://archive.org/details/catalogueofroman01brituoft/page/n7/mode/2up
+mais en vrai ils sont tous de piètre qualité...
+
+Refaire l'OCR ? au moins de certaines parties d'intérêt...
+https://colab.research.google.com/#fileId=https%3A//huggingface.co/allenai/olmOCR-2-7B-1025-FP8.ipynb
+
 Description de CatalogOfRomances_vol_1.txt (pour mieux le nettoyer):
 
     lignes 1 à 192 on s'en fout (description + Google)
@@ -21,6 +29,9 @@ Description de CatalogOfRomances_vol_1.txt (pour mieux le nettoyer):
 
     ? prendre en compte les scores de confiance de l'OCR ? (niveau mot + reconstruire score niveau ligne & paragraphe?)
     problème: les scores ne veulent essentiellement rien dire...
+
+Je pense que ça vaut le coup de faire une correspondence A LA MAIN entre textes et positions dans le corpus.
+(Corpus pas assez gros pour justifier les galères + se servir directement du TOC)
 
 
 Pour le vol 2: https://books.google.fr/books?id=p-gtAAAAIAAJ l'OCR a l'air très très bon.
