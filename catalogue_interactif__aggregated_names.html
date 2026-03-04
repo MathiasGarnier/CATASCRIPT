@@ -1,0 +1,761 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+                <link href="lib/tom-select/tom-select.css" rel="stylesheet">
+                <script src="lib/tom-select/tom-select.complete.min.js"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 800px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+             #loadingBar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width: 100%;
+                 height: 800px;
+                 background-color:rgba(200,200,200,0.8);
+                 -webkit-transition: all 0.5s ease;
+                 -moz-transition: all 0.5s ease;
+                 -ms-transition: all 0.5s ease;
+                 -o-transition: all 0.5s ease;
+                 transition: all 0.5s ease;
+                 opacity:1;
+             }
+
+             #bar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width:20px;
+                 height:20px;
+                 margin:auto auto auto auto;
+                 border-radius:11px;
+                 border:2px solid rgba(30,30,30,0.05);
+                 background: rgb(0, 173, 246); /* Old browsers */
+                 box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+             }
+
+             #border {
+                 position:absolute;
+                 top:10px;
+                 left:10px;
+                 width:500px;
+                 height:23px;
+                 margin:auto auto auto auto;
+                 box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+                 border-radius:10px;
+             }
+
+             #text {
+                 position:absolute;
+                 top:8px;
+                 left:530px;
+                 width:30px;
+                 height:50px;
+                 margin:auto auto auto auto;
+                 font-size:22px;
+                 color: #000000;
+             }
+
+             div.outerBorder {
+                 position:relative;
+                 top:400px;
+                 width:600px;
+                 height:44px;
+                 margin:auto auto auto auto;
+                 border:8px solid rgba(0,0,0,0.1);
+                 background: rgb(252,252,252); /* Old browsers */
+                 background: -moz-linear-gradient(top,  rgba(252,252,252,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+                 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+                 background: -webkit-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+                 background: -o-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+                 background: -ms-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+                 background: linear-gradient(to bottom,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+                 border-radius:72px;
+                 box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+             }
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+                <div id="select-menu" class="card-header">
+                    <div class="row no-gutters">
+                        <div class="col-10 pb-2">
+                            <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            onchange="selectNode([value]);"
+                            id="select-node"
+                            placeholder="Select node..."
+                            >
+                                <option selected>Select a Node by ID</option>
+                                
+                                    <option value="Historia Regum Britanniae">Historia Regum Britanniae</option>
+                                
+                                    <option value="Turpin's Chronicle">Turpin's Chronicle</option>
+                                
+                                    <option value="Prophecy of Merlin Silvester">Prophecy of Merlin Silvester</option>
+                                
+                                    <option value="Dares Phrygius">Dares Phrygius</option>
+                                
+                                    <option value="Letters between Alexander and Dindimus">Letters between Alexander and Dindimus</option>
+                                
+                                    <option value="Alexandreis">Alexandreis</option>
+                                
+                                    <option value="Prophecies of Merlin">Prophecies of Merlin</option>
+                                
+                                    <option value="Guy of Warwick">Guy of Warwick</option>
+                                
+                                    <option value="Prophecy on Scotland">Prophecy on Scotland</option>
+                                
+                                    <option value="Alexander the Great">Alexander the Great</option>
+                                
+                                    <option value="Prophecy">Prophecy</option>
+                                
+                                    <option value="Fulk Fitz-Warin">Fulk Fitz-Warin</option>
+                                
+                                    <option value="Amya and Amylion">Amya and Amylion</option>
+                                
+                                    <option value="Tale of Two Lovers">Tale of Two Lovers</option>
+                                
+                                    <option value="Historia Trojana">Historia Trojana</option>
+                                
+                                    <option value="Story of Troy">Story of Troy</option>
+                                
+                                    <option value="Prophecy of the Tenth Sibyl">Prophecy of the Tenth Sibyl</option>
+                                
+                                    <option value="Karolellus">Karolellus</option>
+                                
+                                    <option value="Roman de Brut">Roman de Brut</option>
+                                
+                                    <option value="Havelok">Havelok</option>
+                                
+                                    <option value="Vita Merlini">Vita Merlini</option>
+                                
+                                    <option value="Prophecies of Merlin Silvester">Prophecies of Merlin Silvester</option>
+                                
+                                    <option value="Historia Regum Britannia">Historia Regum Britannia</option>
+                                
+                                    <option value="Apollonius of Tyre">Apollonius of Tyre</option>
+                                
+                                    <option value="Le Chemin de Vaillance">Le Chemin de Vaillance</option>
+                                
+                                    <option value="Livre de l'Ordre de Chevalerie">Livre de l'Ordre de Chevalerie</option>
+                                
+                                    <option value="Saint Graal">Saint Graal</option>
+                                
+                                    <option value="Lancelot du Lac">Lancelot du Lac</option>
+                                
+                                    <option value="Perceforest">Perceforest</option>
+                                
+                                    <option value="Simon de Pouille">Simon de Pouille</option>
+                                
+                                    <option value="Aspremont">Aspremont</option>
+                                
+                                    <option value="Fierabras">Fierabras</option>
+                                
+                                    <option value="Ogier le Danois">Ogier le Danois</option>
+                                
+                                    <option value="Quatre fils Aimon">Quatre fils Aimon</option>
+                                
+                                    <option value="Pontus and Sidoine">Pontus and Sidoine</option>
+                                
+                                    <option value="Guy of Warwick and Heraud of Ardennes">Guy of Warwick and Heraud of Ardennes</option>
+                                
+                                    <option value="Knight of the Swan">Knight of the Swan</option>
+                                
+                                    <option value="Iliaca">Iliaca</option>
+                                
+                                    <option value="Heroica">Heroica</option>
+                                
+                                    <option value="Titus and Vespasian">Titus and Vespasian</option>
+                                
+                                    <option value="Voyage of Charlemagne to Jerusalem and Constantinople">Voyage of Charlemagne to Jerusalem and Constantinople</option>
+                                
+                                    <option value="Sydrac and Boctus">Sydrac and Boctus</option>
+                                
+                                    <option value="Sir Gowghter">Sir Gowghter</option>
+                                
+                                    <option value="Tale of Gamelyn">Tale of Gamelyn</option>
+                                
+                                    <option value="Recueil des Histoires de Troie">Recueil des Histoires de Troie</option>
+                                
+                                    <option value="Mélusine">Mélusine</option>
+                                
+                                    <option value="Troy Book">Troy Book</option>
+                                
+                                    <option value="Romance of Thebes">Romance of Thebes</option>
+                                
+                                    <option value="Roman de la Rose">Roman de la Rose</option>
+                                
+                                    <option value="La Vengeance d'Alexandre">La Vengeance d'Alexandre</option>
+                                
+                                    <option value="Guillaume d'Orange">Guillaume d'Orange</option>
+                                
+                                    <option value="Cleriadus et Meliadice">Cleriadus et Meliadice</option>
+                                
+                                    <option value="Tristram">Tristram</option>
+                                
+                                    <option value="Gesta Regum Britannia">Gesta Regum Britannia</option>
+                                
+                                    <option value="Sir Eglamour of Artois">Sir Eglamour of Artois</option>
+                                
+                                    <option value="Octavian the Emperor">Octavian the Emperor</option>
+                                
+                                    <option value="Sir Launfal">Sir Launfal</option>
+                                
+                                    <option value="Lybeaus Desconus">Lybeaus Desconus</option>
+                                
+                                    <option value="Emare">Emare</option>
+                                
+                                    <option value="Sir Isumbras">Sir Isumbras</option>
+                                
+                                    <option value="Lazamon's Brut">Lazamon's Brut</option>
+                                
+                                    <option value="Prophecy of Merlin">Prophecy of Merlin</option>
+                                
+                                    <option value="Prophecies">Prophecies</option>
+                                
+                                    <option value="Sir Gawain and the Green Knight">Sir Gawain and the Green Knight</option>
+                                
+                                    <option value="Story of Albina and her Sisters">Story of Albina and her Sisters</option>
+                                
+                                    <option value="Petit Jean de Saintré">Petit Jean de Saintré</option>
+                                
+                                    <option value="Floridam and Elluide">Floridam and Elluide</option>
+                                
+                                    <option value="Ywain and Gawain">Ywain and Gawain</option>
+                                
+                                    <option value="Merlin's Prophecy of the Six Kings">Merlin's Prophecy of the Six Kings</option>
+                                
+                                    <option value="Letters of Dindimus to Alexander the Great">Letters of Dindimus to Alexander the Great</option>
+                                
+                                    <option value="Lisamon's Brut">Lisamon's Brut</option>
+                                
+                                    <option value="Marvels of India">Marvels of India</option>
+                                
+                                    <option value="Floyras and Blanchefleur">Floyras and Blanchefleur</option>
+                                
+                                    <option value="Thomas of Erceldoune">Thomas of Erceldoune</option>
+                                
+                                    <option value="Ipomodon">Ipomodon</option>
+                                
+                                    <option value="Brutus">Brutus</option>
+                                
+                                    <option value="Lanval">Lanval</option>
+                                
+                                    <option value="Fall of Troy">Fall of Troy</option>
+                                
+                                    <option value="Fall of Troy and Adventures of Æneas">Fall of Troy and Adventures of Æneas</option>
+                                
+                                    <option value="Two Prophecies">Two Prophecies</option>
+                                
+                                    <option value="Prophecies of Merlin, etc.">Prophecies of Merlin, etc.</option>
+                                
+                                    <option value="Whole Prophecy of Scotland">Whole Prophecy of Scotland</option>
+                                
+                                    <option value="Battle of Roncevaux">Battle of Roncevaux</option>
+                                
+                                    <option value="Story of Troy and Adventures of Æneas">Story of Troy and Adventures of Æneas</option>
+                                
+                                    <option value="Brut y Brenhinoedd">Brut y Brenhinoedd</option>
+                                
+                                    <option value="Prophecy of the Lily, the Lion, and the Son of Man">Prophecy of the Lily, the Lion, and the Son of Man</option>
+                                
+                                    <option value="Meriadoc and Gawain">Meriadoc and Gawain</option>
+                                
+                                    <option value="Four Prophecies">Four Prophecies</option>
+                                
+                                    <option value="The Three Kings' Sons">The Three Kings' Sons</option>
+                                
+                                    <option value="Romance of Troy">Romance of Troy</option>
+                                
+                                    <option value="King Robert of Sicily">King Robert of Sicily</option>
+                                
+                                    <option value="Gui de Bourgogne">Gui de Bourgogne</option>
+                                
+                                    <option value="King Horn">King Horn</option>
+                                
+                                    <option value="Political Prophecies">Political Prophecies</option>
+                                
+                                    <option value="Lays of Marie de France">Lays of Marie de France</option>
+                                
+                                    <option value="Troilus and Cryseyde">Troilus and Cryseyde</option>
+                                
+                                    <option value="Chanson de Brut">Chanson de Brut</option>
+                                
+                                    <option value="Prophecies de Merlin">Prophecies de Merlin</option>
+                                
+                                    <option value="Prophecies of Merlin and others">Prophecies of Merlin and others</option>
+                                
+                                    <option value="Ipomedon">Ipomedon</option>
+                                
+                                    <option value="Morte Arthur">Morte Arthur</option>
+                                
+                                    <option value="Six Fabliaux">Six Fabliaux</option>
+                                
+                                    <option value="Prophecy of Thomas of Erceldoune">Prophecy of Thomas of Erceldoune</option>
+                                
+                                    <option value="Amys and Amylion">Amys and Amylion</option>
+                                
+                                    <option value="Letter of Dindimus to Alexander the Great">Letter of Dindimus to Alexander the Great</option>
+                                
+                                    <option value="Aronus and Marina">Aronus and Marina</option>
+                                
+                                    <option value="Filocolo">Filocolo</option>
+                                
+                                    <option value="Dictys Cretensis">Dictys Cretensis</option>
+                                
+                                    <option value="Corbaccio">Corbaccio</option>
+                                
+                                    <option value="Fiammetta">Fiammetta</option>
+                                
+                                    <option value="Life of Harold, King of England">Life of Harold, King of England</option>
+                                
+                                    <option value="Sir Orpheo">Sir Orpheo</option>
+                                
+                                    <option value="Tale of Antiochus">Tale of Antiochus</option>
+                                
+                                    <option value="Florimont">Florimont</option>
+                                
+                                    <option value="Voeux du Paon">Voeux du Paon</option>
+                                
+                                    <option value="L'Ordène de Chevalerie">L'Ordène de Chevalerie</option>
+                                
+                                    <option value="Girard de Roussillon">Girard de Roussillon</option>
+                                
+                                    <option value="Doon de la Roche">Doon de la Roche</option>
+                                
+                                    <option value="Enfances Ogier">Enfances Ogier</option>
+                                
+                                    <option value="Roman de Troie">Roman de Troie</option>
+                                
+                                    <option value="Richard Cœur-de-Lion">Richard Cœur-de-Lion</option>
+                                
+                                    <option value="Prophecies taken from Geoffrey of Monmouth and others">Prophecies taken from Geoffrey of Monmouth and others</option>
+                                
+                                    <option value="Merlin">Merlin</option>
+                                
+                                    <option value="Theagenes and Stelliana">Theagenes and Stelliana</option>
+                                
+                                    <option value="Kings of Britain">Kings of Britain</option>
+                                
+                                    <option value="Florence de Rome">Florence de Rome</option>
+                                
+                                    <option value="Abridgement of Historia Trojana">Abridgement of Historia Trojana</option>
+                                
+                                    <option value="Chanson de Roland">Chanson de Roland</option>
+                                
+                                    <option value="Amadis de Gaula">Amadis de Gaula</option>
+                                
+                                    <option value="Chanson d'Aspremont">Chanson d'Aspremont</option>
+                                
+                                    <option value="Prophecies of Merlin, Gildas, and Thomas of Ercildoune">Prophecies of Merlin, Gildas, and Thomas of Ercildoune</option>
+                                
+                                    <option value="Birth of Merlin">Birth of Merlin</option>
+                                
+                                    <option value="Treatise on the Brahmins">Treatise on the Brahmins</option>
+                                
+                                    <option value="History of Troy">History of Troy</option>
+                                
+                                    <option value="Cassandra">Cassandra</option>
+                                
+                                    <option value="Life of Robin Hood">Life of Robin Hood</option>
+                                
+                                    <option value="Collection of Prophecies">Collection of Prophecies</option>
+                                
+                                    <option value="Robyn and Gandelyn">Robyn and Gandelyn</option>
+                                
+                                    <option value="Five Romantic Tales">Five Romantic Tales</option>
+                                
+                                    <option value="Ívents saga">Ívents saga</option>
+                                
+                                    <option value="Eight Romantic Tales">Eight Romantic Tales</option>
+                                
+                                    <option value="Parcevals saga and Valvers þáttr">Parcevals saga and Valvers þáttr</option>
+                                
+                                    <option value="Ereks saga Artuskappa">Ereks saga Artuskappa</option>
+                                
+                                    <option value="Möttuls saga">Möttuls saga</option>
+                                
+                                    <option value="Life of Virgilius">Life of Virgilius</option>
+                                
+                                    <option value="Magus saga Jarls">Magus saga Jarls</option>
+                                
+                                    <option value="Partalópa saga">Partalópa saga</option>
+                                
+                                    <option value="Seven Romantic Tales">Seven Romantic Tales</option>
+                                
+                                    <option value="Samsons saga Fagra">Samsons saga Fagra</option>
+                                
+                                    <option value="Trójumanna saga">Trójumanna saga</option>
+                                
+                                    <option value="Two Romantic Tales">Two Romantic Tales</option>
+                                
+                                    <option value="Three Romantic Tales">Three Romantic Tales</option>
+                                
+                                    <option value="Saga of Ajax Frækni">Saga of Ajax Frækni</option>
+                                
+                                    <option value="Merlínus Spá">Merlínus Spá</option>
+                                
+                                    <option value="Juglet">Juglet</option>
+                                
+                                    <option value="Romance of Jason">Romance of Jason</option>
+                                
+                                    <option value="Artus de Bretagne">Artus de Bretagne</option>
+                                
+                                    <option value="Fioccolo">Fioccolo</option>
+                                
+                                    <option value="Riccardetto">Riccardetto</option>
+                                
+                                    <option value="Romance of the Peers of France">Romance of the Peers of France</option>
+                                
+                                    <option value="Rimur of Remund">Rimur of Remund</option>
+                                
+                                    <option value="Rimur from Trójumanna saga">Rimur from Trójumanna saga</option>
+                                
+                                    <option value="Collection of Anecdotes">Collection of Anecdotes</option>
+                                
+                                    <option value="Gabons saga ok Vigolea">Gabons saga ok Vigolea</option>
+                                
+                                    <option value="Valentine and Orson and Tales">Valentine and Orson and Tales</option>
+                                
+                                    <option value="Ten Romantic Tales">Ten Romantic Tales</option>
+                                
+                                    <option value="Patient Griselda">Patient Griselda</option>
+                                
+                                    <option value="Argenis">Argenis</option>
+                                
+                                    <option value="Merlinus Spá">Merlinus Spá</option>
+                                
+                                    <option value="Alexander saga">Alexander saga</option>
+                                
+                                    <option value="Uberto and Philomena">Uberto and Philomena</option>
+                                
+                                    <option value="Tinctoris, Compostella">Tinctoris, Compostella</option>
+                                
+                                    <option value="Meliadus">Meliadus</option>
+                                
+                                    <option value="Roman d'Eneas">Roman d'Eneas</option>
+                                
+                                    <option value="Hanes Taliesin">Hanes Taliesin</option>
+                                
+                                    <option value="Brut Gruffydd ap Arthur">Brut Gruffydd ap Arthur</option>
+                                
+                                    <option value="Peredur ab Efrawc">Peredur ab Efrawc</option>
+                                
+                                    <option value="Extracts from Brut y Brenhinoedd">Extracts from Brut y Brenhinoedd</option>
+                                
+                                    <option value="Isarles y Ffynnawn">Isarles y Ffynnawn</option>
+                                
+                                    <option value="Contes et Fabliaux">Contes et Fabliaux</option>
+                                
+                                    <option value="Partonopeus de Blois">Partonopeus de Blois</option>
+                                
+                                    <option value="Blanchandin et Orgueillose d'Amors">Blanchandin et Orgueillose d'Amors</option>
+                                
+                                    <option value="Floire et Blancheflor">Floire et Blancheflor</option>
+                                
+                                    <option value="Brut Tyailio">Brut Tyailio</option>
+                                
+                                    <option value="Les deux Chevaliers, and Le dit de Guillaume d'Angleterre">Les deux Chevaliers, and Le dit de Guillaume d'Angleterre</option>
+                                
+                                    <option value="Roman d'Athis et Profilas">Roman d'Athis et Profilas</option>
+                                
+                                    <option value="Voeux du Paon and Restor du Paon">Voeux du Paon and Restor du Paon</option>
+                                
+                                    <option value="Theseus de Cologne">Theseus de Cologne</option>
+                                
+                                    <option value="The Diana of Montemayor">The Diana of Montemayor</option>
+                                
+                                    <option value="Amis and Amylion">Amis and Amylion</option>
+                                
+                                    <option value="Wigalois">Wigalois</option>
+                                
+                                    <option value="Iwein">Iwein</option>
+                                
+                                    <option value="May Colvin">May Colvin</option>
+                                
+                                    <option value="Philomena">Philomena</option>
+                                
+                                    <option value="Filostrato">Filostrato</option>
+                                
+                                    <option value="The King of Tars and the Soudan of Damas">The King of Tars and the Soudan of Damas</option>
+                                
+                                    <option value="Scottish Ballads">Scottish Ballads</option>
+                                
+                                    <option value="Reali di Francia">Reali di Francia</option>
+                                
+                                    <option value="Guiron le Courtois">Guiron le Courtois</option>
+                                
+                                    <option value="Tales and Fables">Tales and Fables</option>
+                                
+                                    <option value="Nine Romantic Tales">Nine Romantic Tales</option>
+                                
+                                    <option value="Story of Sigurgaror">Story of Sigurgaror</option>
+                                
+                                    <option value="Fertrams saga">Fertrams saga</option>
+                                
+                                    <option value="The Chaste Duchess">The Chaste Duchess</option>
+                                
+                                    <option value="Romances and Ballads">Romances and Ballads</option>
+                                
+                                    <option value="Robin Hood">Robin Hood</option>
+                                
+                                    <option value="Sir Lancelot of Dulake">Sir Lancelot of Dulake</option>
+                                
+                                    <option value="Miscellaneous Ballads">Miscellaneous Ballads</option>
+                                
+                                    <option value="The Grene Knight, Turke and Gowin, The Marriage of Sir Gawaine">The Grene Knight, Turke and Gowin, The Marriage of Sir Gawaine</option>
+                                
+                                    <option value="Sir Lambewell">Sir Lambewell</option>
+                                
+                                    <option value="King Arthur's Death">King Arthur's Death</option>
+                                
+                                    <option value="Guye and Amarant">Guye and Amarant</option>
+                                
+                                    <option value="Three Ballads of Forest Life">Three Ballads of Forest Life</option>
+                                
+                                    <option value="Guy and Phillis">Guy and Phillis</option>
+                                
+                                    <option value="Robin Hood Ballad">Robin Hood Ballad</option>
+                                
+                                    <option value="Boy and Mantle">Boy and Mantle</option>
+                                
+                                    <option value="Libius Disconius">Libius Disconius</option>
+                                
+                                    <option value="Guy and Colebrande">Guy and Colebrande</option>
+                                
+                                    <option value="Two Ballads relating to Adam Bell">Two Ballads relating to Adam Bell</option>
+                                
+                                    <option value="A Propecye">A Propecye</option>
+                                
+                                    <option value="King Humber">King Humber</option>
+                                
+                                    <option value="Robin Hood's Garland">Robin Hood's Garland</option>
+                                
+                                    <option value="Ballads of Scotland">Ballads of Scotland</option>
+                                
+                                    <option value="Titurel">Titurel</option>
+                                
+                                    <option value="Two Charlemagne Romances">Two Charlemagne Romances</option>
+                                
+                                    <option value="Richard Coeur-de-Lion">Richard Coeur-de-Lion</option>
+                                
+                                    <option value="Ipomedon and Prothesilaus">Ipomedon and Prothesilaus</option>
+                                
+                            </select>
+                        </div>
+                        <div class="col-2 pb-2">
+                            <button type="button" class="btn btn-primary btn-block" onclick="neighbourhoodHighlight({nodes: []});">Reset Selection</button>
+                        </div>
+                    </div>
+                </div>
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+            <div id="loadingBar">
+              <div class="outerBorder">
+                <div id="text">0%</div>
+                <div id="border">
+                  <div id="bar"></div>
+                </div>
+              </div>
+            </div>
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+                  new TomSelect("#select-node",{
+                      create: false,
+                      sortField: {
+                          field: "text",
+                          direction: "asc"
+                      }
+                  });
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"font": {"color": "black"}, "group": 0, "id": "Historia Regum Britanniae", "label": "Historia Regum Britanniae", "shape": "dot", "size": 15, "title": "Groupe Canonique: Gesta Regum Britannia\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 1, "id": "Turpin\u0027s Chronicle", "label": "Turpin\u0027s Chronicle", "shape": "dot", "size": 15, "title": "Groupe Canonique: Turpin\u0027s Chronicle\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 2, "id": "Prophecy of Merlin Silvester", "label": "Prophecy of Merlin Silvester", "shape": "dot", "size": 15, "title": "Groupe Canonique: Prophecies of Merlin Silvester\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 3, "id": "Dares Phrygius", "label": "Dares Phrygius", "shape": "dot", "size": 15, "title": "Groupe Canonique: Dares Phrygius\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 4, "id": "Letters between Alexander and Dindimus", "label": "Letters between Alexander and Dindimus", "shape": "dot", "size": 15, "title": "Groupe Canonique: Letters between Alexander and Dindimus\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 5, "id": "Alexandreis", "label": "Alexandreis", "shape": "dot", "size": 15, "title": "Groupe Canonique: Alexandreis\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 6, "id": "Prophecies of Merlin", "label": "Prophecies of Merlin", "shape": "dot", "size": 15, "title": "Groupe Canonique: Prophecies de Merlin\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 7, "id": "Guy of Warwick", "label": "Guy of Warwick", "shape": "dot", "size": 15, "title": "Groupe Canonique: Guy of Warwick\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 8, "id": "Prophecy on Scotland", "label": "Prophecy on Scotland", "shape": "dot", "size": 15, "title": "Groupe Canonique: Prophecy on Scotland\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 9, "id": "Alexander the Great", "label": "Alexander the Great", "shape": "dot", "size": 15, "title": "Groupe Canonique: Alexander the Great\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 10, "id": "Prophecy", "label": "Prophecy", "shape": "dot", "size": 15, "title": "Groupe Canonique: Prophecy\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 11, "id": "Fulk Fitz-Warin", "label": "Fulk Fitz-Warin", "shape": "dot", "size": 15, "title": "Groupe Canonique: Fulk Fitz-Warin\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 12, "id": "Amya and Amylion", "label": "Amya and Amylion", "shape": "dot", "size": 15, "title": "Groupe Canonique: Amis and Amylion\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 13, "id": "Tale of Two Lovers", "label": "Tale of Two Lovers", "shape": "dot", "size": 15, "title": "Groupe Canonique: Tale of Two Lovers\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 14, "id": "Historia Trojana", "label": "Historia Trojana", "shape": "dot", "size": 15, "title": "Groupe Canonique: Historia Trojana\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 15, "id": "Story of Troy", "label": "Story of Troy", "shape": "dot", "size": 15, "title": "Groupe Canonique: History of Troy\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 16, "id": "Prophecy of the Tenth Sibyl", "label": "Prophecy of the Tenth Sibyl", "shape": "dot", "size": 15, "title": "Groupe Canonique: Prophecy of the Tenth Sibyl\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 17, "id": "Karolellus", "label": "Karolellus", "shape": "dot", "size": 15, "title": "Groupe Canonique: Karolellus\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 18, "id": "Roman de Brut", "label": "Roman de Brut", "shape": "dot", "size": 15, "title": "Groupe Canonique: Roman de Brut\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 19, "id": "Havelok", "label": "Havelok", "shape": "dot", "size": 15, "title": "Groupe Canonique: Havelok\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 20, "id": "Vita Merlini", "label": "Vita Merlini", "shape": "dot", "size": 15, "title": "Groupe Canonique: Vita Merlini\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 6, "id": "Prophecies of Merlin Silvester", "label": "Prophecies of Merlin Silvester", "shape": "dot", "size": 15, "title": "Groupe Canonique: Prophecies de Merlin\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 0, "id": "Historia Regum Britannia", "label": "Historia Regum Britannia", "shape": "dot", "size": 15, "title": "Groupe Canonique: Gesta Regum Britannia\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 21, "id": "Apollonius of Tyre", "label": "Apollonius of Tyre", "shape": "dot", "size": 15, "title": "Groupe Canonique: Apollonius of Tyre\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 22, "id": "Le Chemin de Vaillance", "label": "Le Chemin de Vaillance", "shape": "dot", "size": 15, "title": "Groupe Canonique: Le Chemin de Vaillance\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 23, "id": "Livre de l\u0027Ordre de Chevalerie", "label": "Livre de l\u0027Ordre de Chevalerie", "shape": "dot", "size": 15, "title": "Groupe Canonique: Livre de l\u0027Ordre de Chevalerie\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 24, "id": "Saint Graal", "label": "Saint Graal", "shape": "dot", "size": 15, "title": "Groupe Canonique: Saint Graal\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 25, "id": "Lancelot du Lac", "label": "Lancelot du Lac", "shape": "dot", "size": 15, "title": "Groupe Canonique: Lancelot du Lac\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 26, "id": "Perceforest", "label": "Perceforest", "shape": "dot", "size": 15, "title": "Groupe Canonique: Perceforest\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 27, "id": "Simon de Pouille", "label": "Simon de Pouille", "shape": "dot", "size": 15, "title": "Groupe Canonique: Simon de Pouille\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 28, "id": "Aspremont", "label": "Aspremont", "shape": "dot", "size": 15, "title": "Groupe Canonique: Aspremont\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 29, "id": "Fierabras", "label": "Fierabras", "shape": "dot", "size": 15, "title": "Groupe Canonique: Fierabras\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 30, "id": "Ogier le Danois", "label": "Ogier le Danois", "shape": "dot", "size": 15, "title": "Groupe Canonique: Ogier le Danois\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 31, "id": "Quatre fils Aimon", "label": "Quatre fils Aimon", "shape": "dot", "size": 15, "title": "Groupe Canonique: Quatre fils Aimon\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 32, "id": "Pontus and Sidoine", "label": "Pontus and Sidoine", "shape": "dot", "size": 15, "title": "Groupe Canonique: Pontus and Sidoine\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 33, "id": "Guy of Warwick and Heraud of Ardennes", "label": "Guy of Warwick and Heraud of Ardennes", "shape": "dot", "size": 15, "title": "Groupe Canonique: Guy of Warwick and Heraud of Ardennes\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 34, "id": "Knight of the Swan", "label": "Knight of the Swan", "shape": "dot", "size": 15, "title": "Groupe Canonique: Knight of the Swan\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 35, "id": "Iliaca", "label": "Iliaca", "shape": "dot", "size": 15, "title": "Groupe Canonique: Iliaca\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 36, "id": "Heroica", "label": "Heroica", "shape": "dot", "size": 15, "title": "Groupe Canonique: Heroica\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 37, "id": "Titus and Vespasian", "label": "Titus and Vespasian", "shape": "dot", "size": 15, "title": "Groupe Canonique: Titus and Vespasian\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 38, "id": "Voyage of Charlemagne to Jerusalem and Constantinople", "label": "Voyage of Charlemagne to Jerusalem and Constantinople", "shape": "dot", "size": 15, "title": "Groupe Canonique: Voyage of Charlemagne to Jerusalem and Constantinople\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 39, "id": "Sydrac and Boctus", "label": "Sydrac and Boctus", "shape": "dot", "size": 15, "title": "Groupe Canonique: Sydrac and Boctus\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 40, "id": "Sir Gowghter", "label": "Sir Gowghter", "shape": "dot", "size": 15, "title": "Groupe Canonique: Sir Gowghter\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 41, "id": "Tale of Gamelyn", "label": "Tale of Gamelyn", "shape": "dot", "size": 15, "title": "Groupe Canonique: Tale of Gamelyn\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 42, "id": "Recueil des Histoires de Troie", "label": "Recueil des Histoires de Troie", "shape": "dot", "size": 15, "title": "Groupe Canonique: Recueil des Histoires de Troie\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 43, "id": "M\u00e9lusine", "label": "M\u00e9lusine", "shape": "dot", "size": 15, "title": "Groupe Canonique: M\u00e9lusine\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 44, "id": "Troy Book", "label": "Troy Book", "shape": "dot", "size": 15, "title": "Groupe Canonique: Troy Book\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 45, "id": "Romance of Thebes", "label": "Romance of Thebes", "shape": "dot", "size": 15, "title": "Groupe Canonique: Romance of Thebes\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 46, "id": "Roman de la Rose", "label": "Roman de la Rose", "shape": "dot", "size": 15, "title": "Groupe Canonique: Roman de la Rose\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 47, "id": "La Vengeance d\u0027Alexandre", "label": "La Vengeance d\u0027Alexandre", "shape": "dot", "size": 15, "title": "Groupe Canonique: La Vengeance d\u0027Alexandre\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 48, "id": "Guillaume d\u0027Orange", "label": "Guillaume d\u0027Orange", "shape": "dot", "size": 15, "title": "Groupe Canonique: Guillaume d\u0027Orange\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 49, "id": "Cleriadus et Meliadice", "label": "Cleriadus et Meliadice", "shape": "dot", "size": 15, "title": "Groupe Canonique: Cleriadus et Meliadice\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 50, "id": "Tristram", "label": "Tristram", "shape": "dot", "size": 15, "title": "Groupe Canonique: Tristram\nCat\u00e9gorie: Royal"}, {"font": {"color": "black"}, "group": 0, "id": "Gesta Regum Britannia", "label": "Gesta Regum Britannia", "shape": "dot", "size": 15, "title": "Groupe Canonique: Gesta Regum Britannia\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 51, "id": "Sir Eglamour of Artois", "label": "Sir Eglamour of Artois", "shape": "dot", "size": 15, "title": "Groupe Canonique: Sir Eglamour of Artois\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 52, "id": "Octavian the Emperor", "label": "Octavian the Emperor", "shape": "dot", "size": 15, "title": "Groupe Canonique: Octavian the Emperor\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 53, "id": "Sir Launfal", "label": "Sir Launfal", "shape": "dot", "size": 15, "title": "Groupe Canonique: Sir Launfal\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 54, "id": "Lybeaus Desconus", "label": "Lybeaus Desconus", "shape": "dot", "size": 15, "title": "Groupe Canonique: Lybeaus Desconus\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 55, "id": "Emare", "label": "Emare", "shape": "dot", "size": 15, "title": "Groupe Canonique: Emare\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 56, "id": "Sir Isumbras", "label": "Sir Isumbras", "shape": "dot", "size": 15, "title": "Groupe Canonique: Sir Isumbras\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 57, "id": "Lazamon\u0027s Brut", "label": "Lazamon\u0027s Brut", "shape": "dot", "size": 15, "title": "Groupe Canonique: Lazamon\u0027s Brut\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 6, "id": "Prophecy of Merlin", "label": "Prophecy of Merlin", "shape": "dot", "size": 15, "title": "Groupe Canonique: Prophecies de Merlin\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 58, "id": "Prophecies", "label": "Prophecies", "shape": "dot", "size": 15, "title": "Groupe Canonique: Four Prophecies\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 59, "id": "Sir Gawain and the Green Knight", "label": "Sir Gawain and the Green Knight", "shape": "dot", "size": 15, "title": "Groupe Canonique: Sir Gawain and the Green Knight\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 60, "id": "Story of Albina and her Sisters", "label": "Story of Albina and her Sisters", "shape": "dot", "size": 15, "title": "Groupe Canonique: Story of Albina and her Sisters\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 61, "id": "Petit Jean de Saintr\u00e9", "label": "Petit Jean de Saintr\u00e9", "shape": "dot", "size": 15, "title": "Groupe Canonique: Petit Jean de Saintr\u00e9\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 62, "id": "Floridam and Elluide", "label": "Floridam and Elluide", "shape": "dot", "size": 15, "title": "Groupe Canonique: Floridam and Elluide\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 63, "id": "Ywain and Gawain", "label": "Ywain and Gawain", "shape": "dot", "size": 15, "title": "Groupe Canonique: Ywain and Gawain\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 64, "id": "Merlin\u0027s Prophecy of the Six Kings", "label": "Merlin\u0027s Prophecy of the Six Kings", "shape": "dot", "size": 15, "title": "Groupe Canonique: Merlin\u0027s Prophecy of the Six Kings\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 65, "id": "Letters of Dindimus to Alexander the Great", "label": "Letters of Dindimus to Alexander the Great", "shape": "dot", "size": 15, "title": "Groupe Canonique: Letter of Dindimus to Alexander the Great\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 57, "id": "Lisamon\u0027s Brut", "label": "Lisamon\u0027s Brut", "shape": "dot", "size": 15, "title": "Groupe Canonique: Lazamon\u0027s Brut\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 66, "id": "Marvels of India", "label": "Marvels of India", "shape": "dot", "size": 15, "title": "Groupe Canonique: Marvels of India\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 67, "id": "Floyras and Blanchefleur", "label": "Floyras and Blanchefleur", "shape": "dot", "size": 15, "title": "Groupe Canonique: Floyras and Blanchefleur\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 68, "id": "Thomas of Erceldoune", "label": "Thomas of Erceldoune", "shape": "dot", "size": 15, "title": "Groupe Canonique: Thomas of Erceldoune\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 69, "id": "Ipomodon", "label": "Ipomodon", "shape": "dot", "size": 15, "title": "Groupe Canonique: Ipomedon\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 70, "id": "Brutus", "label": "Brutus", "shape": "dot", "size": 15, "title": "Groupe Canonique: Brutus\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 71, "id": "Lanval", "label": "Lanval", "shape": "dot", "size": 15, "title": "Groupe Canonique: Lanval\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 72, "id": "Fall of Troy", "label": "Fall of Troy", "shape": "dot", "size": 15, "title": "Groupe Canonique: Fall of Troy\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 73, "id": "Fall of Troy and Adventures of \u00c6neas", "label": "Fall of Troy and Adventures of \u00c6neas", "shape": "dot", "size": 15, "title": "Groupe Canonique: Fall of Troy and Adventures of \u00c6neas\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 58, "id": "Two Prophecies", "label": "Two Prophecies", "shape": "dot", "size": 15, "title": "Groupe Canonique: Four Prophecies\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 6, "id": "Prophecies of Merlin, etc.", "label": "Prophecies of Merlin, etc.", "shape": "dot", "size": 15, "title": "Groupe Canonique: Prophecies de Merlin\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 8, "id": "Whole Prophecy of Scotland", "label": "Whole Prophecy of Scotland", "shape": "dot", "size": 15, "title": "Groupe Canonique: Prophecy on Scotland\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 74, "id": "Battle of Roncevaux", "label": "Battle of Roncevaux", "shape": "dot", "size": 15, "title": "Groupe Canonique: Battle of Roncevaux\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 73, "id": "Story of Troy and Adventures of \u00c6neas", "label": "Story of Troy and Adventures of \u00c6neas", "shape": "dot", "size": 15, "title": "Groupe Canonique: Fall of Troy and Adventures of \u00c6neas\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 75, "id": "Brut y Brenhinoedd", "label": "Brut y Brenhinoedd", "shape": "dot", "size": 15, "title": "Groupe Canonique: Brut y Brenhinoedd\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 76, "id": "Prophecy of the Lily, the Lion, and the Son of Man", "label": "Prophecy of the Lily, the Lion, and the Son of Man", "shape": "dot", "size": 15, "title": "Groupe Canonique: Prophecy of the Lily, the Lion, and the Son of Man\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 77, "id": "Meriadoc and Gawain", "label": "Meriadoc and Gawain", "shape": "dot", "size": 15, "title": "Groupe Canonique: Meriadoc and Gawain\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 58, "id": "Four Prophecies", "label": "Four Prophecies", "shape": "dot", "size": 15, "title": "Groupe Canonique: Four Prophecies\nCat\u00e9gorie: Cotton"}, {"font": {"color": "black"}, "group": 78, "id": "The Three Kings\u0027 Sons", "label": "The Three Kings\u0027 Sons", "shape": "dot", "size": 15, "title": "Groupe Canonique: The Three Kings\u0027 Sons\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 79, "id": "Romance of Troy", "label": "Romance of Troy", "shape": "dot", "size": 15, "title": "Groupe Canonique: Romance of Troy\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 80, "id": "King Robert of Sicily", "label": "King Robert of Sicily", "shape": "dot", "size": 15, "title": "Groupe Canonique: King Robert of Sicily\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 81, "id": "Gui de Bourgogne", "label": "Gui de Bourgogne", "shape": "dot", "size": 15, "title": "Groupe Canonique: Gui de Bourgogne\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 82, "id": "King Horn", "label": "King Horn", "shape": "dot", "size": 15, "title": "Groupe Canonique: King Horn\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 83, "id": "Political Prophecies", "label": "Political Prophecies", "shape": "dot", "size": 15, "title": "Groupe Canonique: Political Prophecies\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 84, "id": "Lays of Marie de France", "label": "Lays of Marie de France", "shape": "dot", "size": 15, "title": "Groupe Canonique: Lays of Marie de France\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 85, "id": "Troilus and Cryseyde", "label": "Troilus and Cryseyde", "shape": "dot", "size": 15, "title": "Groupe Canonique: Troilus and Cryseyde\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 86, "id": "Chanson de Brut", "label": "Chanson de Brut", "shape": "dot", "size": 15, "title": "Groupe Canonique: Chanson de Brut\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 6, "id": "Prophecies de Merlin", "label": "Prophecies de Merlin", "shape": "dot", "size": 15, "title": "Groupe Canonique: Prophecies de Merlin\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 87, "id": "Prophecies of Merlin and others", "label": "Prophecies of Merlin and others", "shape": "dot", "size": 15, "title": "Groupe Canonique: Prophecies of Merlin and others\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 69, "id": "Ipomedon", "label": "Ipomedon", "shape": "dot", "size": 15, "title": "Groupe Canonique: Ipomedon\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 88, "id": "Morte Arthur", "label": "Morte Arthur", "shape": "dot", "size": 15, "title": "Groupe Canonique: Morte Arthur\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 89, "id": "Six Fabliaux", "label": "Six Fabliaux", "shape": "dot", "size": 15, "title": "Groupe Canonique: Six Fabliaux\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 90, "id": "Prophecy of Thomas of Erceldoune", "label": "Prophecy of Thomas of Erceldoune", "shape": "dot", "size": 15, "title": "Groupe Canonique: Prophecy of Thomas of Erceldoune\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 12, "id": "Amys and Amylion", "label": "Amys and Amylion", "shape": "dot", "size": 15, "title": "Groupe Canonique: Amis and Amylion\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 65, "id": "Letter of Dindimus to Alexander the Great", "label": "Letter of Dindimus to Alexander the Great", "shape": "dot", "size": 15, "title": "Groupe Canonique: Letter of Dindimus to Alexander the Great\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 91, "id": "Aronus and Marina", "label": "Aronus and Marina", "shape": "dot", "size": 15, "title": "Groupe Canonique: Aronus and Marina\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 92, "id": "Filocolo", "label": "Filocolo", "shape": "dot", "size": 15, "title": "Groupe Canonique: Filocolo\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 93, "id": "Dictys Cretensis", "label": "Dictys Cretensis", "shape": "dot", "size": 15, "title": "Groupe Canonique: Dictys Cretensis\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 94, "id": "Corbaccio", "label": "Corbaccio", "shape": "dot", "size": 15, "title": "Groupe Canonique: Corbaccio\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 95, "id": "Fiammetta", "label": "Fiammetta", "shape": "dot", "size": 15, "title": "Groupe Canonique: Fiammetta\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 96, "id": "Life of Harold, King of England", "label": "Life of Harold, King of England", "shape": "dot", "size": 15, "title": "Groupe Canonique: Life of Harold, King of England\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 97, "id": "Sir Orpheo", "label": "Sir Orpheo", "shape": "dot", "size": 15, "title": "Groupe Canonique: Sir Orpheo\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 98, "id": "Tale of Antiochus", "label": "Tale of Antiochus", "shape": "dot", "size": 15, "title": "Groupe Canonique: Tale of Antiochus\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 99, "id": "Florimont", "label": "Florimont", "shape": "dot", "size": 15, "title": "Groupe Canonique: Florimont\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 100, "id": "Voeux du Paon", "label": "Voeux du Paon", "shape": "dot", "size": 15, "title": "Groupe Canonique: Voeux du Paon\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 101, "id": "L\u0027Ord\u00e8ne de Chevalerie", "label": "L\u0027Ord\u00e8ne de Chevalerie", "shape": "dot", "size": 15, "title": "Groupe Canonique: L\u0027Ord\u00e8ne de Chevalerie\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 102, "id": "Girard de Roussillon", "label": "Girard de Roussillon", "shape": "dot", "size": 15, "title": "Groupe Canonique: Girard de Roussillon\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 103, "id": "Doon de la Roche", "label": "Doon de la Roche", "shape": "dot", "size": 15, "title": "Groupe Canonique: Doon de la Roche\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 104, "id": "Enfances Ogier", "label": "Enfances Ogier", "shape": "dot", "size": 15, "title": "Groupe Canonique: Enfances Ogier\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 105, "id": "Roman de Troie", "label": "Roman de Troie", "shape": "dot", "size": 15, "title": "Groupe Canonique: Roman de Troie\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 106, "id": "Richard C\u0153ur-de-Lion", "label": "Richard C\u0153ur-de-Lion", "shape": "dot", "size": 15, "title": "Groupe Canonique: Richard Coeur-de-Lion\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 107, "id": "Prophecies taken from Geoffrey of Monmouth and others", "label": "Prophecies taken from Geoffrey of Monmouth and others", "shape": "dot", "size": 15, "title": "Groupe Canonique: Prophecies taken from Geoffrey of Monmouth and others\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 108, "id": "Merlin", "label": "Merlin", "shape": "dot", "size": 15, "title": "Groupe Canonique: Merlin\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 109, "id": "Theagenes and Stelliana", "label": "Theagenes and Stelliana", "shape": "dot", "size": 15, "title": "Groupe Canonique: Theagenes and Stelliana\nCat\u00e9gorie: Harley"}, {"font": {"color": "black"}, "group": 110, "id": "Kings of Britain", "label": "Kings of Britain", "shape": "dot", "size": 15, "title": "Groupe Canonique: Kings of Britain\nCat\u00e9gorie: Lansdowne"}, {"font": {"color": "black"}, "group": 111, "id": "Florence de Rome", "label": "Florence de Rome", "shape": "dot", "size": 15, "title": "Groupe Canonique: Florence de Rome\nCat\u00e9gorie: Lansdowne"}, {"font": {"color": "black"}, "group": 112, "id": "Abridgement of Historia Trojana", "label": "Abridgement of Historia Trojana", "shape": "dot", "size": 15, "title": "Groupe Canonique: Abridgement of Historia Trojana\nCat\u00e9gorie: Lansdowne"}, {"font": {"color": "black"}, "group": 113, "id": "Chanson de Roland", "label": "Chanson de Roland", "shape": "dot", "size": 15, "title": "Groupe Canonique: Chanson de Roland\nCat\u00e9gorie: Lansdowne"}, {"font": {"color": "black"}, "group": 114, "id": "Amadis de Gaula", "label": "Amadis de Gaula", "shape": "dot", "size": 15, "title": "Groupe Canonique: Amadis de Gaula\nCat\u00e9gorie: Lansdowne"}, {"font": {"color": "black"}, "group": 115, "id": "Chanson d\u0027Aspremont", "label": "Chanson d\u0027Aspremont", "shape": "dot", "size": 15, "title": "Groupe Canonique: Chanson d\u0027Aspremont\nCat\u00e9gorie: Lansdowne"}, {"font": {"color": "black"}, "group": 116, "id": "Prophecies of Merlin, Gildas, and Thomas of Ercildoune", "label": "Prophecies of Merlin, Gildas, and Thomas of Ercildoune", "shape": "dot", "size": 15, "title": "Groupe Canonique: Prophecies of Merlin, Gildas, and Thomas of Ercildoune\nCat\u00e9gorie: Arundel"}, {"font": {"color": "black"}, "group": 117, "id": "Birth of Merlin", "label": "Birth of Merlin", "shape": "dot", "size": 15, "title": "Groupe Canonique: Birth of Merlin\nCat\u00e9gorie: Arundel"}, {"font": {"color": "black"}, "group": 118, "id": "Treatise on the Brahmins", "label": "Treatise on the Brahmins", "shape": "dot", "size": 15, "title": "Groupe Canonique: Treatise on the Brahmins\nCat\u00e9gorie: Arundel"}, {"font": {"color": "black"}, "group": 15, "id": "History of Troy", "label": "History of Troy", "shape": "dot", "size": 15, "title": "Groupe Canonique: History of Troy\nCat\u00e9gorie: Burney"}, {"font": {"color": "black"}, "group": 119, "id": "Cassandra", "label": "Cassandra", "shape": "dot", "size": 15, "title": "Groupe Canonique: Cassandra\nCat\u00e9gorie: Sloane"}, {"font": {"color": "black"}, "group": 120, "id": "Life of Robin Hood", "label": "Life of Robin Hood", "shape": "dot", "size": 15, "title": "Groupe Canonique: Life of Robin Hood\nCat\u00e9gorie: Sloane"}, {"font": {"color": "black"}, "group": 121, "id": "Collection of Prophecies", "label": "Collection of Prophecies", "shape": "dot", "size": 15, "title": "Groupe Canonique: Collection of Prophecies\nCat\u00e9gorie: Sloane"}, {"font": {"color": "black"}, "group": 122, "id": "Robyn and Gandelyn", "label": "Robyn and Gandelyn", "shape": "dot", "size": 15, "title": "Groupe Canonique: Robyn and Gandelyn\nCat\u00e9gorie: Sloane"}, {"font": {"color": "black"}, "group": 123, "id": "Five Romantic Tales", "label": "Five Romantic Tales", "shape": "dot", "size": 15, "title": "Groupe Canonique: Eight Romantic Tales\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 124, "id": "\u00cdvents saga", "label": "\u00cdvents saga", "shape": "dot", "size": 15, "title": "Groupe Canonique: \u00cdvents saga\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 123, "id": "Eight Romantic Tales", "label": "Eight Romantic Tales", "shape": "dot", "size": 15, "title": "Groupe Canonique: Eight Romantic Tales\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 125, "id": "Parcevals saga and Valvers \u00fe\u00e1ttr", "label": "Parcevals saga and Valvers \u00fe\u00e1ttr", "shape": "dot", "size": 15, "title": "Groupe Canonique: Parcevals saga and Valvers \u00fe\u00e1ttr\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 126, "id": "Ereks saga Artuskappa", "label": "Ereks saga Artuskappa", "shape": "dot", "size": 15, "title": "Groupe Canonique: Ereks saga Artuskappa\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 127, "id": "M\u00f6ttuls saga", "label": "M\u00f6ttuls saga", "shape": "dot", "size": 15, "title": "Groupe Canonique: M\u00f6ttuls saga\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 128, "id": "Life of Virgilius", "label": "Life of Virgilius", "shape": "dot", "size": 15, "title": "Groupe Canonique: Life of Virgilius\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 129, "id": "Magus saga Jarls", "label": "Magus saga Jarls", "shape": "dot", "size": 15, "title": "Groupe Canonique: Magus saga Jarls\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 130, "id": "Partal\u00f3pa saga", "label": "Partal\u00f3pa saga", "shape": "dot", "size": 15, "title": "Groupe Canonique: Partal\u00f3pa saga\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 123, "id": "Seven Romantic Tales", "label": "Seven Romantic Tales", "shape": "dot", "size": 15, "title": "Groupe Canonique: Eight Romantic Tales\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 131, "id": "Samsons saga Fagra", "label": "Samsons saga Fagra", "shape": "dot", "size": 15, "title": "Groupe Canonique: Samsons saga Fagra\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 132, "id": "Tr\u00f3jumanna saga", "label": "Tr\u00f3jumanna saga", "shape": "dot", "size": 15, "title": "Groupe Canonique: Tr\u00f3jumanna saga\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 123, "id": "Two Romantic Tales", "label": "Two Romantic Tales", "shape": "dot", "size": 15, "title": "Groupe Canonique: Eight Romantic Tales\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 123, "id": "Three Romantic Tales", "label": "Three Romantic Tales", "shape": "dot", "size": 15, "title": "Groupe Canonique: Eight Romantic Tales\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 133, "id": "Saga of Ajax Fr\u00e6kni", "label": "Saga of Ajax Fr\u00e6kni", "shape": "dot", "size": 15, "title": "Groupe Canonique: Saga of Ajax Fr\u00e6kni\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 134, "id": "Merl\u00ednus Sp\u00e1", "label": "Merl\u00ednus Sp\u00e1", "shape": "dot", "size": 15, "title": "Groupe Canonique: Merlinus Sp\u00e1\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 135, "id": "Juglet", "label": "Juglet", "shape": "dot", "size": 15, "title": "Groupe Canonique: Juglet\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 136, "id": "Romance of Jason", "label": "Romance of Jason", "shape": "dot", "size": 15, "title": "Groupe Canonique: Romance of Jason\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 137, "id": "Artus de Bretagne", "label": "Artus de Bretagne", "shape": "dot", "size": 15, "title": "Groupe Canonique: Artus de Bretagne\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 92, "id": "Fioccolo", "label": "Fioccolo", "shape": "dot", "size": 15, "title": "Groupe Canonique: Filocolo\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 138, "id": "Riccardetto", "label": "Riccardetto", "shape": "dot", "size": 15, "title": "Groupe Canonique: Riccardetto\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 139, "id": "Romance of the Peers of France", "label": "Romance of the Peers of France", "shape": "dot", "size": 15, "title": "Groupe Canonique: Romance of the Peers of France\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 140, "id": "Rimur of Remund", "label": "Rimur of Remund", "shape": "dot", "size": 15, "title": "Groupe Canonique: Rimur of Remund\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 141, "id": "Rimur from Tr\u00f3jumanna saga", "label": "Rimur from Tr\u00f3jumanna saga", "shape": "dot", "size": 15, "title": "Groupe Canonique: Rimur from Tr\u00f3jumanna saga\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 142, "id": "Collection of Anecdotes", "label": "Collection of Anecdotes", "shape": "dot", "size": 15, "title": "Groupe Canonique: Collection of Anecdotes\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 143, "id": "Gabons saga ok Vigolea", "label": "Gabons saga ok Vigolea", "shape": "dot", "size": 15, "title": "Groupe Canonique: Gabons saga ok Vigolea\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 144, "id": "Valentine and Orson and Tales", "label": "Valentine and Orson and Tales", "shape": "dot", "size": 15, "title": "Groupe Canonique: Valentine and Orson and Tales\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 123, "id": "Ten Romantic Tales", "label": "Ten Romantic Tales", "shape": "dot", "size": 15, "title": "Groupe Canonique: Eight Romantic Tales\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 145, "id": "Patient Griselda", "label": "Patient Griselda", "shape": "dot", "size": 15, "title": "Groupe Canonique: Patient Griselda\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 146, "id": "Argenis", "label": "Argenis", "shape": "dot", "size": 15, "title": "Groupe Canonique: Argenis\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 134, "id": "Merlinus Sp\u00e1", "label": "Merlinus Sp\u00e1", "shape": "dot", "size": 15, "title": "Groupe Canonique: Merlinus Sp\u00e1\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 147, "id": "Alexander saga", "label": "Alexander saga", "shape": "dot", "size": 15, "title": "Groupe Canonique: Alexander saga\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 148, "id": "Uberto and Philomena", "label": "Uberto and Philomena", "shape": "dot", "size": 15, "title": "Groupe Canonique: Uberto and Philomena\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 149, "id": "Tinctoris, Compostella", "label": "Tinctoris, Compostella", "shape": "dot", "size": 15, "title": "Groupe Canonique: Tinctoris, Compostella\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 150, "id": "Meliadus", "label": "Meliadus", "shape": "dot", "size": 15, "title": "Groupe Canonique: Meliadus\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 151, "id": "Roman d\u0027Eneas", "label": "Roman d\u0027Eneas", "shape": "dot", "size": 15, "title": "Groupe Canonique: Roman d\u0027Eneas\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 152, "id": "Hanes Taliesin", "label": "Hanes Taliesin", "shape": "dot", "size": 15, "title": "Groupe Canonique: Hanes Taliesin\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 153, "id": "Brut Gruffydd ap Arthur", "label": "Brut Gruffydd ap Arthur", "shape": "dot", "size": 15, "title": "Groupe Canonique: Brut Gruffydd ap Arthur\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 154, "id": "Peredur ab Efrawc", "label": "Peredur ab Efrawc", "shape": "dot", "size": 15, "title": "Groupe Canonique: Peredur ab Efrawc\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 155, "id": "Extracts from Brut y Brenhinoedd", "label": "Extracts from Brut y Brenhinoedd", "shape": "dot", "size": 15, "title": "Groupe Canonique: Extracts from Brut y Brenhinoedd\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 156, "id": "Isarles y Ffynnawn", "label": "Isarles y Ffynnawn", "shape": "dot", "size": 15, "title": "Groupe Canonique: Isarles y Ffynnawn\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 157, "id": "Contes et Fabliaux", "label": "Contes et Fabliaux", "shape": "dot", "size": 15, "title": "Groupe Canonique: Contes et Fabliaux\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 158, "id": "Partonopeus de Blois", "label": "Partonopeus de Blois", "shape": "dot", "size": 15, "title": "Groupe Canonique: Partonopeus de Blois\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 159, "id": "Blanchandin et Orgueillose d\u0027Amors", "label": "Blanchandin et Orgueillose d\u0027Amors", "shape": "dot", "size": 15, "title": "Groupe Canonique: Blanchandin et Orgueillose d\u0027Amors\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 160, "id": "Floire et Blancheflor", "label": "Floire et Blancheflor", "shape": "dot", "size": 15, "title": "Groupe Canonique: Floire et Blancheflor\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 161, "id": "Brut Tyailio", "label": "Brut Tyailio", "shape": "dot", "size": 15, "title": "Groupe Canonique: Brut Tyailio\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 162, "id": "Les deux Chevaliers, and Le dit de Guillaume d\u0027Angleterre", "label": "Les deux Chevaliers, and Le dit de Guillaume d\u0027Angleterre", "shape": "dot", "size": 15, "title": "Groupe Canonique: Les deux Chevaliers, and Le dit de Guillaume d\u0027Angleterre\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 163, "id": "Roman d\u0027Athis et Profilas", "label": "Roman d\u0027Athis et Profilas", "shape": "dot", "size": 15, "title": "Groupe Canonique: Roman d\u0027Athis et Profilas\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 164, "id": "Voeux du Paon and Restor du Paon", "label": "Voeux du Paon and Restor du Paon", "shape": "dot", "size": 15, "title": "Groupe Canonique: Voeux du Paon and Restor du Paon\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 165, "id": "Theseus de Cologne", "label": "Theseus de Cologne", "shape": "dot", "size": 15, "title": "Groupe Canonique: Theseus de Cologne\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 166, "id": "The Diana of Montemayor", "label": "The Diana of Montemayor", "shape": "dot", "size": 15, "title": "Groupe Canonique: The Diana of Montemayor\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 12, "id": "Amis and Amylion", "label": "Amis and Amylion", "shape": "dot", "size": 15, "title": "Groupe Canonique: Amis and Amylion\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 167, "id": "Wigalois", "label": "Wigalois", "shape": "dot", "size": 15, "title": "Groupe Canonique: Wigalois\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 168, "id": "Iwein", "label": "Iwein", "shape": "dot", "size": 15, "title": "Groupe Canonique: Iwein\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 169, "id": "May Colvin", "label": "May Colvin", "shape": "dot", "size": 15, "title": "Groupe Canonique: May Colvin\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 170, "id": "Philomena", "label": "Philomena", "shape": "dot", "size": 15, "title": "Groupe Canonique: Philomena\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 171, "id": "Filostrato", "label": "Filostrato", "shape": "dot", "size": 15, "title": "Groupe Canonique: Filostrato\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 172, "id": "The King of Tars and the Soudan of Damas", "label": "The King of Tars and the Soudan of Damas", "shape": "dot", "size": 15, "title": "Groupe Canonique: The King of Tars and the Soudan of Damas\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 173, "id": "Scottish Ballads", "label": "Scottish Ballads", "shape": "dot", "size": 15, "title": "Groupe Canonique: Scottish Ballads\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 174, "id": "Reali di Francia", "label": "Reali di Francia", "shape": "dot", "size": 15, "title": "Groupe Canonique: Reali di Francia\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 175, "id": "Guiron le Courtois", "label": "Guiron le Courtois", "shape": "dot", "size": 15, "title": "Groupe Canonique: Guiron le Courtois\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 176, "id": "Tales and Fables", "label": "Tales and Fables", "shape": "dot", "size": 15, "title": "Groupe Canonique: Tales and Fables\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 123, "id": "Nine Romantic Tales", "label": "Nine Romantic Tales", "shape": "dot", "size": 15, "title": "Groupe Canonique: Eight Romantic Tales\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 177, "id": "Story of Sigurgaror", "label": "Story of Sigurgaror", "shape": "dot", "size": 15, "title": "Groupe Canonique: Story of Sigurgaror\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 178, "id": "Fertrams saga", "label": "Fertrams saga", "shape": "dot", "size": 15, "title": "Groupe Canonique: Fertrams saga\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 179, "id": "The Chaste Duchess", "label": "The Chaste Duchess", "shape": "dot", "size": 15, "title": "Groupe Canonique: The Chaste Duchess\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 180, "id": "Romances and Ballads", "label": "Romances and Ballads", "shape": "dot", "size": 15, "title": "Groupe Canonique: Romances and Ballads\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 181, "id": "Robin Hood", "label": "Robin Hood", "shape": "dot", "size": 15, "title": "Groupe Canonique: Robin Hood\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 182, "id": "Sir Lancelot of Dulake", "label": "Sir Lancelot of Dulake", "shape": "dot", "size": 15, "title": "Groupe Canonique: Sir Lancelot of Dulake\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 183, "id": "Miscellaneous Ballads", "label": "Miscellaneous Ballads", "shape": "dot", "size": 15, "title": "Groupe Canonique: Miscellaneous Ballads\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 184, "id": "The Grene Knight, Turke and Gowin, The Marriage of Sir Gawaine", "label": "The Grene Knight, Turke and Gowin, The Marriage of Sir Gawaine", "shape": "dot", "size": 15, "title": "Groupe Canonique: The Grene Knight, Turke and Gowin, The Marriage of Sir Gawaine\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 185, "id": "Sir Lambewell", "label": "Sir Lambewell", "shape": "dot", "size": 15, "title": "Groupe Canonique: Sir Lambewell\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 186, "id": "King Arthur\u0027s Death", "label": "King Arthur\u0027s Death", "shape": "dot", "size": 15, "title": "Groupe Canonique: King Arthur\u0027s Death\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 187, "id": "Guye and Amarant", "label": "Guye and Amarant", "shape": "dot", "size": 15, "title": "Groupe Canonique: Guye and Amarant\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 188, "id": "Three Ballads of Forest Life", "label": "Three Ballads of Forest Life", "shape": "dot", "size": 15, "title": "Groupe Canonique: Three Ballads of Forest Life\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 189, "id": "Guy and Phillis", "label": "Guy and Phillis", "shape": "dot", "size": 15, "title": "Groupe Canonique: Guy and Phillis\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 190, "id": "Robin Hood Ballad", "label": "Robin Hood Ballad", "shape": "dot", "size": 15, "title": "Groupe Canonique: Robin Hood Ballad\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 191, "id": "Boy and Mantle", "label": "Boy and Mantle", "shape": "dot", "size": 15, "title": "Groupe Canonique: Boy and Mantle\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 192, "id": "Libius Disconius", "label": "Libius Disconius", "shape": "dot", "size": 15, "title": "Groupe Canonique: Libius Disconius\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 193, "id": "Guy and Colebrande", "label": "Guy and Colebrande", "shape": "dot", "size": 15, "title": "Groupe Canonique: Guy and Colebrande\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 194, "id": "Two Ballads relating to Adam Bell", "label": "Two Ballads relating to Adam Bell", "shape": "dot", "size": 15, "title": "Groupe Canonique: Two Ballads relating to Adam Bell\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 195, "id": "A Propecye", "label": "A Propecye", "shape": "dot", "size": 15, "title": "Groupe Canonique: A Propecye\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 196, "id": "King Humber", "label": "King Humber", "shape": "dot", "size": 15, "title": "Groupe Canonique: King Humber\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 190, "id": "Robin Hood\u0027s Garland", "label": "Robin Hood\u0027s Garland", "shape": "dot", "size": 15, "title": "Groupe Canonique: Robin Hood Ballad\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 197, "id": "Ballads of Scotland", "label": "Ballads of Scotland", "shape": "dot", "size": 15, "title": "Groupe Canonique: Ballads of Scotland\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 198, "id": "Titurel", "label": "Titurel", "shape": "dot", "size": 15, "title": "Groupe Canonique: Titurel\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 199, "id": "Two Charlemagne Romances", "label": "Two Charlemagne Romances", "shape": "dot", "size": 15, "title": "Groupe Canonique: Two Charlemagne Romances\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 106, "id": "Richard Coeur-de-Lion", "label": "Richard Coeur-de-Lion", "shape": "dot", "size": 15, "title": "Groupe Canonique: Richard Coeur-de-Lion\nCat\u00e9gorie: Additional"}, {"font": {"color": "black"}, "group": 200, "id": "Ipomedon and Prothesilaus", "label": "Ipomedon and Prothesilaus", "shape": "dot", "size": 15, "title": "Groupe Canonique: Ipomedon and Prothesilaus\nCat\u00e9gorie: Egerton"}]);
+                  edges = new vis.DataSet([{"alpha": 0.5, "color": "lightgray", "from": "Amya and Amylion", "to": "Amys and Amylion"}, {"alpha": 0.5, "color": "lightgray", "from": "Amya and Amylion", "to": "Amis and Amylion"}, {"alpha": 0.5, "color": "lightgray", "from": "Amys and Amylion", "to": "Amis and Amylion"}, {"alpha": 0.5, "color": "lightgray", "from": "Five Romantic Tales", "to": "Eight Romantic Tales"}, {"alpha": 0.5, "color": "lightgray", "from": "Five Romantic Tales", "to": "Seven Romantic Tales"}, {"alpha": 0.5, "color": "lightgray", "from": "Five Romantic Tales", "to": "Two Romantic Tales"}, {"alpha": 0.5, "color": "lightgray", "from": "Five Romantic Tales", "to": "Three Romantic Tales"}, {"alpha": 0.5, "color": "lightgray", "from": "Five Romantic Tales", "to": "Ten Romantic Tales"}, {"alpha": 0.5, "color": "lightgray", "from": "Five Romantic Tales", "to": "Nine Romantic Tales"}, {"alpha": 0.5, "color": "lightgray", "from": "Eight Romantic Tales", "to": "Seven Romantic Tales"}, {"alpha": 0.5, "color": "lightgray", "from": "Eight Romantic Tales", "to": "Two Romantic Tales"}, {"alpha": 0.5, "color": "lightgray", "from": "Eight Romantic Tales", "to": "Three Romantic Tales"}, {"alpha": 0.5, "color": "lightgray", "from": "Eight Romantic Tales", "to": "Ten Romantic Tales"}, {"alpha": 0.5, "color": "lightgray", "from": "Eight Romantic Tales", "to": "Nine Romantic Tales"}, {"alpha": 0.5, "color": "lightgray", "from": "Seven Romantic Tales", "to": "Two Romantic Tales"}, {"alpha": 0.5, "color": "lightgray", "from": "Seven Romantic Tales", "to": "Three Romantic Tales"}, {"alpha": 0.5, "color": "lightgray", "from": "Seven Romantic Tales", "to": "Ten Romantic Tales"}, {"alpha": 0.5, "color": "lightgray", "from": "Seven Romantic Tales", "to": "Nine Romantic Tales"}, {"alpha": 0.5, "color": "lightgray", "from": "Two Romantic Tales", "to": "Three Romantic Tales"}, {"alpha": 0.5, "color": "lightgray", "from": "Two Romantic Tales", "to": "Ten Romantic Tales"}, {"alpha": 0.5, "color": "lightgray", "from": "Two Romantic Tales", "to": "Nine Romantic Tales"}, {"alpha": 0.5, "color": "lightgray", "from": "Three Romantic Tales", "to": "Ten Romantic Tales"}, {"alpha": 0.5, "color": "lightgray", "from": "Three Romantic Tales", "to": "Nine Romantic Tales"}, {"alpha": 0.5, "color": "lightgray", "from": "Ten Romantic Tales", "to": "Nine Romantic Tales"}, {"alpha": 0.5, "color": "lightgray", "from": "Fall of Troy and Adventures of \u00c6neas", "to": "Story of Troy and Adventures of \u00c6neas"}, {"alpha": 0.5, "color": "lightgray", "from": "Filocolo", "to": "Fioccolo"}, {"alpha": 0.5, "color": "lightgray", "from": "Prophecies", "to": "Two Prophecies"}, {"alpha": 0.5, "color": "lightgray", "from": "Prophecies", "to": "Four Prophecies"}, {"alpha": 0.5, "color": "lightgray", "from": "Two Prophecies", "to": "Four Prophecies"}, {"alpha": 0.5, "color": "lightgray", "from": "Historia Regum Britanniae", "to": "Historia Regum Britannia"}, {"alpha": 0.5, "color": "lightgray", "from": "Historia Regum Britanniae", "to": "Gesta Regum Britannia"}, {"alpha": 0.5, "color": "lightgray", "from": "Historia Regum Britannia", "to": "Gesta Regum Britannia"}, {"alpha": 0.5, "color": "lightgray", "from": "Story of Troy", "to": "History of Troy"}, {"alpha": 0.5, "color": "lightgray", "from": "Ipomodon", "to": "Ipomedon"}, {"alpha": 0.5, "color": "lightgray", "from": "Lazamon\u0027s Brut", "to": "Lisamon\u0027s Brut"}, {"alpha": 0.5, "color": "lightgray", "from": "Letters of Dindimus to Alexander the Great", "to": "Letter of Dindimus to Alexander the Great"}, {"alpha": 0.5, "color": "lightgray", "from": "Merl\u00ednus Sp\u00e1", "to": "Merlinus Sp\u00e1"}, {"alpha": 0.5, "color": "lightgray", "from": "Prophecies of Merlin", "to": "Prophecies of Merlin Silvester"}, {"alpha": 0.5, "color": "lightgray", "from": "Prophecies of Merlin", "to": "Prophecy of Merlin"}, {"alpha": 0.5, "color": "lightgray", "from": "Prophecies of Merlin", "to": "Prophecies of Merlin, etc."}, {"alpha": 0.5, "color": "lightgray", "from": "Prophecies of Merlin", "to": "Prophecies de Merlin"}, {"alpha": 0.5, "color": "lightgray", "from": "Prophecies of Merlin Silvester", "to": "Prophecy of Merlin"}, {"alpha": 0.5, "color": "lightgray", "from": "Prophecies of Merlin Silvester", "to": "Prophecies of Merlin, etc."}, {"alpha": 0.5, "color": "lightgray", "from": "Prophecies of Merlin Silvester", "to": "Prophecies de Merlin"}, {"alpha": 0.5, "color": "lightgray", "from": "Prophecy of Merlin", "to": "Prophecies of Merlin, etc."}, {"alpha": 0.5, "color": "lightgray", "from": "Prophecy of Merlin", "to": "Prophecies de Merlin"}, {"alpha": 0.5, "color": "lightgray", "from": "Prophecies of Merlin, etc.", "to": "Prophecies de Merlin"}, {"alpha": 0.5, "color": "lightgray", "from": "Prophecy on Scotland", "to": "Whole Prophecy of Scotland"}, {"alpha": 0.5, "color": "lightgray", "from": "Richard C\u0153ur-de-Lion", "to": "Richard Coeur-de-Lion"}, {"alpha": 0.5, "color": "lightgray", "from": "Robin Hood Ballad", "to": "Robin Hood\u0027s Garland"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.01,
+            "damping": 0.4,
+            "gravitationalConstant": -50,
+            "springConstant": 0.08,
+            "springLength": 100
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+                    network.on("selectNode", neighbourhoodHighlight);
+                  
+
+                  
+
+
+                  
+                      network.on("stabilizationProgress", function(params) {
+                          document.getElementById('loadingBar').removeAttribute("style");
+                          var maxWidth = 496;
+                          var minWidth = 20;
+                          var widthFactor = params.iterations/params.total;
+                          var width = Math.max(minWidth,maxWidth * widthFactor);
+                          document.getElementById('bar').style.width = width + 'px';
+                          document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
+                      });
+                      network.once("stabilizationIterationsDone", function() {
+                          document.getElementById('text').innerHTML = '100%';
+                          document.getElementById('bar').style.width = '496px';
+                          document.getElementById('loadingBar').style.opacity = 0;
+                          // really clean the dom element
+                          setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
+                      });
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

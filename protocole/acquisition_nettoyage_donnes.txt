@@ -38,3 +38,12 @@ Pour le vol 2: https://books.google.fr/books?id=p-gtAAAAIAAJ l'OCR a l'air très
 
 
 https://www.persee.fr/doc/jds_0021-8103_1911_num_9_2_3686_t1_0091_0000_2 critique
+
+
+
+Réseau de transmission et de parenté textuelle ?
+    catalogueur passe son temps à comparer les manuscrits entre eux
+    cartographier la tradition manuscrite au sein de la BL
+
+Réseau de co-occurrence codicologique ? 
+    "relié dans le même manuscrit que" (co-occurrence). L'épaisseur du lien (poids) augmenterait à chaque fois que deux textes se retrouvent ensemble dans un nouveau manuscrit.
