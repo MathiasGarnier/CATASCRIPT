@@ -1,0 +1,650 @@
+{
+  "Classical Romances": [
+    {
+      "title": "Heroica, by FlaviuB Philostratus",
+      "page": "1"
+    },
+    {
+      "title": "Iliaca, by Joannes Tzetzes",
+      "page": "2"
+    },
+    {
+      "title": "Dictys Cretensis",
+      "page": "9"
+    },
+    {
+      "title": "Dares Phrygiiu",
+      "page": "12"
+    },
+    {
+      "title": "Latin Poems, by Simon Chdvre dOr, etc",
+      "page": "27"
+    },
+    {
+      "title": "Boman de Troie, by Benolt de Sainte-More",
+      "page": "35"
+    },
+    {
+      "title": "Historia Trojana, by Goido delle Colonne",
+      "page": "40"
+    },
+    {
+      "title": "Tr6jamannaSaga",
+      "page": "62"
+    },
+    {
+      "title": "Blmur af Tr6jumonnum, by J6n J6ns8on",
+      "page": "63"
+    },
+    {
+      "title": "Becueil, by Raoul Le Fdvre",
+      "page": "64"
+    },
+    {
+      "title": "Latin History of Troy",
+      "page": "66"
+    },
+    {
+      "title": "Filostrato, by Boccaccio",
+      "page": "67"
+    },
+    {
+      "title": "Troilus and Ghryseyde, by Chaucer",
+      "page": "70"
+    },
+    {
+      "title": "Troy Book, by Lydgate",
+      "page": "76"
+    },
+    {
+      "title": "Boman d'Eneas",
+      "page": "82"
+    },
+    {
+      "title": "Bomanoe of Troy",
+      "page": "84"
+    },
+    {
+      "title": "Romance of Thebes, by Lydgate",
+      "page": "87"
+    },
+    {
+      "title": "Bomanoe of Jason, from Baoul Le Fdvre (Dutch)",
+      "page": "92"
+    },
+    {
+      "title": "Alezandreis, by Gatiltier de ChtiUon",
+      "page": "94"
+    },
+    {
+      "title": "Alexanders Saga, by Brandr J6nsson",
+      "page": "104"
+    },
+    {
+      "title": "Alexander, abridgisd from Julius Valerius",
+      "page": "106"
+    },
+    {
+      "title": "Alexander, or Historia de Preliis",
+      "page": "120"
+    },
+    {
+      "title": "Marvels of India, etc",
+      "page": "131"
+    },
+    {
+      "title": "Treatise on the Brahmins, ascribed to Palladius of Galatia",
+      "page": "134"
+    },
+    {
+      "title": "Letters of Dindimus the Brahmin, etc",
+      "page": "136"
+    },
+    {
+      "title": "Alexandreis, by Ulrich von Eschenbach",
+      "page": "141"
+    },
+    {
+      "title": "La Vengeance d' Alexandre",
+      "page": "143"
+    },
+    {
+      "title": "YoBUxduFaon",
+      "page": "146"
+    },
+    {
+      "title": "Florimont, by Aimtf de Varennes",
+      "page": "156"
+    },
+    {
+      "title": "Apollonius of Tyre",
+      "page": "161"
+    },
+    {
+      "title": "Sir Orpheo",
+      "page": "171"
+    },
+    {
+      "title": "AthiB et Profilias, by Alexandre de Bernay",
+      "page": "173"
+    },
+    {
+      "title": "Titus and Vespasian, a chanson de geste",
+      "page": "176"
+    },
+    {
+      "title": "Titus and Vespasian, an English poem",
+      "page": "180"
+    },
+    {
+      "title": "VI",
+      "page": null
+    },
+    {
+      "title": "PAOI",
+      "page": null
+    },
+    {
+      "title": "Prophecy of the tenth Sibyl",
+      "page": "190"
+    },
+    {
+      "title": "Life of Virgil, in loelandic (from the Dutch)",
+      "page": null
+    }
+  ],
+  "British and English Traditions": [
+    {
+      "title": "Albina and her Sisters, or De origine Gigantnm",
+      "page": null
+    },
+    {
+      "title": "Historia Begum Britannia, by Gfirey of Monmouth",
+      "page": null
+    },
+    {
+      "title": "Roman de Brut, by Wace",
+      "page": null
+    },
+    {
+      "title": "Lafamon's Brut",
+      "page": null
+    },
+    {
+      "title": "Chanson de Brut",
+      "page": null
+    },
+    {
+      "title": "Gesta Begum Britanniaa, by Pseudo-Gildas",
+      "page": null
+    },
+    {
+      "title": "Brutus",
+      "page": null
+    },
+    {
+      "title": "Vita Merllni, by Geffrey of Monmouth",
+      "page": null
+    },
+    {
+      "title": "Prophecies of Merlin and others",
+      "page": null
+    },
+    {
+      "title": "Thomas of Eroeldoune, etc",
+      "page": null
+    },
+    {
+      "title": "Einge Humber",
+      "page": null
+    },
+    {
+      "title": "Saint Graal",
+      "page": null
+    },
+    {
+      "title": "Merlin",
+      "page": null
+    },
+    {
+      "title": "Lancelot du Lac",
+      "page": "345"
+    },
+    {
+      "title": "'-'Tristram",
+      "page": null
+    },
+    {
+      "title": "Meliadus",
+      "page": null
+    },
+    {
+      "title": "Guiron le Courtois",
+      "page": "364"
+    },
+    {
+      "title": "Prophecies de Merlin",
+      "page": null
+    },
+    {
+      "title": "Mriadoc, and Gawain",
+      "page": null
+    },
+    {
+      "title": "Perceforest",
+      "page": null
+    },
+    {
+      "title": "Artus de Bretagne",
+      "page": null
+    },
+    {
+      "title": "Cleriadus et Meliadice",
+      "page": "382"
+    },
+    {
+      "title": "Birth of Merlin, in French verse",
+      "page": null
+    },
+    {
+      "title": "Merlin, in English verse",
+      "page": null
+    },
+    {
+      "title": "other similar English poems",
+      "page": null
+    },
+    {
+      "title": "- Sir Gawain and the Green Knight, and",
+      "page": null
+    },
+    {
+      "title": "Iwein, by Hartmann von Aue",
+      "page": null
+    },
+    {
+      "title": "Ywain and Gawain",
+      "page": null
+    },
+    {
+      "title": "Peredur ab Efrawc, and Parcevis saga",
+      "page": null
+    },
+    {
+      "title": "Sir Lancelot of Dulake, and King Arthur and the King of Cornwall",
+      "page": null
+    },
+    {
+      "title": "Wigalois, by Wirnt von Gravenberg",
+      "page": null
+    },
+    {
+      "title": "Lybeaus Desconus",
+      "page": null
+    },
+    {
+      "title": "Gabons saga ok Yigoles",
+      "page": null
+    },
+    {
+      "title": "Ereks saga Artuskappa",
+      "page": null
+    },
+    {
+      "title": "Boy and Mantle, and Mottuls saga",
+      "page": null
+    },
+    {
+      "title": "Morte Arthur",
+      "page": "440056"
+    },
+    {
+      "title": "King Arthur's Death",
+      "page": null
+    },
+    {
+      "title": "Samsons Saga",
+      "page": null
+    },
+    {
+      "title": "Lays of Marie de Fiance",
+      "page": null
+    },
+    {
+      "title": "Emare",
+      "page": null
+    },
+    {
+      "title": "SirGowghter",
+      "page": null
+    },
+    {
+      "title": "Hanos Taliesin",
+      "page": null
+    },
+    {
+      "title": "FAQB",
+      "page": null
+    },
+    {
+      "title": "Havelok, by Gtoffrei Gkumar",
+      "page": "423"
+    },
+    {
+      "title": "King Horn",
+      "page": "447"
+    },
+    {
+      "title": "Fbntns et Sidoine",
+      "page": "469"
+    },
+    {
+      "title": "Guy of Warwick",
+      "page": "471"
+    },
+    {
+      "title": "Pulk Fitz-Warin",
+      "page": "601"
+    },
+    {
+      "title": "Tale of Qamdn",
+      "page": "509"
+    },
+    {
+      "title": "Bobin and Gbmdeleyn",
+      "page": "616"
+    },
+    {
+      "title": "Robin Hood",
+      "page": "617"
+    },
+    {
+      "title": "Adam Belly and other Ballads of Fprast life",
+      "page": "622"
+    }
+  ],
+  "Miscellaneous Romance": [
+    {
+      "title": "Chevalier au Cygne",
+      "page": "706"
+    },
+    {
+      "title": "Florence de Bome",
+      "page": "711"
+    },
+    {
+      "title": "The Chaste DuchesBi by Jacob Wimpheling",
+      "page": "713"
+    },
+    {
+      "title": "Floire et Blancheflor",
+      "page": "714"
+    },
+    {
+      "title": "FilooolOf by Boccaccio",
+      "page": "716"
+    },
+    {
+      "title": "Blanohandin et Orgneillose d'Amors",
+      "page": "727"
+    },
+    {
+      "title": "Ipomedon, by Hue de Botelande",
+      "page": "728"
+    },
+    {
+      "title": "Le Dit de Guillaume d'Angleterre, etc",
+      "page": "767"
+    },
+    {
+      "title": "Sirlsombras",
+      "page": "760"
+    },
+    {
+      "title": "FAOI",
+      "page": null
+    },
+    {
+      "title": "-Octavian the Emperor",
+      "page": "762"
+    },
+    {
+      "title": "King Robert of Sicily , ,",
+      "page": "768"
+    },
+    {
+      "title": "SirEglamour of Artoifl",
+      "page": "766"
+    },
+    {
+      "title": "VThe King of Tan",
+      "page": "767"
+    },
+    {
+      "title": "Theseus de Cologne",
+      "page": "769"
+    },
+    {
+      "title": "Petit Jean de Saintr, by Antoine de la Salle",
+      "page": "775"
+    },
+    {
+      "title": "Floridam ad Elluide by Basse de Brinchamel",
+      "page": "779"
+    },
+    {
+      "title": "The Three Kings' Sons",
+      "page": "782"
+    },
+    {
+      "title": "Uberto and Philomena",
+      "page": "784"
+    },
+    {
+      "title": "Amadis de Gaula (English translation)",
+      "page": "787"
+    },
+    {
+      "title": "Diana, by Jorge de Montemayor (English translation)",
+      "page": "789"
+    },
+    {
+      "title": "Fiammetta, by Boccaccio",
+      "page": "792"
+    },
+    {
+      "title": "Corbaccio, by Boccaccio",
+      "page": "794"
+    },
+    {
+      "title": "Theagenes and Stelliana, by Sir Kenelm Digby",
+      "page": "796"
+    },
+    {
+      "title": "AronuB and Marina",
+      "page": "797"
+    },
+    {
+      "title": "Antiochus, by Leonardo Bmni",
+      "page": "798"
+    },
+    {
+      "title": "Tale of Two Lovers, by iBneaa Sylvius",
+      "page": "799"
+    },
+    {
+      "title": "Cassandra, by Gautier de Costes (English translation)",
+      "page": "803"
+    },
+    {
+      "title": "Contes et Fabliaux",
+      "page": "804"
+    },
+    {
+      "title": "Bomanoes and Ballads",
+      "page": "817"
+    },
+    {
+      "title": "Tales and Fables, etc (German)",
+      "page": "826"
+    },
+    {
+      "title": "Romantic Tales (Icelandic)",
+      "page": "841"
+    }
+  ],
+  "French Traditions": [
+    {
+      "title": "Turpin's Chronicle",
+      "page": "646"
+    },
+    {
+      "title": "Karolellus",
+      "page": "696"
+    },
+    {
+      "title": "Philomena ,",
+      "page": "696"
+    },
+    {
+      "title": "AspremcMit",
+      "page": "698"
+    },
+    {
+      "title": "Ogier le Danois",
+      "page": "604"
+    },
+    {
+      "title": "EnBuices Ogier, by Adenet le Boi",
+      "page": "610"
+    },
+    {
+      "title": "Fierabras",
+      "page": "616"
+    },
+    {
+      "title": "Quatre Fils Aimon",
+      "page": "619"
+    },
+    {
+      "title": "Voyage de Charlemagne",
+      "page": "626"
+    },
+    {
+      "title": "Simon de Pouille",
+      "page": "627"
+    },
+    {
+      "title": "Guide Bourgogne",
+      "page": "630"
+    },
+    {
+      "title": "Battle of Boncevaux",
+      "page": "630"
+    },
+    {
+      "title": "Guillaume d'Orange",
+      "page": "682"
+    },
+    {
+      "title": "Girard de Bousaillon",
+      "page": "663"
+    },
+    {
+      "title": "Doon de la Boche",
+      "page": "671"
+    },
+    {
+      "title": "Beali di Francia",
+      "page": "672"
+    },
+    {
+      "title": "Amys and Amylion",
+      "page": "674"
+    },
+    {
+      "title": "Bicdardetto, by Niooold Fortiguerra",
+      "page": "680"
+    },
+    {
+      "title": "Bomance of the Peers of France",
+      "page": "682"
+    },
+    {
+      "title": "Magus saga",
+      "page": "684"
+    },
+    {
+      "title": "Mdlusine",
+      "page": "687"
+    },
+    {
+      "title": "Partonopeiis de Blois",
+      "page": "698"
+    }
+  ],
+  "Allegorical and Didactic Romance": [
+    {
+      "title": "Roman de la Bose, by Guillaume de Lorris and Jean de Meung",
+      "page": "874"
+    },
+    {
+      "title": "Chemin de Vaillance, by Jean de Courcy",
+      "page": "895"
+    },
+    {
+      "title": "Sydrac and Boctus",
+      "page": "903"
+    },
+    {
+      "title": "Livre de rOrdre de Chevalorie",
+      "page": "922"
+    }
+  ],
+  "Appendix": [
+    {
+      "title": "Roman de Troie, by Benott de Sainte-More",
+      "page": "924"
+    },
+    {
+      "title": "Voeux du Paon",
+      "page": "926"
+    },
+    {
+      "title": "Titus and Vespasian",
+      "page": "928"
+    },
+    {
+      "title": "Athis et Profilias",
+      "page": "929"
+    },
+    {
+      "title": "Titurel, by Albrecht yon Scharfenberg",
+      "page": "932"
+    },
+    {
+      "title": "Havelok",
+      "page": "940"
+    },
+    {
+      "title": "Life of Harold, king of England",
+      "page": "941"
+    },
+    {
+      "title": "Riohard CoBur-de-Lion",
+      "page": "944"
+    },
+    {
+      "title": "Turpin's Chronicle",
+      "page": "950"
+    },
+    {
+      "title": "Itinerary to Compostella",
+      "page": "951"
+    },
+    {
+      "title": "Siege of Milan and Sir Otael",
+      "page": "953"
+    }
+  ]
+}
