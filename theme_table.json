@@ -1,67 +1,67 @@
 {
   "Classical Romances": [
     {
-      "title": "Heroica, by FlaviuB Philostratus",
+      "title": "Cycle of Troy: Heroica, by Flavius Philostratus",
       "page": "1"
     },
     {
-      "title": "Iliaca, by Joannes Tzetzes",
+      "title": "Cycle of Troy: Iliaca, by Joannes Tzetzes",
       "page": "2"
     },
     {
-      "title": "Dictys Cretensis",
+      "title": "Cycle of Troy: Dictys Cretensis",
       "page": "9"
     },
     {
-      "title": "Dares Phrygiiu",
+      "title": "Cycle of Troy: Dares Phrygius",
       "page": "12"
     },
     {
-      "title": "Latin Poems, by Simon Chdvre dOr, etc",
+      "title": "Cycle of Troy: Latin Poems, by Simon Chèvre d'Or, etc",
       "page": "27"
     },
     {
-      "title": "Boman de Troie, by Benolt de Sainte-More",
+      "title": "Cycle of Troy: Roman de Troie, by Benoît de Sainte-More",
       "page": "35"
     },
     {
-      "title": "Historia Trojana, by Goido delle Colonne",
+      "title": "Cycle of Troy: Historia Trojana, by Guido delle Colonne",
       "page": "40"
     },
     {
-      "title": "Tr6jamannaSaga",
+      "title": "Cycle of Troy: Trojumanna Saga",
       "page": "62"
     },
     {
-      "title": "Blmur af Tr6jumonnum, by J6n J6ns8on",
+      "title": "Cycle of Troy: Rimur af Trojumonnum, by Jon Jonsson",
       "page": "63"
     },
     {
-      "title": "Becueil, by Raoul Le Fdvre",
+      "title": "Cycle of Troy: Recueil, by Raoul Le Fèvre",
       "page": "64"
     },
     {
-      "title": "Latin History of Troy",
+      "title": "Cycle of Troy: Latin History of Troy",
       "page": "66"
     },
     {
-      "title": "Filostrato, by Boccaccio",
+      "title": "Cycle of Troy: Filostrato, by Boccaccio",
       "page": "67"
     },
     {
-      "title": "Troilus and Ghryseyde, by Chaucer",
+      "title": "Cycle of Troy: Troilus and Chryseyde, by Chaucer",
       "page": "70"
     },
     {
-      "title": "Troy Book, by Lydgate",
-      "page": "76"
+      "title": "Cycle of Troy: Troy Book, by Lydgate",
+      "page": "75"
     },
     {
-      "title": "Boman d'Eneas",
+      "title": "Cycle of Troy: Roman d'Eneas",
       "page": "82"
     },
     {
-      "title": "Bomanoe of Troy",
+      "title": "Cycle of Troy: Romance of Troy",
       "page": "84"
     },
     {
@@ -69,51 +69,53 @@
       "page": "87"
     },
     {
-      "title": "Bomanoe of Jason, from Baoul Le Fdvre (Dutch)",
+      "title": "Romance of Jason, from Raoul Le Fèvre (Dutch)",
       "page": "92"
     },
+
+
     {
-      "title": "Alezandreis, by Gatiltier de ChtiUon",
+      "title": "Cycle of Alexander: Alexandreis, by Gaultier de Châtillon",
       "page": "94"
     },
     {
-      "title": "Alexanders Saga, by Brandr J6nsson",
+      "title": "Cycle of Alexander: Alexanders Saga, by Brandr Jonsson",
       "page": "104"
     },
     {
-      "title": "Alexander, abridgisd from Julius Valerius",
+      "title": "Cycle of Alexander: Alexander, abridged from Julius Valerius",
       "page": "106"
     },
     {
-      "title": "Alexander, or Historia de Preliis",
+      "title": "Cycle of Alexander: Alexander, or Historia de Preliis",
       "page": "120"
     },
     {
-      "title": "Marvels of India, etc",
+      "title": "Cycle of Alexander: Marvels of India, etc",
       "page": "131"
     },
     {
-      "title": "Treatise on the Brahmins, ascribed to Palladius of Galatia",
+      "title": "Cycle of Alexander: Treatise on the Brahmins, ascribed to Palladius of Galatia",
       "page": "134"
     },
     {
-      "title": "Letters of Dindimus the Brahmin, etc",
+      "title": "Cycle of Alexander: Letters of Dindimus the Brahmin, etc",
       "page": "136"
     },
     {
-      "title": "Alexandreis, by Ulrich von Eschenbach",
+      "title": "Cycle of Alexander: Alexandreis, by Ulrich von Eschenbach",
       "page": "141"
     },
     {
-      "title": "La Vengeance d' Alexandre",
+      "title": "Cycle of Alexander: La Vengeance d'Alexandre",
       "page": "143"
     },
     {
-      "title": "YoBUxduFaon",
+      "title": "Cycle of Alexander: Voeux du Paon",
       "page": "146"
     },
     {
-      "title": "Florimont, by Aimtf de Varennes",
+      "title": "Cycle of Alexander: Florimont, by Aimé de Varennes",
       "page": "156"
     },
     {
@@ -125,7 +127,7 @@
       "page": "171"
     },
     {
-      "title": "AthiB et Profilias, by Alexandre de Bernay",
+      "title": "Athis et Profilias, by Alexandre de Bernay",
       "page": "173"
     },
     {
@@ -136,198 +138,194 @@
       "title": "Titus and Vespasian, an English poem",
       "page": "180"
     },
-    {
-      "title": "VI",
-      "page": null
-    },
-    {
-      "title": "PAOI",
-      "page": null
-    },
+
+
+
     {
       "title": "Prophecy of the tenth Sibyl",
       "page": "190"
     },
     {
-      "title": "Life of Virgil, in loelandic (from the Dutch)",
-      "page": null
+      "title": "Life of Virgil, in Icelandic (from the Dutch)",
+      "page": "196"
     }
   ],
   "British and English Traditions": [
     {
-      "title": "Albina and her Sisters, or De origine Gigantnm",
-      "page": null
+      "title": "Albina and her Sisters, or De origine Gigantum",
+      "page": "198"
     },
     {
-      "title": "Historia Begum Britannia, by Gfirey of Monmouth",
-      "page": null
+      "title": "Historia Regum Britannia, by Geoffrey of Monmouth",
+      "page": "203"
     },
     {
       "title": "Roman de Brut, by Wace",
-      "page": null
+      "page": "259"
     },
     {
-      "title": "Lafamon's Brut",
-      "page": null
+      "title": "Lazamon's Brut",
+      "page": "268"
     },
     {
       "title": "Chanson de Brut",
-      "page": null
+      "page": "272"
     },
     {
-      "title": "Gesta Begum Britanniaa, by Pseudo-Gildas",
-      "page": null
+      "title": "Gesta regum Britanniae, by Pseudo-Gildas",
+      "page": "274"
     },
     {
       "title": "Brutus",
-      "page": null
+      "page": "277"
     },
     {
-      "title": "Vita Merllni, by Geffrey of Monmouth",
-      "page": null
+      "title": "Vita Merlini, by Geffrey of Monmouth",
+      "page": "278"
     },
     {
       "title": "Prophecies of Merlin and others",
-      "page": null
+      "page": "292"
     },
     {
-      "title": "Thomas of Eroeldoune, etc",
-      "page": null
+      "title": "Thomas of Erceldoune, etc",
+      "page": "328"
     },
     {
-      "title": "Einge Humber",
-      "page": null
+      "title": "Kinge Humber",
+      "page": "339"
+    },
+
+
+    {
+      "title": "Cycle of Arthur: Saint Graal",
+      "page": "340"
     },
     {
-      "title": "Saint Graal",
-      "page": null
+      "title": "Cycle of Arthur: Merlin",
+      "page": "343"
     },
     {
-      "title": "Merlin",
-      "page": null
-    },
-    {
-      "title": "Lancelot du Lac",
+      "title": "Cycle of Arthur: Lancelot du Lac",
       "page": "345"
     },
     {
-      "title": "'-'Tristram",
-      "page": null
+      "title": "Cycle of Arthur: Tristram",
+      "page": "356"
     },
     {
-      "title": "Meliadus",
-      "page": null
-    },
-    {
-      "title": "Guiron le Courtois",
+      "title": "Cycle of Arthur: Meliadus",
       "page": "364"
     },
     {
-      "title": "Prophecies de Merlin",
-      "page": null
+      "title": "Cycle of Arthur: Guiron le Courtois",
+      "page": "369"
     },
     {
-      "title": "Mriadoc, and Gawain",
-      "page": null
+      "title": "Cycle of Arthur: Prophecies de Merlin",
+      "page": "371"
     },
     {
-      "title": "Perceforest",
-      "page": null
+      "title": "Cycle of Arthur: Meriadoc, and Gawain",
+      "page": "374"
     },
     {
-      "title": "Artus de Bretagne",
-      "page": null
+      "title": "Cycle of Arthur: Perceforest",
+      "page": "377"
     },
     {
-      "title": "Cleriadus et Meliadice",
+      "title": "Cycle of Arthur: Artus de Bretagne",
       "page": "382"
     },
     {
-      "title": "Birth of Merlin, in French verse",
-      "page": null
+      "title": "Cycle of Arthur: Cleriadus et Meliadice",
+      "page": "383"
     },
     {
-      "title": "Merlin, in English verse",
-      "page": null
+      "title": "Cycle of Arthur: Birth of Merlin, in French verse",
+      "page": "384"
     },
     {
-      "title": "other similar English poems",
-      "page": null
+      "title": "Cycle of Arthur: Merlin, in English verse",
+      "page": "385"
     },
     {
-      "title": "- Sir Gawain and the Green Knight, and",
-      "page": null
+      "title": "Cycle of Arthur: Sir Gawain and the Green Knight, and other similar English poems",
+      "page": "387"
     },
     {
-      "title": "Iwein, by Hartmann von Aue",
-      "page": null
+      "title": "Cycle of Arthur: Iwein, by Hartmann von Aue",
+      "page": "390"
     },
     {
-      "title": "Ywain and Gawain",
-      "page": null
+      "title": "Cycle of Arthur: Ywain and Gawain",
+      "page": "392"
     },
     {
-      "title": "Peredur ab Efrawc, and Parcevis saga",
-      "page": null
+      "title": "Cycle of Arthur: Peredur ab Efrawc, and Parcevals saga",
+      "page": "395"
     },
     {
-      "title": "Sir Lancelot of Dulake, and King Arthur and the King of Cornwall",
-      "page": null
+      "title": "Cycle of Arthur: Sir Lancelot of Dulake, and King Arthur and the King of Cornwall",
+      "page": "397"
     },
     {
-      "title": "Wigalois, by Wirnt von Gravenberg",
-      "page": null
+      "title": "Cycle of Arthur: Wigalois, by Wirnt von Gravenberg",
+      "page": "398"
     },
     {
-      "title": "Lybeaus Desconus",
-      "page": null
+      "title": "Cycle of Arthur: Lybeaus Desconus",
+      "page": "400"
     },
     {
-      "title": "Gabons saga ok Yigoles",
-      "page": null
+      "title": "Cycle of Arthur: Gabons saga ok Vigoles",
+      "page": "402"
     },
     {
-      "title": "Ereks saga Artuskappa",
-      "page": null
+      "title": "Cycle of Arthur: Ereks saga Artuskappa",
+      "page": "403"
     },
     {
-      "title": "Boy and Mantle, and Mottuls saga",
-      "page": null
+      "title": "Cycle of Arthur: Boy and Mantle, and Mottuls saga",
+      "page": "404"
     },
     {
-      "title": "Morte Arthur",
-      "page": "440056"
+      "title": "Cycle of Arthur: Morte Arthur",
+      "page": "405"
     },
     {
-      "title": "King Arthur's Death",
-      "page": null
+      "title": "Cycle of Arthur: King Arthur's Death",
+      "page": "406"
     },
     {
-      "title": "Samsons Saga",
-      "page": null
+      "title": "Cycle of Arthur: Samsons Saga",
+      "page": "407"
     },
+
+
+
+
+
     {
       "title": "Lays of Marie de Fiance",
-      "page": null
+      "page": "408"
     },
     {
       "title": "Emare",
-      "page": null
+      "page": "418"
     },
     {
-      "title": "SirGowghter",
-      "page": null
+      "title": "Sir Gowghter",
+      "page": "419"
     },
     {
-      "title": "Hanos Taliesin",
-      "page": null
+      "title": "Hanes Taliesin",
+      "page": "421"
     },
+
+
     {
-      "title": "FAQB",
-      "page": null
-    },
-    {
-      "title": "Havelok, by Gtoffrei Gkumar",
+      "title": "Havelok, by Geffrei Gaimar",
       "page": "423"
     },
     {
@@ -335,7 +333,7 @@
       "page": "447"
     },
     {
-      "title": "Fbntns et Sidoine",
+      "title": "Pontus et Sidoine",
       "page": "469"
     },
     {
@@ -343,37 +341,145 @@
       "page": "471"
     },
     {
-      "title": "Pulk Fitz-Warin",
-      "page": "601"
+      "title": "Fulk Fitz-Warin",
+      "page": "501"
     },
     {
-      "title": "Tale of Qamdn",
+      "title": "Tale of Gamelyn",
       "page": "509"
     },
     {
-      "title": "Bobin and Gbmdeleyn",
-      "page": "616"
+      "title": "Robin and Gandeleyn",
+      "page": "516"
     },
     {
       "title": "Robin Hood",
-      "page": "617"
+      "page": "517"
     },
     {
-      "title": "Adam Belly and other Ballads of Fprast life",
-      "page": "622"
+      "title": "Adam Bell, and other Ballads of Forest life",
+      "page": "522"
+    }, 
+    {
+      "title": "Miscellaneous Ballads",
+      "page": "525"
+    },
+    {
+      "title": "Scottish Ballads",
+      "page": "531"
     }
+
+
+
   ],
+  "French Traditions": [
+    {
+      "title": "Cycle of Charlemagne: Turpin's Chronicle",
+      "page": "546"
+    },
+    {
+      "title": "Cycle of Charlemagne: Karolellus",
+      "page": "595"
+    },
+    {
+      "title": "Cycle of Charlemagne: Philomena",
+      "page": "596"
+    },
+    {
+      "title": "Cycle of Charlemagne: Aspremont",
+      "page": "598"
+    },
+    {
+      "title": "Cycle of Charlemagne: Ogier le Danois",
+      "page": "604"
+    },
+    {
+      "title": "Cycle of Charlemagne: Enfances Ogier, by Adenet le Roi",
+      "page": "610"
+    },
+    {
+      "title": "Cycle of Charlemagne: Fierabras",
+      "page": "616"
+    },
+    {
+      "title": "Cycle of Charlemagne: Quatre Fils Aimon",
+      "page": "619"
+    },
+    {
+      "title": "Cycle of Charlemagne: Voyage de Charlemagne",
+      "page": "625"
+    },
+    {
+      "title": "Cycle of Charlemagne: Simon de Pouille",
+      "page": "627"
+    },
+    {
+      "title": "Cycle of Charlemagne: Gui de Bourgogne",
+      "page": "630"
+    },
+    {
+      "title": "Cycle of Charlemagne: Battle of Roncevaux",
+      "page": "630"
+    },
+
+
+
+    {
+      "title": "Guillaume d'Orange",
+      "page": "632"
+    },
+    {
+      "title": "Girard de Roussillon",
+      "page": "663"
+    },
+    {
+      "title": "Doon de la Roche",
+      "page": "671"
+    },
+    {
+      "title": "Reali di Francia",
+      "page": "672"
+    },
+    {
+      "title": "Amys and Amylion",
+      "page": "674"
+    },
+    {
+      "title": "Ricciardetto, by Niccolo Fortiguerra",
+      "page": "680"
+    },
+    {
+      "title": "Romance of the Peers of France",
+      "page": "682"
+    },
+    {
+      "title": "Magus saga",
+      "page": "684"
+    },
+    {
+      "title": "Mélusine",
+      "page": "687"
+    },
+    {
+      "title": "Partonopeus de Blois",
+      "page": "698"
+    }
+
+
+
+
+  ], 
   "Miscellaneous Romance": [
     {
       "title": "Chevalier au Cygne",
-      "page": "706"
+      "page": "708"
     },
     {
-      "title": "Florence de Bome",
+      "title": "Florence de Rome",
       "page": "711"
     },
     {
-      "title": "The Chaste DuchesBi by Jacob Wimpheling",
+      "title": "The Chaste Duchess, by Jacob Wimpheling",
       "page": "713"
     },
     {
@@ -381,43 +487,43 @@
       "page": "714"
     },
     {
-      "title": "FilooolOf by Boccaccio",
+      "title": "Filocolo, by Boccaccio",
       "page": "716"
     },
     {
-      "title": "Blanohandin et Orgneillose d'Amors",
+      "title": "Blanchandin et Orgueillose d'Amors",
       "page": "727"
     },
     {
-      "title": "Ipomedon, by Hue de Botelande",
+      "title": "Ipomedon, by Hue de Rotelande",
       "page": "728"
     },
     {
       "title": "Le Dit de Guillaume d'Angleterre, etc",
-      "page": "767"
+      "page": "757"
     },
     {
-      "title": "Sirlsombras",
+      "title": "Sir Isumbras",
       "page": "760"
     },
+
+
+
+
     {
-      "title": "FAOI",
-      "page": null
-    },
-    {
-      "title": "-Octavian the Emperor",
+      "title": "Octavian the Emperor",
       "page": "762"
     },
     {
-      "title": "King Robert of Sicily , ,",
-      "page": "768"
+      "title": "King Robert of Sicily",
+      "page": "763"
     },
     {
-      "title": "SirEglamour of Artoifl",
+      "title": "Sir Eglamour of Ortois",
       "page": "766"
     },
     {
-      "title": "VThe King of Tan",
+      "title": "The King of Tars",
       "page": "767"
     },
     {
@@ -425,11 +531,11 @@
       "page": "769"
     },
     {
-      "title": "Petit Jean de Saintr, by Antoine de la Salle",
+      "title": "Petit Jean de Saintré, by Antoine de la Salle",
       "page": "775"
     },
     {
-      "title": "Floridam ad Elluide by Basse de Brinchamel",
+      "title": "Floridam and Elluide by Rasse de Brinchamel",
       "page": "779"
     },
     {
@@ -458,18 +564,18 @@
     },
     {
       "title": "Theagenes and Stelliana, by Sir Kenelm Digby",
-      "page": "796"
+      "page": "795"
     },
     {
-      "title": "AronuB and Marina",
+      "title": "Aronus and Marina",
       "page": "797"
     },
     {
-      "title": "Antiochus, by Leonardo Bmni",
+      "title": "Antiochus, by Leonardo Bruni",
       "page": "798"
     },
     {
-      "title": "Tale of Two Lovers, by iBneaa Sylvius",
+      "title": "Tale of Two Lovers, by Aeneas Sylvius",
       "page": "799"
     },
     {
@@ -481,7 +587,7 @@
       "page": "804"
     },
     {
-      "title": "Bomanoes and Ballads",
+      "title": "Romances and Ballads",
       "page": "817"
     },
     {
@@ -493,96 +599,9 @@
       "page": "841"
     }
   ],
-  "French Traditions": [
-    {
-      "title": "Turpin's Chronicle",
-      "page": "646"
-    },
-    {
-      "title": "Karolellus",
-      "page": "696"
-    },
-    {
-      "title": "Philomena ,",
-      "page": "696"
-    },
-    {
-      "title": "AspremcMit",
-      "page": "698"
-    },
-    {
-      "title": "Ogier le Danois",
-      "page": "604"
-    },
-    {
-      "title": "EnBuices Ogier, by Adenet le Boi",
-      "page": "610"
-    },
-    {
-      "title": "Fierabras",
-      "page": "616"
-    },
-    {
-      "title": "Quatre Fils Aimon",
-      "page": "619"
-    },
-    {
-      "title": "Voyage de Charlemagne",
-      "page": "626"
-    },
-    {
-      "title": "Simon de Pouille",
-      "page": "627"
-    },
-    {
-      "title": "Guide Bourgogne",
-      "page": "630"
-    },
-    {
-      "title": "Battle of Boncevaux",
-      "page": "630"
-    },
-    {
-      "title": "Guillaume d'Orange",
-      "page": "682"
-    },
-    {
-      "title": "Girard de Bousaillon",
-      "page": "663"
-    },
-    {
-      "title": "Doon de la Boche",
-      "page": "671"
-    },
-    {
-      "title": "Beali di Francia",
-      "page": "672"
-    },
-    {
-      "title": "Amys and Amylion",
-      "page": "674"
-    },
-    {
-      "title": "Bicdardetto, by Niooold Fortiguerra",
-      "page": "680"
-    },
-    {
-      "title": "Bomance of the Peers of France",
-      "page": "682"
-    },
-    {
-      "title": "Magus saga",
-      "page": "684"
-    },
-    {
-      "title": "Mdlusine",
-      "page": "687"
-    },
-    {
-      "title": "Partonopeiis de Blois",
-      "page": "698"
-    }
-  ],
+
+
+
   "Allegorical and Didactic Romance": [
     {
       "title": "Roman de la Bose, by Guillaume de Lorris and Jean de Meung",
@@ -597,13 +616,17 @@
       "page": "903"
     },
     {
-      "title": "Livre de rOrdre de Chevalorie",
+      "title": "Livre de l'Ordre de Chevalerie",
       "page": "922"
     }
   ],
+
+
+
+
   "Appendix": [
     {
-      "title": "Roman de Troie, by Benott de Sainte-More",
+      "title": "Roman de Troie, by Benoit de Sainte-More",
       "page": "924"
     },
     {
@@ -619,7 +642,7 @@
       "page": "929"
     },
     {
-      "title": "Titurel, by Albrecht yon Scharfenberg",
+      "title": "Titurel, by Albrecht von Scharfenberg",
       "page": "932"
     },
     {
@@ -631,7 +654,7 @@
       "page": "941"
     },
     {
-      "title": "Riohard CoBur-de-Lion",
+      "title": "Richard Coeur-de-Lion",
       "page": "944"
     },
     {
@@ -643,7 +666,7 @@
       "page": "951"
     },
     {
-      "title": "Siege of Milan and Sir Otael",
+      "title": "Siege of Milan and Sir Otuel",
       "page": "953"
     }
   ]
