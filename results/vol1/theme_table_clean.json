@@ -72,8 +72,6 @@
       "title": "Romance of Jason, from Raoul Le Fèvre (Dutch)",
       "page": "92"
     },
-
-
     {
       "title": "Cycle of Alexander: Alexandreis, by Gaultier de Châtillon",
       "page": "94"
@@ -138,9 +136,6 @@
       "title": "Titus and Vespasian, an English poem",
       "page": "180"
     },
-
-
-
     {
       "title": "Prophecy of the tenth Sibyl",
       "page": "190"
@@ -195,8 +190,6 @@
       "title": "Kinge Humber",
       "page": "339"
     },
-
-
     {
       "title": "Cycle of Arthur: Saint Graal",
       "page": "340"
@@ -301,11 +294,6 @@
       "title": "Cycle of Arthur: Samsons Saga",
       "page": "407"
     },
-
-
-
-
-
     {
       "title": "Lays of Marie de Fiance",
       "page": "408"
@@ -322,8 +310,6 @@
       "title": "Hanes Taliesin",
       "page": "421"
     },
-
-
     {
       "title": "Havelok, by Geffrei Gaimar",
       "page": "423"
@@ -359,7 +345,7 @@
     {
       "title": "Adam Bell, and other Ballads of Forest life",
       "page": "522"
-    }, 
+    },
     {
       "title": "Miscellaneous Ballads",
       "page": "525"
@@ -368,9 +354,6 @@
       "title": "Scottish Ballads",
       "page": "531"
     }
-
-
-
   ],
   "French Traditions": [
     {
@@ -421,9 +404,6 @@
       "title": "Cycle of Charlemagne: Battle of Roncevaux",
       "page": "630"
     },
-
-
-
     {
       "title": "Guillaume d'Orange",
       "page": "632"
@@ -464,11 +444,7 @@
       "title": "Partonopeus de Blois",
       "page": "698"
     }
-
-
-
-
-  ], 
+  ],
   "Miscellaneous Romance": [
     {
       "title": "Chevalier au Cygne",
@@ -506,10 +482,6 @@
       "title": "Sir Isumbras",
       "page": "760"
     },
-
-
-
-
     {
       "title": "Octavian the Emperor",
       "page": "762"
@@ -599,12 +571,9 @@
       "page": "841"
     }
   ],
-
-
-
   "Allegorical and Didactic Romance": [
     {
-      "title": "Roman de la Bose, by Guillaume de Lorris and Jean de Meung",
+      "title": "Roman de la Rose, by Guillaume de Lorris and Jean de Meung",
       "page": "874"
     },
     {
@@ -620,10 +589,6 @@
       "page": "922"
     }
   ],
-
-
-
-
   "Appendix": [
     {
       "title": "Roman de Troie, by Benoit de Sainte-More",
