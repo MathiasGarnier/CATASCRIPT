@@ -1,0 +1,2004 @@
+{
+  "miracles of the virgin": [
+    {
+      "collection": "royal",
+      "mss": "5. a. viii.",
+      "ff": "ff. 144b-152",
+      "mss_ff": "5. a. viii. ff. 144b-152",
+      "page": 650,
+      "vol": 2
+    },
+    {
+      "collection": "royal",
+      "mss": "6. b. x.",
+      "ff": "ff. 35b-41b",
+      "mss_ff": "6. b. x. ff. 35b-41b",
+      "page": 642,
+      "vol": 2
+    },
+    {
+      "collection": "royal",
+      "mss": "6. b. xiv.",
+      "ff": "ff. 82b-99",
+      "mss_ff": "6. b. xiv. ff. 82b-99",
+      "page": 637,
+      "vol": 2
+    },
+    {
+      "collection": "royal",
+      "mss": "8. c. iv.",
+      "ff": "ff. 16-23b",
+      "mss_ff": "8. c. iv. ff. 16-23b",
+      "page": 699,
+      "vol": 2
+    },
+    {
+      "collection": "royal",
+      "mss": "8. c. xii.",
+      "ff": "ff. 154b-158",
+      "mss_ff": "8. c. xii. ff. 154b-158",
+      "page": 678,
+      "vol": 2
+    },
+    {
+      "collection": "royal",
+      "mss": "20. b. xiv.",
+      "ff": "ff. 102 b-170, 173",
+      "mss_ff": "20. b. xiv. ff. 102 b-170, 173",
+      "page": 728,
+      "vol": 2
+    },
+    {
+      "collection": "cotton",
+      "mss": "vespasian d. xix.",
+      "ff": "ff. 5-24b",
+      "mss_ff": "vespasian d. xix. ff. 5-24b",
+      "page": 691,
+      "vol": 2
+    },
+    {
+      "collection": "cotton",
+      "mss": "cleopatra c. x.",
+      "ff": "ff. 101-144b",
+      "mss_ff": "cleopatra c. x. ff. 101-144b",
+      "page": 600,
+      "vol": 2
+    },
+    {
+      "collection": "cotton",
+      "mss": "cleopatra d. ix.",
+      "ff": "ff. 149b-155b",
+      "mss_ff": "cleopatra d. ix. ff. 149b-155b",
+      "page": 736,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 4196.",
+      "ff": "ff. 113-117b",
+      "mss_ff": "harley 4196. ff. 113-117b",
+      "page": 739,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 4196.",
+      "ff": "ff. 142b-143b",
+      "mss_ff": "harley 4196. ff. 142b-143b",
+      "page": 739,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 4196.",
+      "ff": "ff. 147b-148",
+      "mss_ff": "harley 4196. ff. 147b-148",
+      "page": 739,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 4401",
+      "ff": null,
+      "mss_ff": "harley 4401",
+      "page": 717,
+      "vol": 2
+    },
+    {
+      "collection": "arundel",
+      "mss": "arundel 346.",
+      "ff": "ff. 60-73",
+      "mss_ff": "arundel 346. ff. 60-73",
+      "page": 618,
+      "vol": 2
+    },
+    {
+      "collection": "arundel",
+      "mss": "arundel 406.",
+      "ff": "ff. 21b-27",
+      "mss_ff": "arundel 406. ff. 21b-27",
+      "page": 661,
+      "vol": 2
+    },
+    {
+      "collection": "arundel",
+      "mss": "arundel 407.",
+      "ff": "ff. 41-43b",
+      "mss_ff": "arundel 407. ff. 41-43b",
+      "page": 655,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 32,248.",
+      "ff": "ff. 1-7b",
+      "mss_ff": "add. 32,248. ff. 1-7b",
+      "page": 696,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 33,956.",
+      "ff": "ff. 70b-81b",
+      "mss_ff": "add. 33,956. ff. 70b-81b",
+      "page": 671,
+      "vol": 2
+    },
+    {
+      "collection": "egerton",
+      "mss": "egerton 612.",
+      "ff": "ff. 1-75, 96-98b",
+      "mss_ff": "egerton 612. ff. 1-75, 96-98b",
+      "page": 708,
+      "vol": 2
+    },
+    {
+      "collection": "egerton",
+      "mss": "egerton 1117.",
+      "ff": "ff. 171-177b",
+      "mss_ff": "egerton 1117. ff. 171-177b",
+      "page": 666,
+      "vol": 2
+    }
+  ],
+  "vision of st. paul": [
+    {
+      "collection": "royal",
+      "mss": "8. c. vii.",
+      "ff": "ff. 119b-121b",
+      "mss_ff": "8. c. vii. ff. 119b-121b",
+      "page": 408,
+      "vol": 2
+    },
+    {
+      "collection": "royal",
+      "mss": "8. e. xvii.",
+      "ff": "ff. 122b-123",
+      "mss_ff": "8. e. xvii. ff. 122b-123",
+      "page": 397,
+      "vol": 2
+    },
+    {
+      "collection": "royal",
+      "mss": "8. f. vi.",
+      "ff": "ff. 23,24",
+      "mss_ff": "8. f. vi. ff. 23,24",
+      "page": 407,
+      "vol": 2
+    },
+    {
+      "collection": "royal",
+      "mss": "11. b. iii. f. 334b",
+      "ff": null,
+      "mss_ff": "11. b. iii. f. 334b",
+      "page": 405,
+      "vol": 2
+    },
+    {
+      "collection": "royal",
+      "mss": "13. c. vi.",
+      "ff": "ff. 150-150b",
+      "mss_ff": "13. c. vi. ff. 150-150b",
+      "page": 404,
+      "vol": 2
+    },
+    {
+      "collection": "cotton",
+      "mss": "vespasian a. vii.",
+      "ff": "ff. 34-38",
+      "mss_ff": "vespasian a. vii. ff. 34-38",
+      "page": 409,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 2851.",
+      "ff": "ff. 58-60",
+      "mss_ff": "harley 2851. ff. 58-60",
+      "page": 401,
+      "vol": 2
+    },
+    {
+      "collection": "arundel",
+      "mss": "arundel 52.",
+      "ff": "ff. 63, 64",
+      "mss_ff": "arundel 52. ff. 63, 64",
+      "page": 402,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 15,606.",
+      "ff": "ff. 81-87b",
+      "mss_ff": "add. 15,606. ff. 81-87b",
+      "page": 413,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add.22,283.",
+      "ff": "ff. 32b",
+      "mss_ff": "add.22,283. ff. 32b",
+      "page": 415,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 26,770.",
+      "ff": "ff. 88b-89b",
+      "mss_ff": "add. 26,770. ff. 88b-89b",
+      "page": 403,
+      "vol": 2
+    }
+  ],
+  "st. patrick’s purgatory": [
+    {
+      "collection": "royal",
+      "mss": "8. c. xiv.",
+      "ff": "ff. 3b-15b",
+      "mss_ff": "8. c. xiv. ff. 3b-15b",
+      "page": 456,
+      "vol": 2
+    },
+    {
+      "collection": "royal",
+      "mss": "9. a. xiv.",
+      "ff": "ff.247b-252b",
+      "mss_ff": "9. a. xiv.ff.247b-252b",
+      "page": 460,
+      "vol": 2
+    },
+    {
+      "collection": "royal",
+      "mss": "10. b. ix.",
+      "ff": "ff. 36b-44b",
+      "mss_ff": "10. b. ix. ff. 36b-44b",
+      "page": 489,
+      "vol": 2
+    },
+    {
+      "collection": "royal",
+      "mss": "13. b. viii.",
+      "ff": "ff. 100b-112b",
+      "mss_ff": "13. b. viii. ff. 100b-112b",
+      "page": 435,
+      "vol": 2
+    },
+    {
+      "collection": "royal",
+      "mss": "17. b. xliii.",
+      "ff": "ff. 133-148b",
+      "mss_ff": "17. b. xliii. ff. 133-148b",
+      "page": 484,
+      "vol": 2
+    },
+    {
+      "collection": "cotton",
+      "mss": "julius d. ix.",
+      "ff": "ff. 36-44b",
+      "mss_ff": "julius d. ix. ff. 36-44b",
+      "page": 480,
+      "vol": 2
+    },
+    {
+      "collection": "cotton",
+      "mss": "tiberius e. i.part i.",
+      "ff": "ff. 65b-68b",
+      "mss_ff": "tiberius e. i.part i. ff. 65b-68b",
+      "page": 461,
+      "vol": 2
+    },
+    {
+      "collection": "cotton",
+      "mss": "caligula a. ii.",
+      "ff": "ff. 91b-95",
+      "mss_ff": "caligula a. ii. ff. 91b-95",
+      "page": 482,
+      "vol": 2
+    },
+    {
+      "collection": "cotton",
+      "mss": "nero a. vii.",
+      "ff": "ff. 113-120",
+      "mss_ff": "nero a. vii. ff. 113-120",
+      "page": 455,
+      "vol": 2
+    },
+    {
+      "collection": "cotton",
+      "mss": "domitian a. iv.",
+      "ff": "ff. 257-267",
+      "mss_ff": "domitian a. iv. ff. 257-267",
+      "page": 468,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 912.",
+      "ff": "ff. 161b-162b",
+      "mss_ff": "harley 912. ff. 161b-162b",
+      "page": 466,
+      "vol": 2
+    }
+  ],
+  "voyage of st. brendan": [
+    {
+      "collection": "royal",
+      "mss": "8. e. xvii.",
+      "ff": "ff. 128b-138b",
+      "mss_ff": "8. e. xvii. ff. 128b-138b",
+      "page": 533,
+      "vol": 2
+    },
+    {
+      "collection": "cotton",
+      "mss": "julius d. ix.",
+      "ff": "ff. 74b-83b",
+      "mss_ff": "julius d. ix. ff. 74b-83b",
+      "page": 554,
+      "vol": 2
+    },
+    {
+      "collection": "cotton",
+      "mss": "tiberius d. iii.",
+      "ff": "ff. 107-118",
+      "mss_ff": "tiberius d. iii. ff. 107-118",
+      "page": 532,
+      "vol": 2
+    },
+    {
+      "collection": "cotton",
+      "mss": "tiberius e. i.part i.",
+      "ff": "ff. 128-134",
+      "mss_ff": "tiberius e. i.part i. ff. 128-134",
+      "page": 537,
+      "vol": 2
+    },
+    {
+      "collection": "cotton",
+      "mss": "vespasian a. xiv.",
+      "ff": "ff. 104b-105b",
+      "mss_ff": "vespasian a. xiv. ff. 104b-105b",
+      "page": 531,
+      "vol": 2
+    },
+    {
+      "collection": "cotton",
+      "mss": "vespasian b. x.",
+      "ff": "ff. 1-11",
+      "mss_ff": "vespasian b. x. ff. 1-11",
+      "page": 541,
+      "vol": 2
+    },
+    {
+      "collection": "cotton",
+      "mss": "vespasian b. x.",
+      "ff": "ff. 11b-21",
+      "mss_ff": "vespasian b. x. ff. 11b-21",
+      "page": 534,
+      "vol": 2
+    },
+    {
+      "collection": "cotton",
+      "mss": "vespasian d. ix.",
+      "ff": "ff. 2-10",
+      "mss_ff": "vespasian d. ix. ff. 2-10",
+      "page": 539,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 108.",
+      "ff": "ff. 45-62",
+      "mss_ff": "harley 108. ff. 45-62",
+      "page": 535,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 2277.",
+      "ff": "ff. 41b-51",
+      "mss_ff": "harley 2277. ff. 41b-51",
+      "page": 551,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 3776.",
+      "ff": "ff. 67-75b",
+      "mss_ff": "harley 3776. ff. 67-75b",
+      "page": 533,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 3776.",
+      "ff": "ff. 67-75 b",
+      "mss_ff": "harley 3776. ff. 67-75 b",
+      "page": 458,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 3958.",
+      "ff": "ff. 103b-121b",
+      "mss_ff": "harley 3958. ff. 103b-121b",
+      "page": 516,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 4333.",
+      "ff": "ff. 25-35b",
+      "mss_ff": "harley 4333. ff. 25-35b",
+      "page": 545,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add.6047.",
+      "ff": "ff. 258-269 b",
+      "mss_ff": "add.6047. ff. 258-269 b",
+      "page": 536,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 10,301.",
+      "ff": "ff. 80-90 b",
+      "mss_ff": "add. 10,301. ff. 80-90 b",
+      "page": 553,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 11,565.",
+      "ff": "ff. 59-61b",
+      "mss_ff": "add. 11,565. ff. 59-61b",
+      "page": 555,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 15,106.",
+      "ff": "ff. 2-27",
+      "mss_ff": "add. 15,106. ff. 2-27",
+      "page": 535,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 17,275.",
+      "ff": "ff. 262-269b",
+      "mss_ff": "add. 17,275. ff. 262-269b",
+      "page": 550,
+      "vol": 2
+    }
+  ],
+  "discipliiia clericalis": [
+    {
+      "collection": "royal",
+      "mss": "10. b. xii.",
+      "ff": "ff. 8-19b",
+      "mss_ff": "10. b. xii. ff. 8-19b",
+      "page": 235,
+      "vol": 2
+    }
+  ],
+  "barlaam and josaphat": [
+    {
+      "collection": "royal",
+      "mss": "11. b. iii.",
+      "ff": "ff. 345 348b",
+      "mss_ff": "11. b. iii. ff. 345 348b",
+      "page": 128,
+      "vol": 2
+    },
+    {
+      "collection": "royal",
+      "mss": "12. e. i. ft'. 182b-191",
+      "ff": null,
+      "mss_ff": "12. e. i. ft'. 182b-191",
+      "page": 130,
+      "vol": 2
+    },
+    {
+      "collection": "royal",
+      "mss": "20. b. v.",
+      "ff": "ff. 157-172b",
+      "mss_ff": "20. b. v. ff. 157-172b",
+      "page": 136,
+      "vol": 2
+    },
+    {
+      "collection": "cotton",
+      "mss": "caligula a. ix.",
+      "ff": "ff. 195-216",
+      "mss_ff": "caligula a. ix. ff. 195-216",
+      "page": 133,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 3958.",
+      "ff": "ff. 2-103b",
+      "mss_ff": "harley 3958. ff. 2-103b",
+      "page": 125,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 4196.",
+      "ff": "ff. 199b-205b",
+      "mss_ff": "harley 4196. ff. 199b-205b",
+      "page": 746,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 5293",
+      "ff": null,
+      "mss_ff": "harley 5293",
+      "page": 126,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 5293",
+      "ff": "ff. 6-11b",
+      "mss_ff": "harley 5293 ff. 6-11b",
+      "page": 132,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 5619",
+      "ff": null,
+      "mss_ff": "harley 5619",
+      "page": 148,
+      "vol": 2
+    },
+    {
+      "collection": "arundel",
+      "mss": "arundel 330.",
+      "ff": "ff. 71b-75",
+      "mss_ff": "arundel 330. ff. 71b-75",
+      "page": 133,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 10,287.",
+      "ff": "ff. 86-99 b",
+      "mss_ff": "add. 10,287. ff. 86-99 b",
+      "page": 147,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 10,288.",
+      "ff": null,
+      "mss_ff": "add. 10,288.",
+      "page": 141,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 10,902.",
+      "ff": "ff. 1-17b",
+      "mss_ff": "add. 10,902. ff. 1-17b",
+      "page": 139,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add.18,929.",
+      "ff": "ff. 52-69",
+      "mss_ff": "add.18,929. ff. 52-69",
+      "page": 129,
+      "vol": 2
+    },
+    {
+      "collection": "egerton",
+      "mss": "egerton 745.",
+      "ff": "ff. 131-199",
+      "mss_ff": "egerton 745. ff. 131-199",
+      "page": 137,
+      "vol": 2
+    }
+  ],
+  "vision ofst. paul": [
+    {
+      "collection": "royal",
+      "mss": "11. b. x.",
+      "ff": "ff. 2-2b, 184",
+      "mss_ff": "11. b. x. ff. 2-2b, 184",
+      "page": 406,
+      "vol": 2
+    }
+  ],
+  "vision of thurkill": [
+    {
+      "collection": "royal",
+      "mss": "13. d. v.",
+      "ff": "ff. 45-50b",
+      "mss_ff": "13. d. v. ff. 45-50b",
+      "page": 506,
+      "vol": 2
+    },
+    {
+      "collection": "cotton",
+      "mss": "julius d. v.",
+      "ff": "ff. 168-176",
+      "mss_ff": "julius d. v. ff. 168-176",
+      "page": 514,
+      "vol": 2
+    }
+  ],
+  "avianus": [
+    {
+      "collection": "royal",
+      "mss": "15. a. vii.",
+      "ff": "ff. 14-25",
+      "mss_ff": "15. a. vii. ff. 14-25",
+      "page": 272,
+      "vol": 2
+    },
+    {
+      "collection": "royal",
+      "mss": "15. a. xxxi.",
+      "ff": "ff. 28-43",
+      "mss_ff": "15. a. xxxi. ff. 28-43",
+      "page": 278,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 4967.",
+      "ff": "ff. 92-102b",
+      "mss_ff": "harley 4967. ff. 92-102b",
+      "page": 276,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 10,090.",
+      "ff": "ff. 1-8",
+      "mss_ff": "add. 10,090. ff. 1-8",
+      "page": 278,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 21,213.",
+      "ff": "ff. 15-17b",
+      "mss_ff": "add. 21,213. ff. 15-17b",
+      "page": 277,
+      "vol": 2
+    }
+  ],
+  "romulus of marie de france": [
+    {
+      "collection": "royal",
+      "mss": "15. a. vii.",
+      "ff": "ff. 77 83b",
+      "mss_ff": "15. a. vii. ff. 77 83b",
+      "page": 286,
+      "vol": 2
+    }
+  ],
+  "anonymus neveleti": [
+    {
+      "collection": "royal",
+      "mss": "15. a. xxviii",
+      "ff": null,
+      "mss_ff": "15. a. xxviii",
+      "page": 322,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 2745.",
+      "ff": "ff. 136-152b",
+      "mss_ff": "harley 2745. ff. 136-152b",
+      "page": 328,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 10,088.",
+      "ff": null,
+      "mss_ff": "add. 10,088.",
+      "page": 324,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 10,088.",
+      "ff": "ff. 13b-33b",
+      "mss_ff": "add. 10,088. ff. 13b-33b",
+      "page": 323,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 10,093.",
+      "ff": "ff. 57-65b",
+      "mss_ff": "add. 10,093. ff. 57-65b",
+      "page": 330,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 11,675",
+      "ff": null,
+      "mss_ff": "add. 11,675",
+      "page": 330,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 11,896.",
+      "ff": "ff. 2-25b",
+      "mss_ff": "add. 11,896. ff. 2-25b",
+      "page": 325,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 11,897.",
+      "ff": null,
+      "mss_ff": "add. 11,897.",
+      "page": 328,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 11,966.",
+      "ff": "ff. 13-35.",
+      "mss_ff": "add. 11,966. ff. 13-35.",
+      "page": 322,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 18,107",
+      "ff": null,
+      "mss_ff": "add. 18,107",
+      "page": 309,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 27,625.",
+      "ff": "ff. 1-25b",
+      "mss_ff": "add. 27,625. ff. 1-25b",
+      "page": 324,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 33,780",
+      "ff": null,
+      "mss_ff": "add. 33,780",
+      "page": 326,
+      "vol": 2
+    },
+    {
+      "collection": "egerton",
+      "mss": "egerton 832.",
+      "ff": "ff. 171-187",
+      "mss_ff": "egerton 832. ff. 171-187",
+      "page": 329,
+      "vol": 2
+    }
+  ],
+  "chastoiement d'un père à son fils": [
+    {
+      "collection": "royal",
+      "mss": "16. e.viii.",
+      "ff": "ff. 104-130",
+      "mss_ff": "16. e.viii. ff. 104-130",
+      "page": 265,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 527.",
+      "ff": "ff. 32b-46b",
+      "mss_ff": "harley 527. ff. 32b-46b",
+      "page": 253,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 4388.",
+      "ff": "ff. 99 b-115b",
+      "mss_ff": "harley 4388. ff. 99 b-115b",
+      "page": 247,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 10,288.",
+      "ff": "ff. 133-172",
+      "mss_ff": "add. 10,288. ff. 133-172",
+      "page": 259,
+      "vol": 2
+    }
+  ],
+  "vision oftundal": [
+    {
+      "collection": "royal",
+      "mss": "17. b. xliii.",
+      "ff": "ff. 150-184",
+      "mss_ff": "17. b. xliii. ff. 150-184",
+      "page": 433,
+      "vol": 2
+    }
+  ],
+  "miracles ofthe virgin": [
+    {
+      "collection": "cotton",
+      "mss": "julius d. ix.",
+      "ff": "ff. 301b-307",
+      "mss_ff": "julius d. ix. ff. 301b-307",
+      "page": 738,
+      "vol": 2
+    },
+    {
+      "collection": "cotton",
+      "mss": "301b",
+      "ff": null,
+      "mss_ff": "301b",
+      "page": 307,
+      "vol": 2
+    }
+  ],
+  "pilgrimage of the life of man": [
+    {
+      "collection": "cotton",
+      "mss": "tiberius a. vii.",
+      "ff": "ff. 39-106b",
+      "mss_ff": "tiberius a. vii. ff. 39-106b",
+      "page": 578,
+      "vol": 2
+    },
+    {
+      "collection": "cotton",
+      "mss": "vitelliusc. xiii.",
+      "ff": null,
+      "mss_ff": "vitelliusc. xiii.",
+      "page": 571,
+      "vol": 2
+    }
+  ],
+  "vision of tundal": [
+    {
+      "collection": "cotton",
+      "mss": "tiberius e. i.part i.",
+      "ff": "ff. 68b-74",
+      "mss_ff": "tiberius e. i.part i. ff. 68b-74",
+      "page": 425,
+      "vol": 2
+    },
+    {
+      "collection": "cotton",
+      "mss": "caligula a. ii.",
+      "ff": "ff. 95b-107b",
+      "mss_ff": "caligula a. ii. ff. 95b-107b",
+      "page": 428,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 3776.",
+      "ff": "ff. 82-89b",
+      "mss_ff": "harley 3776. ff. 82-89b",
+      "page": 416,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 4987.",
+      "ff": "ff. 5-16b",
+      "mss_ff": "harley 4987. ff. 5-16b",
+      "page": 434,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 9771",
+      "ff": null,
+      "mss_ff": "add. 9771",
+      "page": 427,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 11,437.",
+      "ff": "ff. 50-61",
+      "mss_ff": "add. 11,437. ff. 50-61",
+      "page": 746,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 27,424",
+      "ff": null,
+      "mss_ff": "add. 27,424",
+      "page": 426,
+      "vol": 2
+    }
+  ],
+  "theophilus": [
+    {
+      "collection": "cotton",
+      "mss": "tiberius e. vii.",
+      "ff": "ff. 221-225",
+      "mss_ff": "tiberius e. vii. ff. 221-225",
+      "page": 740,
+      "vol": 2
+    },
+    {
+      "collection": "cotton",
+      "mss": "nero e. i. part i.",
+      "ff": "ff. 157-160",
+      "mss_ff": "nero e. i. part i. ff. 157-160",
+      "page": 133,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 3020.",
+      "ff": "ff. 113-132",
+      "mss_ff": "harley 3020. ff. 113-132",
+      "page": 595,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 4719.",
+      "ff": "ff. 122b-125",
+      "mss_ff": "harley 4719. ff. 122b-125",
+      "page": 598,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 10,050.",
+      "ff": "ff. 84b-90",
+      "mss_ff": "add. 10,050. ff. 84b-90",
+      "page": 599,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 18,365.",
+      "ff": "ff. 73-80",
+      "mss_ff": "add. 18,365. ff. 73-80",
+      "page": 599,
+      "vol": 2
+    }
+  ],
+  "vision of the monk of eynsham": [
+    {
+      "collection": "cotton",
+      "mss": "caligulaa. viii.",
+      "ff": "ff. 192-209b",
+      "mss_ff": "caligulaa. viii. ff. 192-209b",
+      "page": 503,
+      "vol": 2
+    },
+    {
+      "collection": "cotton",
+      "mss": "cleopatra c. xi.",
+      "ff": "ff. 49-69b",
+      "mss_ff": "cleopatra c. xi. ff. 49-69b",
+      "page": 493,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 3776.",
+      "ff": "ff. 89-92",
+      "mss_ff": "harley 3776. ff. 89-92",
+      "page": 505,
+      "vol": 2
+    }
+  ],
+  "seven sages of rome": [
+    {
+      "collection": "cotton",
+      "mss": "galba e. ix.",
+      "ff": "ff. 25b-48b",
+      "mss_ff": "galba e. ix. ff. 25b-48b",
+      "page": 213,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 3860.",
+      "ff": "ff. 23-47b",
+      "mss_ff": "harley 3860. ff. 23-47b",
+      "page": 199,
+      "vol": 2
+    },
+    {
+      "collection": "arundel",
+      "mss": "arundel 140.",
+      "ff": "ff. 152-165b",
+      "mss_ff": "arundel 140. ff. 152-165b",
+      "page": 224,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 27,429",
+      "ff": null,
+      "mss_ff": "add. 27,429",
+      "page": 210,
+      "vol": 2
+    },
+    {
+      "collection": "egerton",
+      "mss": "egerton 1995.",
+      "ff": "ff.3-54b",
+      "mss_ff": "egerton 1995. ff.3-54b",
+      "page": 218,
+      "vol": 2
+    }
+  ],
+  "beowulf": [
+    {
+      "collection": "cotton",
+      "mss": "vitellius a. xv.",
+      "ff": "ff. 132-201b",
+      "mss_ff": "vitellius a. xv. ff. 132-201b",
+      "page": 1741,
+      "vol": 2
+    }
+  ],
+  "st. patrick's purgatory": [
+    {
+      "collection": "cotton",
+      "mss": "vespasian a. vi.",
+      "ff": "ff. 146b-155b",
+      "mss_ff": "vespasian a. vi. ff. 146b-155b",
+      "page": 460,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 103.",
+      "ff": "ff. 129-134b",
+      "mss_ff": "harley 103. ff. 129-134b",
+      "page": 459,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 261.",
+      "ff": "ff. 167b-175",
+      "mss_ff": "harley 261.ff. 167b-175",
+      "page": 457,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 273.",
+      "ff": "ff. 191b-197b",
+      "mss_ff": "harley 273.ff. 191b-197b",
+      "page": 471,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 2851.",
+      "ff": "ff. 49b-58b",
+      "mss_ff": "harley 2851. ff. 49b-58b",
+      "page": 748,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 3846.",
+      "ff": "ff. 134-147",
+      "mss_ff": "harley 3846. ff. 134-147",
+      "page": 463,
+      "vol": 2
+    },
+    {
+      "collection": "lansdowne",
+      "mss": "lansdowne 383. 1-1b",
+      "ff": null,
+      "mss_ff": "lansdowne 383. 1-1b",
+      "page": 474,
+      "vol": 2
+    },
+    {
+      "collection": "arundel",
+      "mss": "arundel 292.",
+      "ff": "ff. 72-86",
+      "mss_ff": "arundel 292. ff. 72-86",
+      "page": 452,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 6524.",
+      "ff": "ff. 115 b-120 b",
+      "mss_ff": "add. 6524. ff. 115 b-120 b",
+      "page": 476,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 10,301.",
+      "ff": "ff. 41-51",
+      "mss_ff": "add. 10,301. ff. 41-51",
+      "page": 481,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 33,957.",
+      "ff": "ff. 28-30",
+      "mss_ff": "add. 33,957. ff. 28-30",
+      "page": 465,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 34,193.",
+      "ff": "ff. 99 100b, 106-106b, 119b-125b",
+      "mss_ff": "add. 34,193. ff. 99 100b, 106-106b, 119b-125b",
+      "page": 487,
+      "vol": 2
+    },
+    {
+      "collection": "egerton",
+      "mss": "egerton 1117.",
+      "ff": "ff. 195-196b",
+      "mss_ff": "egerton 1117. ff. 195-196b",
+      "page": 464,
+      "vol": 2
+    },
+    {
+      "collection": "egerton",
+      "mss": "egerton 1993.",
+      "ff": "ff. 119b-128",
+      "mss_ff": "egerton 1993. ff. 119b-128",
+      "page": 478,
+      "vol": 2
+    }
+  ],
+  "fables of marie de france": [
+    {
+      "collection": "cotton",
+      "mss": "vespasian b. xiv.",
+      "ff": "ff. 19-32b",
+      "mss_ff": "vespasian b. xiv. ff. 19-32b",
+      "page": 307,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 978.",
+      "ff": "ff. 40-67b",
+      "mss_ff": "harley 978. ff. 40-67b",
+      "page": 291,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 4333.",
+      "ff": "ff. 73-96",
+      "mss_ff": "harley 4333. ff. 73-96",
+      "page": 306,
+      "vol": 2
+    }
+  ],
+  "novus aesopus": [
+    {
+      "collection": "cotton",
+      "mss": "vespasian b. xxiii. part iii.",
+      "ff": "ff. 110b-118b",
+      "mss_ff": "vespasian b. xxiii. part iii.ff. 110b-118b",
+      "page": 347,
+      "vol": 2
+    }
+  ],
+  "miracle of the virgin": [
+    {
+      "collection": "harley",
+      "mss": "harley 2250.",
+      "ff": "ff.9-10",
+      "mss_ff": "harley 2250. ff.9-10",
+      "page": 738,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 2250.",
+      "ff": "ff. 87",
+      "mss_ff": "harley 2250. ff. 87",
+      "page": 690,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 2277.",
+      "ff": "ff. 58-64b",
+      "mss_ff": "harley 2277. ff. 58-64b",
+      "page": 735,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 2277.",
+      "ff": "ff. 100b-101b",
+      "mss_ff": "harley 2277. ff. 100b-101b",
+      "page": 735,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 2316.",
+      "ff": "ff. 59-61",
+      "mss_ff": "harley 2316. ff. 59-61",
+      "page": 677,
+      "vol": 2
+    },
+    {
+      "collection": "harley",
+      "mss": "harley 2851.",
+      "ff": "ff. 71-89",
+      "mss_ff": "harley 2851. ff. 71-89",
+      "page": 669,
+      "vol": 2
+    },
+    {
+      "collection": "arundel",
+      "mss": "arundel 23.",
+      "ff": "ff. 67-67b",
+      "mss_ff": "arundel 23. ff. 67-67b",
+      "page": 695,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 10,301.",
+      "ff": "ff. 97 b-104 b, 145-146",
+      "mss_ff": "add. 10,301. ff. 97 b-104 b, 145-146",
+      "page": 737,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 10,389",
+      "ff": null,
+      "mss_ff": "add. 10,389",
+      "page": 331,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add.15,723.",
+      "ff": "ff. 64b-92",
+      "mss_ff": "add.15,723. ff. 64b-92",
+      "page": 622,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 17,920.",
+      "ff": "ff.2-6",
+      "mss_ff": "add. 17,920. ff.2-6",
+      "page": 689,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 18,346.",
+      "ff": "ff. 44-74b",
+      "mss_ff": "add. 18,346. ff. 44-74b",
+      "page": 646,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add.18,929.",
+      "ff": "ff. 79-86b",
+      "mss_ff": "add.18,929. ff. 79-86b",
+      "page": 656,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add.19,909.",
+      "ff": "ff. 239-250b",
+      "mss_ff": "add.19,909. ff. 239-250b",
+      "page": 679,
+      "vol": 2
+    }
+  ],
+  "romulus of vincent de beauvais": [
+    {
+      "collection": "harley",
+      "mss": "harley 2316.",
+      "ff": "ff. 53, 54",
+      "mss_ff": "harley 2316. ff. 53, 54",
+      "page": 307,
+      "vol": 2
+    }
+  ],
+  "fables by r. henryson": [
+    {
+      "collection": "harley",
+      "mss": "harley 3865",
+      "ff": null,
+      "mss_ff": "harley 3865",
+      "page": 354,
+      "vol": 2
+    }
+  ],
+  "disciplina clericalis": [
+    {
+      "collection": "harley",
+      "mss": "harley 3938.",
+      "ff": "ff. 80-107b",
+      "mss_ff": "harley 3938. ff. 80-107b",
+      "page": 245,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add.24,641.",
+      "ff": "ff211b-226b",
+      "mss_ff": "add.24,641. ff 211b-226b",
+      "page": 243,
+      "vol": 2
+    }
+  ],
+  "pèlerinage de la vie humaine": [
+    {
+      "collection": "harley",
+      "mss": "harley 4399",
+      "ff": null,
+      "mss_ff": "harley 4399",
+      "page": 569,
+      "vol": 2
+    }
+  ],
+  "syntipas": [
+    {
+      "collection": "harley",
+      "mss": "harley 5560",
+      "ff": null,
+      "mss_ff": "harley 5560",
+      "page": 190,
+      "vol": 2
+    }
+  ],
+  "voyage ofst. brendan": [
+    {
+      "collection": "arundel",
+      "mss": "arundel 330.",
+      "ff": "ff. 24-24b",
+      "mss_ff": "arundel 330. ff. 24-24b",
+      "page": 538,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 17,299.",
+      "ff": null,
+      "mss_ff": "add. 17,299.",
+      "page": 111744,
+      "vol": 2
+    }
+  ],
+  "romulus": [
+    {
+      "collection": "burney",
+      "mss": "burney 59. 2b-7b",
+      "ff": null,
+      "mss_ff": "burney 59. 2b-7b",
+      "page": 279,
+      "vol": 2
+    }
+  ],
+  "aesopic fables": [
+    {
+      "collection": "sloane",
+      "mss": "sloane 1783.",
+      "ff": "ff. 1-6b",
+      "mss_ff": "sloane 1783. ff. 1-6b",
+      "page": 356,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 11,619.",
+      "ff": "ff. 189-210",
+      "mss_ff": "add. 11,619. ff. 189-210",
+      "page": 342,
+      "vol": 2
+    }
+  ],
+  "romantic tales (icelandic)": [
+    {
+      "collection": "additional",
+      "mss": "add. 4857.",
+      "ff": "ff. 2, 57,61,74b",
+      "mss_ff": "add. 4857. ff. 2, 57,61,74b",
+      "page": 54,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 4859.",
+      "ff": "ff. 2, 6b, 91b, 96b, 119,129, 146",
+      "mss_ff": "add. 4859. ff. 2, 6b, 91b, 96b, 119,129, 146",
+      "page": 55,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 4860.",
+      "ff": "ff. 55, 117, 209, 261",
+      "mss_ff": "add. 4860. ff. 55, 117, 209, 261",
+      "page": 57,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 4863.",
+      "ff": "ff. 1, 7, 337, 401",
+      "mss_ff": "add. 4863. ff. 1, 7, 337, 401",
+      "page": 59,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 4868.",
+      "ff": "ff. 2, 9 b, 34, 48, 104 b,117 b, 125 b",
+      "mss_ff": "add. 4868. ff. 2, 9 b, 34, 48, 104 b,117 b, 125 b",
+      "page": 61,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 4874.",
+      "ff": "ff. 66 b, 85 b, 93 b",
+      "mss_ff": "add. 4874. ff. 66 b, 85 b, 93 b",
+      "page": 63,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 4875.",
+      "ff": "ff. 10b, 22, 29b, 56",
+      "mss_ff": "add. 4875. ff. 10b, 22, 29b, 56",
+      "page": 64,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add.4884.",
+      "ff": "ff. 65, 179, 195",
+      "mss_ff": "add.4884. ff. 65, 179, 195",
+      "page": 65,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 11,108",
+      "ff": null,
+      "mss_ff": "add. 11,108",
+      "page": 66,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 11,109.",
+      "ff": "ff. 2, 63, 90 b, 91, 106 b, 136",
+      "mss_ff": "add. 11,109. ff. 2, 63, 90 b, 91, 106 b, 136",
+      "page": 69,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 11,111.",
+      "ff": "ff. 8-19 b",
+      "mss_ff": "add. 11,111. ff. 8-19 b",
+      "page": 70,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 11,112.",
+      "ff": "ff. 52, 58, 76 b, 86 b,96 b, 100",
+      "mss_ff": "add. 11,112. ff. 52, 58, 76 b, 86 b,96 b, 100",
+      "page": 70,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 11,115.",
+      "ff": "ff. 3, 92",
+      "mss_ff": "add. 11,115. ff. 3, 92",
+      "page": 71,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 11,115.",
+      "ff": "ff. 3, 92",
+      "mss_ff": "add. 11,115. ff. 3, 92",
+      "page": 71,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 11,159",
+      "ff": null,
+      "mss_ff": "add. 11,159",
+      "page": 75,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 11,163.",
+      "ff": "ff. 50, 76b",
+      "mss_ff": "add. 11,163. ff. 50, 76b",
+      "page": 78,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 24,969.",
+      "ff": "ff. lb, 77, 91, 102b, 111, 119, 152, 280",
+      "mss_ff": "add. 24,969. ff. lb, 77, 91, 102b, 111, 119, 152, 280",
+      "page": 79,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 24,972.",
+      "ff": "ff. 2, 20, 73, 82-83b",
+      "mss_ff": "add. 24,972. ff. 2, 20, 73, 82-83b",
+      "page": 80,
+      "vol": 2
+    }
+  ],
+  "gunnars saga keldugnups-fifls": [
+    {
+      "collection": "additional",
+      "mss": "add. 4862. f. 151",
+      "ff": null,
+      "mss_ff": "add. 4862. f. 151",
+      "page": 58,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add.11,123.",
+      "ff": "ff. 166-173 b",
+      "mss_ff": "add.11,123. ff. 166-173 b",
+      "page": 73,
+      "vol": 2
+    }
+  ],
+  "gorms saga gamla": [
+    {
+      "collection": "additional",
+      "mss": "add. 4866",
+      "ff": "ff.256",
+      "mss_ff": "add. 4866 ff.256",
+      "page": 60,
+      "vol": 2
+    }
+  ],
+  "edda saemundar hins frosa": [
+    {
+      "collection": "additional",
+      "mss": "add. 4877",
+      "ff": null,
+      "mss_ff": "add. 4877",
+      "page": 29,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 11,165",
+      "ff": null,
+      "mss_ff": "add. 11,165",
+      "page": 30,
+      "vol": 2
+    },
+    {
+      "collection": "egerton",
+      "mss": "egerton 643",
+      "ff": null,
+      "mss_ff": "egerton 643",
+      "page": 21,
+      "vol": 2
+    }
+  ],
+  "voyageof st. brendan": [
+    {
+      "collection": "additional",
+      "mss": "add. 6524.",
+      "ff": "ff. 129b-137b",
+      "mss_ff": "add. 6524. ff. 129b-137b",
+      "page": 549,
+      "vol": 2
+    }
+  ],
+  "two aesopic fables": [
+    {
+      "collection": "additional",
+      "mss": "add. 8166.",
+      "ff": "ff. 40-42b",
+      "mss_ff": "add. 8166. ff. 40-42b",
+      "page": 352,
+      "vol": 2
+    }
+  ],
+  "halfdanar saga gamla": [
+    {
+      "collection": "additional",
+      "mss": "add. 11,116.",
+      "ff": null,
+      "mss_ff": "add. 11,116.",
+      "page": 72,
+      "vol": 2
+    }
+  ],
+  "gongu-hrolfs saga": [
+    {
+      "collection": "additional",
+      "mss": "add. 11,117.",
+      "ff": null,
+      "mss_ff": "add. 11,117.",
+      "page": 73,
+      "vol": 2
+    }
+  ],
+  "blomstrvalla saga": [
+    {
+      "collection": "additional",
+      "mss": "add.11,136.",
+      "ff": "ff. 146 b-257 b",
+      "mss_ff": "add.11,136. ff. 146 b-257 b",
+      "page": 73,
+      "vol": 2
+    }
+  ],
+  "sogubrot af nokkrum forkonungum": [
+    {
+      "collection": "additional",
+      "mss": "add. 11,141.",
+      "ff": "ff. 147 b-150b",
+      "mss_ff": "add. 11,141. ff. 147 b-150b",
+      "page": 74,
+      "vol": 2
+    }
+  ],
+  "halfdanar saga eysteinssonar": [
+    {
+      "collection": "additional",
+      "mss": "add. 11,157.",
+      "ff": "ff. 74-89 b",
+      "mss_ff": "add. 11,157. ff. 74-89 b",
+      "page": 75,
+      "vol": 2
+    }
+  ],
+  "volsunga saga, eagnars saga lobrokar, and krakumal": [
+    {
+      "collection": "additional",
+      "mss": "add. 11,160",
+      "ff": null,
+      "mss_ff": "add. 11,160",
+      "page": 75,
+      "vol": 2
+    }
+  ],
+  "romantic tales (icelandic) ••": [
+    {
+      "collection": "additional",
+      "mss": "add. 11,161",
+      "ff": null,
+      "mss_ff": "add. 11,161",
+      "page": 76,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 11,162.",
+      "ff": "ff. 51-151",
+      "mss_ff": "add. 11,162. ff. 51-151",
+      "page": 77,
+      "vol": 2
+    }
+  ],
+  "edda snorra sturlusonar": [
+    {
+      "collection": "additional",
+      "mss": "add. 11,166",
+      "ff": null,
+      "mss_ff": "add. 11,166",
+      "page": 48,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 11,167",
+      "ff": null,
+      "mss_ff": "add. 11,167",
+      "page": 49,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 11,168",
+      "ff": null,
+      "mss_ff": "add. 11,168",
+      "page": 49,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 11,169",
+      "ff": null,
+      "mss_ff": "add. 11,169",
+      "page": 50,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 11,170",
+      "ff": null,
+      "mss_ff": "add. 11,170",
+      "page": 51,
+      "vol": 2
+    },
+    {
+      "collection": "additional",
+      "mss": "add. 11,171",
+      "ff": null,
+      "mss_ff": "add. 11,171",
+      "page": 51,
+      "vol": 2
+    },
+    {
+      "collection": "egerton",
+      "mss": "egerton 642",
+      "ff": null,
+      "mss_ff": "egerton 642",
+      "page": 30,
+      "vol": 2
+    }
+  ],
+  "hattatal snorra sturlusonar": [
+    {
+      "collection": "additional",
+      "mss": "add. 11,172",
+      "ff": null,
+      "mss_ff": "add. 11,172",
+      "page": 51,
+      "vol": 2
+    }
+  ],
+  "two northern fairy tales": [
+    {
+      "collection": "additional",
+      "mss": "add. 11,173.",
+      "ff": "ff. 101-144b",
+      "mss_ff": "add. 11,173. ff. 101-144b",
+      "page": 108,
+      "vol": 2
+    }
+  ],
+  "islenzk fornkvaesi": [
+    {
+      "collection": "additional",
+      "mss": "add. 11,173.",
+      "ff": null,
+      "mss_ff": "add. 11,173.",
+      "page": 81,
+      "vol": 2
+    }
+  ],
+  "eiriks saga visforla": [
+    {
+      "collection": "additional",
+      "mss": "add. 11,181.",
+      "ff": "ff. 26b-43",
+      "mss_ff": "add. 11,181. ff. 26b-43",
+      "page": 78,
+      "vol": 2
+    }
+  ],
+  "directorium humanae vitae": [
+    {
+      "collection": "additional",
+      "mss": "add. 11,437.",
+      "ff": "ff. 62-109",
+      "mss_ff": "add. 11,437. ff. 62-109",
+      "page": 149,
+      "vol": 2
+    }
+  ],
+  "roman de renart": [
+    {
+      "collection": "additional",
+      "mss": "add. 15,229",
+      "ff": null,
+      "mss_ff": "add. 15,229",
+      "page": 368,
+      "vol": 2
+    }
+  ],
+  "wace, conception de notre-dame": [
+    {
+      "collection": "additional",
+      "mss": "add. 15,606.",
+      "ff": "ff. 37-81",
+      "mss_ff": "add. 15,606. ff. 37-81",
+      "page": 707,
+      "vol": 2
+    }
+  ],
+  "seven sages ofrome": [
+    {
+      "collection": "additional",
+      "mss": "add. 15,685.",
+      "ff": "ff. 83-97b",
+      "mss_ff": "add. 15,685. ff. 83-97b",
+      "page": 206,
+      "vol": 2
+    }
+  ],
+  "libre de les besties": [
+    {
+      "collection": "additional",
+      "mss": "add. 16,428.",
+      "ff": "ff. 59b-80b",
+      "mss_ff": "add. 16,428. ff. 59b-80b",
+      "page": 181,
+      "vol": 2
+    }
+  ],
+  "dolopathos": [
+    {
+      "collection": "additional",
+      "mss": "add. 18,922.",
+      "ff": "ff. 61b-146b",
+      "mss_ff": "add. 18,922. ff. 61b-146b",
+      "page": 228,
+      "vol": 2
+    }
+  ],
+  "herzog ernst": [
+    {
+      "collection": "additional",
+      "mss": "add.22,622.",
+      "ff": "ff. 81-125",
+      "mss_ff": "add.22,622. ff. 81-125",
+      "page": 19,
+      "vol": 2
+    }
+  ],
+  "les trois pèlerinages": [
+    {
+      "collection": "additional",
+      "mss": "add. 22,937",
+      "ff": null,
+      "mss_ff": "add. 22,937",
+      "page": 558,
+      "vol": 2
+    }
+  ],
+  "haralds saga hringsbana": [
+    {
+      "collection": "additional",
+      "mss": "add.24,972.",
+      "ff": null,
+      "mss_ff": "add.24,972.",
+      "page": 80,
+      "vol": 2
+    }
+  ],
+  "pèlerinage de la vie humaine, and pèelerinage de l'ame": [
+    {
+      "collection": "additional",
+      "mss": "add. 25,594",
+      "ff": null,
+      "mss_ff": "add. 25,594",
+      "page": 567,
+      "vol": 2
+    }
+  ],
+  "ysopet-avionnet": [
+    {
+      "collection": "additional",
+      "mss": "add. 33,781",
+      "ff": null,
+      "mss_ff": "add. 33,781",
+      "page": 335,
+      "vol": 2
+    }
+  ],
+  "pilgrimage of the soul": [
+    {
+      "collection": "additional",
+      "mss": "add. 34,193.",
+      "ff": "ff. 5-98b",
+      "mss_ff": "add. 34,193. ff. 5-98b",
+      "page": 584,
+      "vol": 2
+    },
+    {
+      "collection": "egerton",
+      "mss": "egerton 615",
+      "ff": null,
+      "mss_ff": "egerton 615",
+      "page": 580,
+      "vol": 2
+    }
+  ],
+  "spiegel der weisheit": [
+    {
+      "collection": "egerton",
+      "mss": "egerton 1121.",
+      "ff": null,
+      "mss_ff": "egerton 1121.",
+      "page": 357,
+      "vol": 2
+    }
+  ],
+  "nibelungenlied": [
+    {
+      "collection": "egerton",
+      "mss": "egerton 2323.",
+      "ff": "ff. 1, 2",
+      "mss_ff": "egerton 2323. ff. 1, 2",
+      "page": 16,
+      "vol": 2
+    }
+  ],
+  "wisselau the bear": [
+    {
+      "collection": "egerton",
+      "mss": "egerton 2323.",
+      "ff": "ff. 3, 4",
+      "mss_ff": "egerton 2323. ff. 3, 4",
+      "page": 17,
+      "vol": 2
+    }
+  ]
+}
