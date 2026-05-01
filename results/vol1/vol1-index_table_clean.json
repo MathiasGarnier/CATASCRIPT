@@ -1,4010 +1,3502 @@
 {
-  "historia regum britanniae": [
+  "Historia Regum Britanniae": [
     {
-      "collection": "royal",
-      "mss_ff": "4. c. xi. ff. 222-249",
-      "mss": "4. c. xi.",
+      "collection": "Royal",
+      "mss": "4. C. xi.",
       "ff": "ff. 222-249",
       "page": 227
     },
     {
-      "collection": "royal",
-      "mss_ff": "13. a. iii. ff. 1-133",
-      "mss": "13. a. iii.",
+      "collection": "Royal",
+      "mss": "13. A. iii.",
       "ff": "ff. 1-133",
       "page": 237
     },
     {
-      "collection": "royal",
-      "mss_ff": "13. a. v. ff. 99-161 b",
-      "mss": "13. a. v.",
+      "collection": "Royal",
+      "mss": "13. A. v.",
       "ff": "ff. 99-161 b",
       "page": 237
     },
     {
-      "collection": "royal",
-      "mss_ff": "13. d. i. ff. 175-212 b",
-      "mss": "13. d. i.",
+      "collection": "Royal",
+      "mss": "13. D. i.",
       "ff": "ff. 175-212 b",
       "page": 248
     },
     {
-      "collection": "royal",
-      "mss_ff": "13. d. ii. ff. 124-173 b",
-      "mss": "13. d. ii.",
+      "collection": "Royal",
+      "mss": "13. D. ii.",
       "ff": "ff. 124-173 b",
       "page": 228
     },
     {
-      "collection": "royal",
-      "mss_ff": "13. d. v. ff. 1-37 b",
-      "mss": "13. d. v.",
+      "collection": "Royal",
+      "mss": "13. D. v.",
       "ff": "ff. 1-37 b",
       "page": 229
     },
     {
-      "collection": "cotton",
-      "mss_ff": "nero d. viii. ff. 3-63",
-      "mss": "nero d. viii.",
+      "collection": "Cotton",
+      "mss": "Nero D. viii.",
       "ff": "ff. 3-63",
       "page": 230
     },
     {
-      "collection": "cotton",
-      "mss_ff": "galba e. xi. ff. 2-58 b",
-      "mss": "galba e. xi.",
+      "collection": "Cotton",
+      "mss": "Galba E. xi.",
       "ff": "ff. 2-58 b",
       "page": 239
     },
     {
-      "collection": "cotton",
-      "mss_ff": "vespasian a. xxiii. ff. 4-106 b",
-      "mss": "vespasian a. xxiii.",
+      "collection": "Cotton",
+      "mss": "Vespasian A. xxiii.",
       "ff": "ff. 4-106 b",
       "page": 241
     },
     {
-      "collection": "cotton",
-      "mss_ff": "vespasian e. x. ff. 271-368 b",
-      "mss": "vespasian e. x.",
+      "collection": "Cotton",
+      "mss": "Vespasian E. x.",
       "ff": "ff. 271-368 b",
       "page": 242
     },
     {
-      "collection": "cotton",
-      "mss_ff": "titus a. xviii. ff. 13-82",
-      "mss": "titus a. xviii.",
+      "collection": "Cotton",
+      "mss": "Titus A. xviii.",
       "ff": "ff. 13-82",
       "page": 243
     },
     {
-      "collection": "cotton",
-      "mss_ff": "titus a. xxv. ff. 105-116 b",
-      "mss": "titus a. xxv.",
+      "collection": "Cotton",
+      "mss": "Titus A. xxv.",
       "ff": "ff. 105-116 b",
       "page": 244
     },
     {
-      "collection": "cotton",
-      "mss_ff": "titus a. xxvii. ff. 1 b-87",
-      "mss": "titus a. xxvii.",
+      "collection": "Cotton",
+      "mss": "Titus A. xxvii.",
       "ff": "ff. 1 b-87",
       "page": 231
     },
     {
-      "collection": "cotton",
-      "mss_ff": "titus c. xvii.",
-      "mss": "titus c. xvii.",
+      "collection": "Cotton",
+      "mss": "Titus C. xvii.",
       "ff": null,
       "page": 203
     },
     {
-      "collection": "cotton",
-      "mss_ff": "cleopatra d. viii. ff. 8-94",
-      "mss": "cleopatra d. viii.",
+      "collection": "Cotton",
+      "mss": "Cleopatra D. viii.",
       "ff": "ff. 8-94",
       "page": 249
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 225. ff. 3-78",
-      "mss": "harley 225.",
+      "collection": "Harley",
+      "mss": "Harley 225.",
       "ff": "ff. 3-78",
       "page": 222
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 536. ff. 58-61",
-      "mss": "harley 536.",
+      "collection": "Harley",
+      "mss": "Harley 536.",
       "ff": "ff. 58-61",
       "page": 226
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 3773. ff. 7-57",
-      "mss": "harley 3773.",
+      "collection": "Harley",
+      "mss": "Harley 3773.",
       "ff": "ff. 7-57",
       "page": 223
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 4003. ff. 81-141 b",
-      "mss": "harley 4003.",
+      "collection": "Harley",
+      "mss": "Harley 4003.",
       "ff": "ff. 81-141 b",
       "page": 244
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 4123. ff. 2-49 b",
-      "mss": "harley 4123.",
+      "collection": "Harley",
+      "mss": "Harley 4123.",
       "ff": "ff. 2-49 b",
       "page": 236
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 5115. ff. 87-150",
-      "mss": "harley 5115.",
+      "collection": "Harley",
+      "mss": "Harley 5115.",
       "ff": "ff. 87-150",
       "page": 245
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 6358. ff. 2-58 b",
-      "mss": "harley 6358.",
+      "collection": "Harley",
+      "mss": "Harley 6358.",
       "ff": "ff. 2-58 b",
       "page": 235
     },
     {
-      "collection": "lansdowne",
-      "mss_ff": "lansdowne 732. ff. 1-68 b",
-      "mss": "lansdowne 732.",
+      "collection": "Lansdowne",
+      "mss": "Lansdowne 732.",
       "ff": "ff. 1-68 b",
       "page": 233
     },
     {
-      "collection": "arundel",
-      "mss_ff": "arundel 10",
-      "mss": "arundel 10",
+      "collection": "Arundel",
+      "mss": "Arundel 10",
       "ff": null,
       "page": 224
     },
     {
-      "collection": "arundel",
-      "mss_ff": "arundel 237",
-      "mss": "arundel 237",
+      "collection": "Arundel",
+      "mss": "Arundel 237",
       "ff": null,
       "page": 241
     },
     {
-      "collection": "arundel",
-      "mss_ff": "arundel 319. ff. 16-97 b",
-      "mss": "arundel 319.",
+      "collection": "Arundel",
+      "mss": "Arundel 319.",
       "ff": "ff. 16-97 b",
       "page": 232
     },
     {
-      "collection": "arundel",
-      "mss_ff": "arundel 326. ff. 63-122 b",
-      "mss": "arundel 326.",
+      "collection": "Arundel",
+      "mss": "Arundel 326.",
       "ff": "ff. 63-122 b",
       "page": 246
     },
     {
-      "collection": "arundel",
-      "mss_ff": "arundel 403",
-      "mss": "arundel 403",
+      "collection": "Arundel",
+      "mss": "Arundel 403",
       "ff": null,
       "page": 225
     },
     {
-      "collection": "arundel",
-      "mss_ff": "arundel 409. ff. 54-77",
-      "mss": "arundel 409.",
+      "collection": "Arundel",
+      "mss": "Arundel 409.",
       "ff": "ff. 54-77",
       "page": 233
     },
     {
-      "collection": "sloane",
-      "mss_ff": "sloane 289. ff. 120-133",
-      "mss": "sloane 289.",
+      "collection": "Sloane",
+      "mss": "Sloane 289.",
       "ff": "ff. 120-133",
       "page": 250
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 11,702. ff. 11-88",
-      "mss": "add. 11,702.",
+      "collection": "Additional",
+      "mss": "Add. 11,702.",
       "ff": "ff. 11-88",
       "page": 247
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 15,732",
-      "mss": "add. 15,732",
+      "collection": "Additional",
+      "mss": "Add. 15,732",
       "ff": null,
       "page": 234
     }
   ],
-  "turpin's chronicle": [
+  "Turpin's Chronicle": [
     {
-      "collection": "royal",
-      "mss_ff": "4. c. xi. ff. 280-286 b",
-      "mss": "4. c. xi.",
+      "collection": "Royal",
+      "mss": "4. C. xi.",
       "ff": "ff. 280-286 b",
       "page": 583
     },
     {
-      "collection": "royal",
-      "mss_ff": "13. d. i. ff. 212 b-222",
-      "mss": "13. d. i.",
+      "collection": "Royal",
+      "mss": "13. D. i.",
       "ff": "ff. 212 b-222",
       "page": 572
     },
     {
-      "collection": "cotton",
-      "mss_ff": "caligula b. vii. ff. 192-203 b",
-      "mss": "caligula b. vii.",
+      "collection": "Cotton",
+      "mss": "Caligula B. vii.",
       "ff": "ff. 192-203 b",
       "page": 561
     },
     {
-      "collection": "cotton",
-      "mss_ff": "nero a. xi. ff. 8-63",
-      "mss": "nero a. xi.",
+      "collection": "Cotton",
+      "mss": "Nero A. xi.",
       "ff": "ff. 8-63",
       "page": 546
     },
     {
-      "collection": "cotton",
-      "mss_ff": "nero a. xi. ff. 8-63",
-      "mss": "nero a. xi.",
+      "collection": "Cotton",
+      "mss": "Nero A. xi.",
       "ff": "ff. 8-63",
       "page": 950
     },
     {
-      "collection": "cotton",
-      "mss_ff": "vespasian a. xiii. ff. 94-114 b",
-      "mss": "vespasian a. xiii.",
+      "collection": "Cotton",
+      "mss": "Vespasian A. xiii.",
       "ff": "ff. 94-114 b",
       "page": 576
     },
     {
-      "collection": "cotton",
-      "mss_ff": "titus a. xix. ff. 24-43",
-      "mss": "titus a. xix.",
+      "collection": "Cotton",
+      "mss": "Titus A. xix.",
       "ff": "ff. 24-43",
       "page": 578
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 108. ff. 4 b-31 b",
-      "mss": "harley 108.",
+      "collection": "Harley",
+      "mss": "Harley 108.",
       "ff": "ff. 4 b-31 b",
       "page": 574
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 273. ff. 86-102 b",
-      "mss": "harley 273.",
+      "collection": "Harley",
+      "mss": "Harley 273.",
       "ff": "ff. 86-102 b",
       "page": 587
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 2361. ff. 138-139 b",
-      "mss": "harley 2361.",
+      "collection": "Harley",
+      "mss": "Harley 2361.",
       "ff": "ff. 138-139 b",
       "page": 582
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 2500. ff. 139-155",
-      "mss": "harley 2500.",
+      "collection": "Harley",
+      "mss": "Harley 2500.",
       "ff": "ff. 139-155",
       "page": 581
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 3043. ff. 17-31",
-      "mss": "harley 3043.",
+      "collection": "Harley",
+      "mss": "Harley 3043.",
       "ff": "ff. 17-31",
       "page": 577
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 6358. ff. 60-83",
-      "mss": "harley 6358.",
+      "collection": "Harley",
+      "mss": "Harley 6358.",
       "ff": "ff. 60-83",
       "page": 560
     },
     {
-      "collection": "arundel",
-      "mss_ff": "arundel 220. ff. 284-298 b",
-      "mss": "arundel 220.",
+      "collection": "Arundel",
+      "mss": "Arundel 220.",
       "ff": "ff. 284-298 b",
       "page": 589
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 6924. ff. 297-303",
-      "mss": "add. 6924.",
+      "collection": "Additional",
+      "mss": "Add. 6924.",
       "ff": "ff. 297-303",
       "page": 583
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 12,213. ff. 1-184 b",
-      "mss": "add. 12,213.",
+      "collection": "Additional",
+      "mss": "Add. 12,213.",
       "ff": "ff. 1-184 b",
       "page": 562
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 17,920. ff. 6 b-19 b",
-      "mss": "add. 17,920.",
+      "collection": "Additional",
+      "mss": "Add. 17,920.",
       "ff": "ff. 6 b-19 b",
       "page": 592
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 19,513. ff. 141-163",
-      "mss": "add. 19,513.",
+      "collection": "Additional",
+      "mss": "Add. 19,513.",
       "ff": "ff. 141-163",
       "page": 573
     }
   ],
-  "prophecy of merlin silvester": [
+  "Prophecy of Merlin Silvester": [
     {
-      "collection": "royal",
-      "mss_ff": "5. f. xv. ff. 3 b",
-      "mss": "5. f. xv.",
+      "collection": "Royal",
+      "mss": "5. F. xv.",
       "ff": "ff. 3 b",
       "page": 313
     },
     {
-      "collection": "royal",
-      "mss_ff": "13. a. iii. ff. 135 b, 136",
-      "mss": "13. a. iii.",
+      "collection": "Royal",
+      "mss": "13. A. iii.",
       "ff": "ff. 135 b, 136",
       "page": 315
     }
   ],
-  "dares phrygius": [
+  "Dares Phrygius": [
     {
-      "collection": "royal",
-      "mss_ff": "6. c. viii. ff. 123-133 b",
-      "mss": "6. c. viii.",
+      "collection": "Royal",
+      "mss": "6. C. viii.",
       "ff": "ff. 123-133 b",
       "page": 17
     },
     {
-      "collection": "royal",
-      "mss_ff": "10. a. x. ff. 188-192 b",
-      "mss": "10. a. x.",
+      "collection": "Royal",
+      "mss": "10. A. x.",
       "ff": "ff. 188-192 b",
       "page": 20
     },
     {
-      "collection": "royal",
-      "mss_ff": "13. a. v. ff. 88 b-98 b",
-      "mss": "13. a. v.",
+      "collection": "Royal",
+      "mss": "13. A. v.",
       "ff": "ff. 88 b-98 b",
       "page": 23
     },
     {
-      "collection": "royal",
-      "mss_ff": "15. a. xxii. ff. 73-90",
-      "mss": "15. a. xxii.",
+      "collection": "Royal",
+      "mss": "15. A. xxii.",
       "ff": "ff. 73-90",
       "page": 13
     },
     {
-      "collection": "royal",
-      "mss_ff": "15. b. xi. ff. 57-66 b",
-      "mss": "15. b. xi.",
+      "collection": "Royal",
+      "mss": "15. B. xi.",
       "ff": "ff. 57-66 b",
       "page": 14
     },
     {
-      "collection": "cotton",
-      "mss_ff": "caligula b. vii. ff. 214-218 b",
-      "mss": "caligula b. vii.",
+      "collection": "Cotton",
+      "mss": "Caligula B. vii.",
       "ff": "ff. 214-218 b",
       "page": 22
     },
     {
-      "collection": "cotton",
-      "mss_ff": "vitellius a. xiii. ff. 90",
-      "mss": "vitellius a. xiii.",
+      "collection": "Cotton",
+      "mss": "Vitellius A. xiii.",
       "ff": "ff. 90",
       "page": 15
     },
     {
-      "collection": "cotton",
-      "mss_ff": "vitellius c. viii. ff. 5 b-6 b",
-      "mss": "vitellius c. viii.",
+      "collection": "Cotton",
+      "mss": "Vitellius C. viii.",
       "ff": "ff. 5 b-6 b",
       "page": 18
     },
     {
-      "collection": "cotton",
-      "mss_ff": "vespasian b. xxv. ff. 98 b-117",
-      "mss": "vespasian b. xxv.",
+      "collection": "Cotton",
+      "mss": "Vespasian B. xxv.",
       "ff": "ff. 98 b-117",
       "page": 12
     },
     {
-      "collection": "cotton",
-      "mss_ff": "cleopatra b. v. ff. 222-250",
-      "mss": "cleopatra b. v.",
+      "collection": "Cotton",
+      "mss": "Cleopatra B. v.",
       "ff": "ff. 222-250",
       "page": 26
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 641. ff. 1-8",
-      "mss": "harley 641.",
+      "collection": "Harley",
+      "mss": "Harley 641.",
       "ff": "ff. 1-8",
       "page": 20
     },
     {
-      "collection": "burney",
-      "mss_ff": "burney 216. ff. 89-93 b",
-      "mss": "burney 216.",
+      "collection": "Burney",
+      "mss": "Burney 216.",
       "ff": "ff. 89-93 b",
       "page": 16
     },
     {
-      "collection": "burney",
-      "mss_ff": "burney 280. ff. 20 b-38 b",
-      "mss": "burney 280.",
+      "collection": "Burney",
+      "mss": "Burney 280.",
       "ff": "ff. 20 b-38 b",
       "page": 21
     },
     {
-      "collection": "sloane",
-      "mss_ff": "sloane 1619 ff. 29-37 b",
-      "mss": "sloane 1619",
+      "collection": "Sloane",
+      "mss": "Sloane 1619",
       "ff": "ff. 29-37 b",
       "page": 19
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 10,094. ff. 1-14 b",
-      "mss": "add. 10,094.",
+      "collection": "Additional",
+      "mss": "Add. 10,094.",
       "ff": "ff. 1-14 b",
       "page": 24
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 15,042",
-      "mss": "add. 15,042",
+      "collection": "Additional",
+      "mss": "Add. 15,042",
       "ff": null,
       "page": 25
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 19,709. ff. 1-7",
-      "mss": "add. 19,709.",
+      "collection": "Additional",
+      "mss": "Add. 19,709.",
       "ff": "ff. 1-7",
       "page": 26
     }
   ],
-  "letters between alexander and dindimus": [
+  "Letters between Alexander and Dindimus": [
     {
-      "collection": "royal",
-      "mss_ff": "6. e. iii. ff. 111 b-112 b",
-      "mss": "6. e. iii.",
+      "collection": "Royal",
+      "mss": "6. E. iii.",
       "ff": "ff. 111 b-112 b",
       "page": 138
     },
     {
-      "collection": "royal",
-      "mss_ff": "7. a. i. ff. 68 b-69 b",
-      "mss": "7. a. i.",
+      "collection": "Royal",
+      "mss": "7. A. i.",
       "ff": "ff. 68 b-69 b",
       "page": 137
     }
   ],
-  "alexandreis": [
+  "Alexandreis": [
     {
-      "collection": "royal",
-      "mss_ff": "8. b. iv. ff. 19-71 b",
-      "mss": "8. b. iv.",
+      "collection": "Royal",
+      "mss": "8. B. iv.",
       "ff": "ff. 19-71 b",
       "page": 98
     },
     {
-      "collection": "royal",
-      "mss_ff": "15. a. x. ff. 2-89",
-      "mss": "15. a. x.",
+      "collection": "Royal",
+      "mss": "15. A. x.",
       "ff": "ff. 2-89",
       "page": 94
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 4745",
-      "mss": "harley 4745",
+      "collection": "Harley",
+      "mss": "Harley 4745",
       "ff": null,
       "page": 103
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 5437",
-      "mss": "harley 5437",
+      "collection": "Harley",
+      "mss": "Harley 5437",
       "ff": null,
       "page": 103
     },
     {
-      "collection": "burney",
-      "mss_ff": "burney 312",
-      "mss": "burney 312",
+      "collection": "Burney",
+      "mss": "Burney 312",
       "ff": null,
       "page": 101
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 17,084",
-      "mss": "add. 17,084",
+      "collection": "Additional",
+      "mss": "Add. 17,084",
       "ff": null,
       "page": 141
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 18,217",
-      "mss": "add. 18,217",
+      "collection": "Additional",
+      "mss": "Add. 18,217",
       "ff": null,
       "page": 99
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 22,821",
-      "mss": "add. 22,821",
+      "collection": "Additional",
+      "mss": "Add. 22,821",
       "ff": null,
       "page": 96
     }
   ],
-  "prophecies of merlin": [
+  "Prophecies of Merlin": [
     {
-      "collection": "royal",
-      "mss_ff": "8. d. iii. ff. 160 b-163",
-      "mss": "8. d. iii.",
+      "collection": "Royal",
+      "mss": "8. D. iii.",
       "ff": "ff. 160 b-163",
       "page": 297
     },
     {
-      "collection": "cotton",
-      "mss_ff": "julius a. v. ff. 5, 53-57b, 177 b-179, and 180-181 b",
-      "mss": "julius a. v.",
+      "collection": "Cotton",
+      "mss": "Julius A. v.",
       "ff": "ff. 5, 53-57b, 177 b-179, and 180-181 b",
       "page": 299
     },
     {
-      "collection": "cotton",
-      "mss_ff": "tiberius a. ix. ff. 2-6",
-      "mss": "tiberius a. ix.",
+      "collection": "Cotton",
+      "mss": "Tiberius A. ix.",
       "ff": "ff. 2-6",
       "page": 295
     },
     {
-      "collection": "cotton",
-      "mss_ff": "caligula b. vii. ff. 220 b-231 b",
-      "mss": "caligula b. vii.",
+      "collection": "Cotton",
+      "mss": "Caligula B. vii.",
       "ff": "ff. 220 b-231 b",
       "page": 296
     },
     {
-      "collection": "cotton",
-      "mss_ff": "nero a. iv. ff. 63-76 b",
-      "mss": "nero a. iv.",
+      "collection": "Cotton",
+      "mss": "Nero A. iv.",
       "ff": "ff. 63-76 b",
       "page": 297
     },
     {
-      "collection": "cotton",
-      "mss_ff": "cleopatra c. iv. ff. 74-122",
-      "mss": "cleopatra c. iv.",
+      "collection": "Cotton",
+      "mss": "Cleopatra C. iv.",
       "ff": "ff. 74-122",
       "page": 310
     },
     {
-      "collection": "cotton",
-      "mss_ff": "faustina a. viii. ff. 109 b-116",
-      "mss": "faustina a. viii.",
+      "collection": "Cotton",
+      "mss": "Faustina A. viii.",
       "ff": "ff. 109 b-116",
       "page": 292
     },
     {
-      "collection": "arundel",
-      "mss_ff": "arundel 66. ff. 267-268 b and 291 b",
-      "mss": "arundel 66.",
+      "collection": "Arundel",
+      "mss": "Arundel 66.",
       "ff": "ff. 267-268 b and 291 b",
       "page": 301
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 6924. ff. 73-124 and 164-",
-      "mss": "add. 6924.",
+      "collection": "Additional",
+      "mss": "Add. 6924.",
       "ff": "ff. 73-124 and 164-",
       "page": 304
     }
   ],
-  "guy of warwick": [
+  "Guy of Warwick": [
     {
-      "collection": "royal",
-      "mss_ff": "8. f. ix. ff. 105-159",
-      "mss": "8. f. ix.",
+      "collection": "Royal",
+      "mss": "8. F. ix.",
       "ff": "ff. 105-159",
       "page": 485
     },
     {
-      "collection": "cotton",
-      "mss_ff": "vespasian d. ix. ff. 40-43 b",
-      "mss": "vespasian d. ix.",
+      "collection": "Cotton",
+      "mss": "Vespasian D. ix.",
       "ff": "ff. 40-43 b",
       "page": 492
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 3775. ff. 15-26 b",
-      "mss": "harley 3775.",
+      "collection": "Harley",
+      "mss": "Harley 3775.",
       "ff": "ff. 15-26 b",
       "page": 471
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 5243",
-      "mss": "harley 5243",
+      "collection": "Harley",
+      "mss": "Harley 5243",
       "ff": null,
       "page": 497
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 7333. ff. 33-35 b",
-      "mss": "harley 7333.",
+      "collection": "Harley",
+      "mss": "Harley 7333.",
       "ff": "ff. 33-35 b",
       "page": 494
     },
     {
-      "collection": "lansdowne",
-      "mss_ff": "lansdowne 699. ff. 18 b-27 b",
-      "mss": "lansdowne 699.",
+      "collection": "Lansdowne",
+      "mss": "Lansdowne 699.",
       "ff": "ff. 18 b-27 b",
       "page": 496
     },
     {
-      "collection": "sloane",
-      "mss_ff": "sloane 1044. ff. 625",
-      "mss": "sloane 1044.",
+      "collection": "Sloane",
+      "mss": "Sloane 1044.",
       "ff": "ff. 625",
       "page": 489
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 14,408. ff. 74-77",
-      "mss": "add. 14,408.",
+      "collection": "Additional",
+      "mss": "Add. 14,408.",
       "ff": "ff. 74-77",
       "page": 490
     }
   ],
-  "prophecy on scotland": [
+  "Prophecy on Scotland": [
     {
-      "collection": "royal",
-      "mss_ff": "9. b. ix. ff. 2",
-      "mss": "9. b. ix.",
+      "collection": "Royal",
+      "mss": "9. B. ix.",
       "ff": "ff. 2",
       "page": 327
     }
   ],
-  "alexander the great": [
+  "Alexander the Great": [
     {
-      "collection": "royal",
-      "mss_ff": "12. c. iv. ff. 138-170",
-      "mss": "12. c. iv.",
+      "collection": "Royal",
+      "mss": "12. C. iv.",
       "ff": "ff. 138-170",
       "page": 112
     },
     {
-      "collection": "royal",
-      "mss_ff": "13. a. i.",
-      "mss": "13. a. i.",
+      "collection": "Royal",
+      "mss": "13. A. i.",
       "ff": null,
       "page": 106
     },
     {
-      "collection": "royal",
-      "mss_ff": "13. a. v. ff. 2-23 b",
-      "mss": "13. a. v.",
+      "collection": "Royal",
+      "mss": "13. A. v.",
       "ff": "ff. 2-23 b",
       "page": 118
     },
     {
-      "collection": "royal",
-      "mss_ff": "13. c. xii. ff. 82-109 b",
-      "mss": "13. c. xii.",
+      "collection": "Royal",
+      "mss": "13. C. xii.",
       "ff": "ff. 82-109 b",
       "page": 122
     },
     {
-      "collection": "royal",
-      "mss_ff": "15. c. vi. ff. 102 b-130 b",
-      "mss": "15. c. vi.",
+      "collection": "Royal",
+      "mss": "15. C. vi.",
       "ff": "ff. 102 b-130 b",
       "page": 110
     },
     {
-      "collection": "royal",
-      "mss_ff": "15. e. vi. ff. 4 b-24 b",
-      "mss": "15. e. vi.",
+      "collection": "Royal",
+      "mss": "15. E. vi.",
       "ff": "ff. 4 b-24 b",
       "page": 129
     },
     {
-      "collection": "royal",
-      "mss_ff": "19. d. i. ff. 1-46",
-      "mss": "19. d. i.",
+      "collection": "Royal",
+      "mss": "19. D. i.",
       "ff": "ff. 1-46",
       "page": 123
     },
     {
-      "collection": "royal",
-      "mss_ff": "20. a. v.",
-      "mss": "20. a. v.",
+      "collection": "Royal",
+      "mss": "20. A. v.",
       "ff": null,
       "page": 125
     },
     {
-      "collection": "royal",
-      "mss_ff": "20. b. xx.",
-      "mss": "20. b. xx.",
+      "collection": "Royal",
+      "mss": "20. B. xx.",
       "ff": null,
       "page": 128
     },
     {
-      "collection": "cotton",
-      "mss_ff": "nero d. viii. ff. 160-174 b",
-      "mss": "nero d. viii.",
+      "collection": "Cotton",
+      "mss": "Nero D. viii.",
       "ff": "ff. 160-174 b",
       "page": 113
     },
     {
-      "collection": "cotton",
-      "mss_ff": "galba e. xi. ff. 111-125",
-      "mss": "galba e. xi.",
+      "collection": "Cotton",
+      "mss": "Galba E. xi.",
       "ff": "ff. 111-125",
       "page": 115
     },
     {
-      "collection": "cotton",
-      "mss_ff": "cleopatra d. v. ff. 165 b-183",
-      "mss": "cleopatra d. v.",
+      "collection": "Cotton",
+      "mss": "Cleopatra D. v.",
       "ff": "ff. 165 b-183",
       "page": 114
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 527. ff. 47-56 b",
-      "mss": "harley 527.",
+      "collection": "Harley",
+      "mss": "Harley 527.",
       "ff": "ff. 47-56 b",
       "page": 113
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 2682. ff. 180-192",
-      "mss": "harley 2682.",
+      "collection": "Harley",
+      "mss": "Harley 2682.",
       "ff": "ff. 180-192",
       "page": 109
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 4979",
-      "mss": "harley 4979",
+      "collection": "Harley",
+      "mss": "Harley 4979",
       "ff": null,
       "page": 127
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 5054. ff. 124 b-181",
-      "mss": "harley 5054.",
+      "collection": "Harley",
+      "mss": "Harley 5054.",
       "ff": "ff. 124 b-181",
       "page": 119
     },
     {
-      "collection": "arundel",
-      "mss_ff": "arundel 123. ff. 43-71",
-      "mss": "arundel 123.",
+      "collection": "Arundel",
+      "mss": "Arundel 123.",
       "ff": "ff. 43-71",
       "page": 120
     },
     {
-      "collection": "burney",
-      "mss_ff": "burney 280. ff. 1-20 b",
-      "mss": "burney 280.",
+      "collection": "Burney",
+      "mss": "Burney 280.",
       "ff": "ff. 1-20 b",
       "page": 118
     },
     {
-      "collection": "sloane",
-      "mss_ff": "sloane 1619. ff. 3-17 b",
-      "mss": "sloane 1619.",
+      "collection": "Sloane",
+      "mss": "Sloane 1619.",
       "ff": "ff. 3-17 b",
       "page": 112
     },
     {
-      "collection": "sloane",
-      "mss_ff": "sloane 1785. ff. 2-13",
-      "mss": "sloane 1785.",
+      "collection": "Sloane",
+      "mss": "Sloane 1785.",
       "ff": "ff. 2-13",
       "page": 131
     }
   ],
-  "prophecy": [
+  "Prophecy": [
     {
-      "collection": "royal",
-      "mss_ff": "12. c. xii. ff. 14-16 b",
-      "mss": "12. c. xii.",
+      "collection": "Royal",
+      "mss": "12. C. xii.",
       "ff": "ff. 14-16 b",
       "page": 316
     }
   ],
-  "fulk fitz-warin": [
+  "Fulk Fitz-Warin": [
     {
-      "collection": "royal",
-      "mss_ff": "12. c. xii. ff. 33-60 b",
-      "mss": "12. c. xii.",
+      "collection": "Royal",
+      "mss": "12. C. xii.",
       "ff": "ff. 33-60 b",
       "page": 501
     }
   ],
-  "amya and amylion": [
+  "Amya and Amylion": [
     {
-      "collection": "royal",
-      "mss_ff": "12. c. xii. ff. 69-76",
-      "mss": "12. c. xii.",
+      "collection": "Royal",
+      "mss": "12. C. xii.",
       "ff": "ff. 69-76",
       "page": 674
     }
   ],
-  "tale of two lovers": [
+  "Tale of Two Lovers": [
     {
-      "collection": "royal",
-      "mss_ff": "12. c. xx. ff. 17-46",
-      "mss": "12. c. xx.",
+      "collection": "Royal",
+      "mss": "12. C. xx.",
       "ff": "ff. 17-46",
       "page": 801
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 1883. ff. 119-135 b",
-      "mss": "harley 1883.",
+      "collection": "Harley",
+      "mss": "Harley 1883.",
       "ff": "ff. 119-135 b",
       "page": 799
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 2492. ff. 154 b-169 b",
-      "mss": "harley 2492.",
+      "collection": "Harley",
+      "mss": "Harley 2492.",
       "ff": "ff. 154 b-169 b",
       "page": 802
     }
   ],
-  "historia trojana": [
+  "Historia Trojana": [
     {
-      "collection": "royal",
-      "mss_ff": "12. d. iii. ff. 38-143",
-      "mss": "12. d. iii.",
+      "collection": "Royal",
+      "mss": "12. D. iii.",
       "ff": "ff. 38-143",
       "page": 49
     },
     {
-      "collection": "royal",
-      "mss_ff": "13. c. xii. ff. 6-32 b",
-      "mss": "13. c. xii.",
+      "collection": "Royal",
+      "mss": "13. C. xii.",
       "ff": "ff. 6-32 b",
       "page": 50
     },
     {
-      "collection": "royal",
-      "mss_ff": "15. c. xvi. ff. 86-145",
-      "mss": "15. c. xvi.",
+      "collection": "Royal",
+      "mss": "15. C. xvi.",
       "ff": "ff. 86-145",
       "page": 44
     },
     {
-      "collection": "royal",
-      "mss_ff": "16. f. ix.",
-      "mss": "16. f. ix.",
+      "collection": "Royal",
+      "mss": "16. F. ix.",
       "ff": null,
       "page": 54
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 51. ff. 3-105 b",
-      "mss": "harley 51.",
+      "collection": "Harley",
+      "mss": "Harley 51.",
       "ff": "ff. 3-105 b",
       "page": 52
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 176",
-      "mss": "harley 176",
+      "collection": "Harley",
+      "mss": "Harley 176",
       "ff": null,
       "page": 47
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 3637",
-      "mss": "harley 3637",
+      "collection": "Harley",
+      "mss": "Harley 3637",
       "ff": null,
       "page": 48
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 3681",
-      "mss": "harley 3681",
+      "collection": "Harley",
+      "mss": "Harley 3681",
       "ff": null,
       "page": 54
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 4123. ff. 50-126",
-      "mss": "harley 4123.",
+      "collection": "Harley",
+      "mss": "Harley 4123.",
       "ff": "ff. 50-126",
       "page": 40
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 4387",
-      "mss": "harley 4387",
+      "collection": "Harley",
+      "mss": "Harley 4387",
       "ff": null,
       "page": 53
     },
     {
-      "collection": "lansdowne",
-      "mss_ff": "lansdowne 229. ff. 164",
-      "mss": "lansdowne 229.",
+      "collection": "Lansdowne",
+      "mss": "Lansdowne 229.",
       "ff": "ff. 164",
       "page": 61
     },
     {
-      "collection": "arundel",
-      "mss_ff": "arundel 6 ff. 242-342 b",
-      "mss": "arundel 6",
+      "collection": "Arundel",
+      "mss": "Arundel 6",
       "ff": "ff. 242-342 b",
       "page": 60
     },
     {
-      "collection": "arundel",
-      "mss_ff": "arundel 174",
-      "mss": "arundel 174",
+      "collection": "Arundel",
+      "mss": "Arundel 174",
       "ff": null,
       "page": 51
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 9785",
-      "mss": "add. 9785",
+      "collection": "Additional",
+      "mss": "Add. 9785",
       "ff": null,
       "page": 57
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 15,477",
-      "mss": "add. 15,477",
+      "collection": "Additional",
+      "mss": "Add. 15,477",
       "ff": null,
       "page": 43
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 22,155",
-      "mss": "add. 22,155",
+      "collection": "Additional",
+      "mss": "Add. 22,155",
       "ff": null,
       "page": 46
     }
   ],
-  "story of troy": [
+  "Story of Troy": [
     {
-      "collection": "royal",
-      "mss_ff": "12. d. iii. ff. 152 b-158",
-      "mss": "12. d. iii.",
+      "collection": "Royal",
+      "mss": "12. D. iii.",
       "ff": "ff. 152 b-158",
       "page": 34
     },
     {
-      "collection": "royal",
-      "mss_ff": "13. a. iv. ff. 22 b-23 b, 76-81 b",
-      "mss": "13. a. iv.",
+      "collection": "Royal",
+      "mss": "13. A. iv.",
       "ff": "ff. 22 b-23 b, 76-81 b",
       "page": 27
     }
   ],
-  "prophecy of the tenth sibyl": [
+  "Prophecy of the Tenth Sibyl": [
     {
-      "collection": "royal",
-      "mss_ff": "13. a. xiv. ff. 244-247",
-      "mss": "13. a. xiv.",
+      "collection": "Royal",
+      "mss": "13. A. xiv.",
       "ff": "ff. 244-247",
       "page": 194
     },
     {
-      "collection": "royal",
-      "mss_ff": "15. a. xxii. ff. 110-115",
-      "mss": "15. a. xxii.",
+      "collection": "Royal",
+      "mss": "15. A. xxii.",
       "ff": "ff. 110-115",
       "page": 194
     },
     {
-      "collection": "royal",
-      "mss_ff": "15. b. xi. ff. 67-69",
-      "mss": "15. b. xi.",
+      "collection": "Royal",
+      "mss": "15. B. xi.",
       "ff": "ff. 67-69",
       "page": 193
     },
     {
-      "collection": "cotton",
-      "mss_ff": "caligula a. x. ff. 200-204",
-      "mss": "caligula a. x.",
+      "collection": "Cotton",
+      "mss": "Caligula A. x.",
       "ff": "ff. 200-204",
       "page": 195
     },
     {
-      "collection": "cotton",
-      "mss_ff": "caligula b. vii. ff. 219, 220",
-      "mss": "caligula b. vii.",
+      "collection": "Cotton",
+      "mss": "Caligula B. vii.",
       "ff": "ff. 219, 220",
       "page": 193
     },
     {
-      "collection": "cotton",
-      "mss_ff": "vespasian b. xxv. ff. 117 b-123",
-      "mss": "vespasian b. xxv.",
+      "collection": "Cotton",
+      "mss": "Vespasian B. xxv.",
       "ff": "ff. 117 b-123",
       "page": 192
     },
     {
-      "collection": "cotton",
-      "mss_ff": "vespasian e. iv. ff. 143-147",
-      "mss": "vespasian e. iv.",
+      "collection": "Cotton",
+      "mss": "Vespasian E. iv.",
       "ff": "ff. 143-147",
       "page": 194
     },
     {
-      "collection": "cotton",
-      "mss_ff": "titus d. iii. ff. 143-147 b",
-      "mss": "titus d. iii.",
+      "collection": "Cotton",
+      "mss": "Titus D. iii.",
       "ff": "ff. 143-147 b",
       "page": 191
     },
     {
-      "collection": "cotton",
-      "mss_ff": "domitian xiii. ff. 104-107",
-      "mss": "domitian xiii.",
+      "collection": "Cotton",
+      "mss": "Domitian xiii.",
       "ff": "ff. 104-107",
       "page": 193
     },
     {
-      "collection": "cotton",
-      "mss_ff": "domitian xiii. ff. 132 b-134 b",
-      "mss": "domitian xiii.",
+      "collection": "Cotton",
+      "mss": "Domitian xiii.",
       "ff": "ff. 132 b-134 b",
       "page": 195
     },
     {
-      "collection": "egerton",
-      "mss_ff": "egerton 810 ff. 106-109 b",
-      "mss": "egerton 810",
+      "collection": "Egerton",
+      "mss": "Egerton 810",
       "ff": "ff. 106-109 b",
       "page": 190
     }
   ],
-  "karolellus": [
+  "Karolellus": [
     {
-      "collection": "royal",
-      "mss_ff": "13. a. xviii. ff. 136-149 b",
-      "mss": "13. a. xviii.",
+      "collection": "Royal",
+      "mss": "13. A. xviii.",
       "ff": "ff. 136-149 b",
       "page": 594
     }
   ],
-  "roman de brut": [
+  "Roman de Brut": [
     {
-      "collection": "royal",
-      "mss_ff": "13. a. xxi. ff. 40 b-113",
-      "mss": "13. a. xxi.",
+      "collection": "Royal",
+      "mss": "13. A. xxi.",
       "ff": "ff. 40 b-113",
       "page": 264
     },
     {
-      "collection": "cotton",
-      "mss_ff": "vitellius a. x. ff. 19-114 b",
-      "mss": "vitellius a. x.",
+      "collection": "Cotton",
+      "mss": "Vitellius A. x.",
       "ff": "ff. 19-114 b",
       "page": 259
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 6508",
-      "mss": "harley 6508",
+      "collection": "Harley",
+      "mss": "Harley 6508",
       "ff": null,
       "page": 263
     }
   ],
-  "havelok": [
+  "Havelok": [
     {
-      "collection": "royal",
-      "mss_ff": "13. a. xxi. ff. 113-117 b",
-      "mss": "13. a. xxi.",
+      "collection": "Royal",
+      "mss": "13. A. xxi.",
       "ff": "ff. 113-117 b",
       "page": 423
     },
     {
-      "collection": "royal",
-      "mss_ff": "13. a. xxi. ff. 113-117 b",
-      "mss": "13. a. xxi.",
+      "collection": "Royal",
+      "mss": "13. A. xxi.",
       "ff": "ff. 113-117 b",
       "page": 940
     }
   ],
-  "vita merlini": [
+  "Vita Merlini": [
     {
-      "collection": "royal",
-      "mss_ff": "13. e. i. ff. 143-146",
-      "mss": "13. e. i.",
+      "collection": "Royal",
+      "mss": "13. E. i.",
       "ff": "ff. 143-146",
       "page": 289
     },
     {
-      "collection": "cotton",
-      "mss_ff": "julius e. viii. ff. 12 b-17 b",
-      "mss": "julius e. viii.",
+      "collection": "Cotton",
+      "mss": "Julius E. viii.",
       "ff": "ff. 12 b-17 b",
       "page": 289
     },
     {
-      "collection": "cotton",
-      "mss_ff": "vespasian e. iv. ff. 112 b-138 b",
-      "mss": "vespasian e. iv.",
+      "collection": "Cotton",
+      "mss": "Vespasian E. iv.",
       "ff": "ff. 112 b-138 b",
       "page": 278
     },
     {
-      "collection": "cotton",
-      "mss_ff": "titus a. xix. ff. 63-73 b",
-      "mss": "titus a. xix.",
+      "collection": "Cotton",
+      "mss": "Titus A. xix.",
       "ff": "ff. 63-73 b",
       "page": 290
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 655. ff. 200 b-204 b",
-      "mss": "harley 655.",
+      "collection": "Harley",
+      "mss": "Harley 655.",
       "ff": "ff. 200 b-204 b",
       "page": 288
     }
   ],
-  "prophecies of merlin silvester": [
+  "Prophecies of Merlin Silvester": [
     {
-      "collection": "royal",
-      "mss_ff": "13. e. ix. ff. 27",
-      "mss": "13. e. ix.",
+      "collection": "Royal",
+      "mss": "13. E. ix.",
       "ff": "ff. 27",
       "page": 314
     },
     {
-      "collection": "royal",
-      "mss_ff": "15. c. xvi. ff. 183 b, 184",
-      "mss": "15. c. xvi.",
+      "collection": "Royal",
+      "mss": "15. C. xvi.",
       "ff": "ff. 183 b, 184",
       "page": 313
     },
     {
-      "collection": "cotton",
-      "mss_ff": "cotton appendix iv. ff. 102 b",
-      "mss": "cotton appendix iv.",
+      "collection": "Cotton",
+      "mss": "Cotton Appendix iv.",
       "ff": "ff. 102 b",
       "page": 315
     }
   ],
-  "historia regum britannia": [
+  "Historia Regum Britannia": [
     {
-      "collection": "royal",
-      "mss_ff": "14. c. i. ff. 80-137",
-      "mss": "14. c. i.",
+      "collection": "Royal",
+      "mss": "14. C. i.",
       "ff": "ff. 80-137",
       "page": 238
     },
     {
-      "collection": "royal",
-      "mss_ff": "15. c. xvi. ff. 146-183 b",
-      "mss": "15. c. xvi.",
+      "collection": "Royal",
+      "mss": "15. C. xvi.",
       "ff": "ff. 146-183 b",
       "page": 239
     }
   ],
-  "apollonius of tyre": [
+  "Apollonius of Tyre": [
     {
-      "collection": "royal",
-      "mss_ff": "14. c. xi. ff. 80-83 b",
-      "mss": "14. c. xi.",
+      "collection": "Royal",
+      "mss": "14. C. xi.",
       "ff": "ff. 80-83 b",
       "page": 170
     },
     {
-      "collection": "royal",
-      "mss_ff": "20. c. ii. ff. 210-236",
-      "mss": "20. c. ii.",
+      "collection": "Royal",
+      "mss": "20. C. ii.",
       "ff": "ff. 210-236",
       "page": 166
     },
     {
-      "collection": "cotton",
-      "mss_ff": "vespasian a. xiii. ff. 132-147 b",
-      "mss": "vespasian a. xiii.",
+      "collection": "Cotton",
+      "mss": "Vespasian A. xiii.",
       "ff": "ff. 132-147 b",
       "page": 164
     },
     {
-      "collection": "cotton",
-      "mss_ff": "titus d. iii. ff. 127-137 b",
-      "mss": "titus d. iii.",
+      "collection": "Cotton",
+      "mss": "Titus D. iii.",
       "ff": "ff. 127-137 b",
       "page": 169
     },
     {
-      "collection": "arundel",
-      "mss_ff": "arundel 123. ff. 33-42 b",
-      "mss": "arundel 123.",
+      "collection": "Arundel",
+      "mss": "Arundel 123.",
       "ff": "ff. 33-42 b",
       "page": 164
     },
     {
-      "collection": "arundel",
-      "mss_ff": "arundel 292. ff. 41-61",
-      "mss": "arundel 292.",
+      "collection": "Arundel",
+      "mss": "Arundel 292.",
       "ff": "ff. 41-61",
       "page": 163
     },
     {
-      "collection": "sloane",
-      "mss_ff": "sloane 1619 ff. 18-29",
-      "mss": "sloane 1619",
+      "collection": "Sloane",
+      "mss": "Sloane 1619",
       "ff": "ff. 18-29",
       "page": 161
     },
     {
-      "collection": "sloane",
-      "mss_ff": "sloane 2233",
-      "mss": "sloane 2233",
+      "collection": "Sloane",
+      "mss": "Sloane 2233",
       "ff": null,
       "page": 165
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 4857. ff. 28-56 b",
-      "mss": "add. 4857.",
+      "collection": "Additional",
+      "mss": "Add. 4857.",
       "ff": "ff. 28-56 b",
       "page": 167
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 4864. ff. 88-114 b",
-      "mss": "add. 4864.",
+      "collection": "Additional",
+      "mss": "Add. 4864.",
       "ff": "ff. 88-114 b",
       "page": 168
     }
   ],
-  "le chemin de vaillance": [
+  "Le Chemin de Vaillance": [
     {
-      "collection": "royal",
-      "mss_ff": "14. e. ii. ff. 1-293",
-      "mss": "14. e. ii.",
+      "collection": "Royal",
+      "mss": "14. E. ii.",
       "ff": "ff. 1-293",
       "page": 895
     }
   ],
-  "livre de l'ordre de chevalerie": [
+  "Livre de l'Ordre de Chevalerie": [
     {
-      "collection": "royal",
-      "mss_ff": "14. e. ii. ff. 337-353 b",
-      "mss": "14. e. ii.",
+      "collection": "Royal",
+      "mss": "14. E. ii.",
       "ff": "ff. 337-353 b",
       "page": 922
     }
   ],
-  "saint graal": [
+  "Saint Graal": [
     {
-      "collection": "royal",
-      "mss_ff": "14. e. iii. ff. 3-88 b",
-      "mss": "14. e. iii.",
+      "collection": "Royal",
+      "mss": "14. E. iii.",
       "ff": "ff. 3-88 b",
       "page": 341
     },
     {
-      "collection": "royal",
-      "mss_ff": "19. c. vii.",
-      "mss": "19. c. vii.",
+      "collection": "Royal",
+      "mss": "19. C. vii.",
       "ff": null,
       "page": 342
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 10,292. ff. 1-76",
-      "mss": "add. 10,292.",
+      "collection": "Additional",
+      "mss": "Add. 10,292.",
       "ff": "ff. 1-76",
       "page": 340
     }
   ],
-  "lancelot du lac": [
+  "Lancelot du Lac": [
     {
-      "collection": "royal",
-      "mss_ff": "14. e. iii. ff. 89-161 b",
-      "mss": "14. e. iii.",
+      "collection": "Royal",
+      "mss": "14. E. iii.",
       "ff": "ff. 89-161 b",
       "page": 354
     },
     {
-      "collection": "royal",
-      "mss_ff": "19. b. vii.",
-      "mss": "19. b. vii.",
+      "collection": "Royal",
+      "mss": "19. B. vii.",
       "ff": null,
       "page": 349
     },
     {
-      "collection": "royal",
-      "mss_ff": "19. c. viii.",
-      "mss": "19. c. viii.",
+      "collection": "Royal",
+      "mss": "19. C. viii.",
       "ff": null,
       "page": 345
     },
     {
-      "collection": "royal",
-      "mss_ff": "20. b. xix.",
-      "mss": "20. b. xix.",
+      "collection": "Royal",
+      "mss": "20. B. xix.",
       "ff": null,
       "page": 349
     },
     {
-      "collection": "royal",
-      "mss_ff": "20. c. vi.",
-      "mss": "20. c. vi.",
+      "collection": "Royal",
+      "mss": "20. C. vi.",
       "ff": null,
       "page": 350
     },
     {
-      "collection": "royal",
-      "mss_ff": "20. d. iii.",
-      "mss": "20. d. iii.",
+      "collection": "Royal",
+      "mss": "20. D. iii.",
       "ff": null,
       "page": 353
     },
     {
-      "collection": "royal",
-      "mss_ff": "20. d. iv.",
-      "mss": "20. d. iv.",
+      "collection": "Royal",
+      "mss": "20. D. iv.",
       "ff": null,
       "page": 351
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 4419",
-      "mss": "harley 4419",
+      "collection": "Harley",
+      "mss": "Harley 4419",
       "ff": null,
       "page": 353
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 6341",
-      "mss": "harley 6341",
+      "collection": "Harley",
+      "mss": "Harley 6341",
       "ff": null,
       "page": 355
     },
     {
-      "collection": "lansdowne",
-      "mss_ff": "lansdowne 757",
-      "mss": "lansdowne 757",
+      "collection": "Lansdowne",
+      "mss": "Lansdowne 757",
       "ff": null,
       "page": 347
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 10,293",
-      "mss": "add. 10,293",
+      "collection": "Additional",
+      "mss": "Add. 10,293",
       "ff": null,
       "page": 352
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 10,294",
-      "mss": "add. 10,294",
+      "collection": "Additional",
+      "mss": "Add. 10,294",
       "ff": null,
       "page": 352
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 17,443",
-      "mss": "add. 17,443",
+      "collection": "Additional",
+      "mss": "Add. 17,443",
       "ff": null,
       "page": 348
     }
   ],
-  "perceforest": [
+  "Perceforest": [
     {
-      "collection": "royal",
-      "mss_ff": "15. e. v.",
-      "mss": "15. e. v.",
+      "collection": "Royal",
+      "mss": "15. E. v.",
       "ff": null,
       "page": 377
     },
     {
-      "collection": "royal",
-      "mss_ff": "19. e. ii.",
-      "mss": "19. e. ii.",
+      "collection": "Royal",
+      "mss": "19. E. ii.",
       "ff": null,
       "page": 377
     },
     {
-      "collection": "royal",
-      "mss_ff": "19. e. iii.",
-      "mss": "19. e. iii.",
+      "collection": "Royal",
+      "mss": "19. E. iii.",
       "ff": null,
       "page": 377
     }
   ],
-  "simon de pouille": [
+  "Simon de Pouille": [
     {
-      "collection": "royal",
-      "mss_ff": "15. e. vi. ff. 25-42 b",
-      "mss": "15. e. vi.",
+      "collection": "Royal",
+      "mss": "15. E. vi.",
       "ff": "ff. 25-42 b",
       "page": 627
     }
   ],
-  "aspremont": [
+  "Aspremont": [
     {
-      "collection": "royal",
-      "mss_ff": "15. e. vi. ff. 43-69 b",
-      "mss": "15. e. vi.",
+      "collection": "Royal",
+      "mss": "15. E. vi.",
       "ff": "ff. 43-69 b",
       "page": 598
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 10,508. ff. 1-63 b",
-      "mss": "add. 10,508.",
+      "collection": "Additional",
+      "mss": "Add. 10,508.",
       "ff": "ff. 1-63 b",
       "page": 602
     }
   ],
-  "fierabras": [
+  "Fierabras": [
     {
-      "collection": "royal",
-      "mss_ff": "15. e. vi. ff. 70-85 b",
-      "mss": "15. e. vi.",
+      "collection": "Royal",
+      "mss": "15. E. vi.",
       "ff": "ff. 70-85 b",
       "page": 615
     }
   ],
-  "ogier le danois": [
+  "Ogier le Danois": [
     {
-      "collection": "royal",
-      "mss_ff": "15. e. vi. ff. 86-154 b",
-      "mss": "15. e. vi.",
+      "collection": "Royal",
+      "mss": "15. E. vi.",
       "ff": "ff. 86-154 b",
       "page": 604
     }
   ],
-  "quatre fils aimon": [
+  "Quatre fils Aimon": [
     {
-      "collection": "royal",
-      "mss_ff": "15. e. vi. ff. 155-206",
-      "mss": "15. e. vi.",
+      "collection": "Royal",
+      "mss": "15. E. vi.",
       "ff": "ff. 155-206",
       "page": 622
     },
     {
-      "collection": "royal",
-      "mss_ff": "16. g. ii.",
-      "mss": "16. g. ii.",
+      "collection": "Royal",
+      "mss": "16. G. ii.",
       "ff": null,
       "page": 619
     },
     {
-      "collection": "sloane",
-      "mss_ff": "sloane 960",
-      "mss": "sloane 960",
+      "collection": "Sloane",
+      "mss": "Sloane 960",
       "ff": null,
       "page": 624
     }
   ],
-  "pontus and sidoine": [
+  "Pontus and Sidoine": [
     {
-      "collection": "royal",
-      "mss_ff": "15. e. vi. ff. 207-226 b",
-      "mss": "15. e. vi.",
+      "collection": "Royal",
+      "mss": "15. E. vi.",
       "ff": "ff. 207-226 b",
       "page": 469
     }
   ],
-  "guy of warwick and heraud of ardennes": [
+  "Guy of Warwick and Heraud of Ardennes": [
     {
-      "collection": "royal",
-      "mss_ff": "15. e. vi. ff. 227-272",
-      "mss": "15. e. vi.",
+      "collection": "Royal",
+      "mss": "15. E. vi.",
       "ff": "ff. 227-272",
       "page": 487
     }
   ],
-  "knight of the swan": [
+  "Knight of the Swan": [
     {
-      "collection": "royal",
-      "mss_ff": "15. e. vi. ff. 273-292",
-      "mss": "15. e. vi.",
+      "collection": "Royal",
+      "mss": "15. E. vi.",
       "ff": "ff. 273-292",
       "page": 708
     },
     {
-      "collection": "cotton",
-      "mss_ff": "caligula a. ii. ff. 125 b-129 b",
-      "mss": "caligula a. ii.",
+      "collection": "Cotton",
+      "mss": "Caligula A. ii.",
       "ff": "ff. 125 b-129 b",
       "page": 710
     }
   ],
-  "iliaca": [
+  "Iliaca": [
     {
-      "collection": "royal",
-      "mss_ff": "16. c. iv. a. b.",
-      "mss": "16. c. iv. a. b.",
+      "collection": "Royal",
+      "mss": "16. C. iv. A. B.",
       "ff": null,
       "page": 2
     },
     {
-      "collection": "royal",
-      "mss_ff": "16. d. iii. a. b.",
-      "mss": "16. d. iii. a. b.",
+      "collection": "Royal",
+      "mss": "16. D. iii. A. B.",
       "ff": null,
       "page": 6
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 5662. ff. 1-56",
-      "mss": "harley 5662.",
+      "collection": "Harley",
+      "mss": "Harley 5662.",
       "ff": "ff. 1-56",
       "page": 8
     }
   ],
-  "heroica": [
+  "Heroica": [
     {
-      "collection": "royal",
-      "mss_ff": "16. c. xxiii. ff. 2-69 b",
-      "mss": "16. c. xxiii.",
+      "collection": "Royal",
+      "mss": "16. C. xxiii.",
       "ff": "ff. 2-69 b",
       "page": 1
     }
   ],
-  "titus and vespasian": [
+  "Titus and Vespasian": [
     {
-      "collection": "royal",
-      "mss_ff": "16. e. viii. ff. 73-102 b",
-      "mss": "16. e. viii.",
+      "collection": "Royal",
+      "mss": "16. E. viii.",
       "ff": "ff. 73-102 b",
       "page": 176
     },
     {
-      "collection": "cotton",
-      "mss_ff": "caligula a. ii. ff. 111-125",
-      "mss": "caligula a. ii.",
+      "collection": "Cotton",
+      "mss": "Caligula A. ii.",
       "ff": "ff. 111-125",
       "page": 180
     },
     {
-      "collection": "cotton",
-      "mss_ff": "vespasian e. xvi. ff. 70-75 b",
-      "mss": "vespasian e. xvi.",
+      "collection": "Cotton",
+      "mss": "Vespasian E. xvi.",
       "ff": "ff. 70-75 b",
       "page": 185
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 10,038. ff. 2-81 b",
-      "mss": "add. 10,038.",
+      "collection": "Additional",
+      "mss": "Add. 10,038.",
       "ff": "ff. 2-81 b",
       "page": 187
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 10,289. ff. 82-121",
-      "mss": "add. 10,289.",
+      "collection": "Additional",
+      "mss": "Add. 10,289.",
       "ff": "ff. 82-121",
       "page": 179
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 31042 ff 50-66",
-      "mss": "add. 31042",
+      "collection": "Additional",
+      "mss": "Add. 31042",
       "ff": "ff50-66",
       "page": 928
     }
   ],
-  "voyage of charlemagne to jerusalem and constantinople": [
+  "Voyage of Charlemagne to Jerusalem and Constantinople": [
     {
-      "collection": "royal",
-      "mss_ff": "16. e. ff. 131-144 b",
-      "mss": "16. e.",
+      "collection": "Royal",
+      "mss": "16. E.",
       "ff": "ff. 131-144 b",
       "page": 625
     }
   ],
-  "sydrac and boctus": [
+  "Sydrac and Boctus": [
     {
-      "collection": "royal",
-      "mss_ff": "16. f. v. ff. 1-113 b",
-      "mss": "16. f. v.",
+      "collection": "Royal",
+      "mss": "16. F. v.",
       "ff": "ff. 1-113 b",
       "page": 914
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 1121. ff. 1-140",
-      "mss": "harley 1121.",
+      "collection": "Harley",
+      "mss": "Harley 1121.",
       "ff": "ff. 1-140",
       "page": 912
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 4294. ff. 1-79 b",
-      "mss": "harley 4294.",
+      "collection": "Harley",
+      "mss": "Harley 4294.",
       "ff": "ff. 1-79 b",
       "page": 918
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 4361",
-      "mss": "harley 4361",
+      "collection": "Harley",
+      "mss": "Harley 4361",
       "ff": null,
       "page": 911
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 4417. ff. 1-141 b",
-      "mss": "harley 4417.",
+      "collection": "Harley",
+      "mss": "Harley 4417.",
       "ff": "ff. 1-141 b",
       "page": 908
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 4486. ff. 69-146",
-      "mss": "harley 4486.",
+      "collection": "Harley",
+      "mss": "Harley 4486.",
       "ff": "ff. 69-146",
       "page": 913
     },
     {
-      "collection": "lansdowne",
-      "mss_ff": "lansdowne 793",
-      "mss": "lansdowne 793",
+      "collection": "Lansdowne",
+      "mss": "Lansdowne 793",
       "ff": null,
       "page": 915
     },
     {
-      "collection": "sloane",
-      "mss_ff": "sloane 2232",
-      "mss": "sloane 2232",
+      "collection": "Sloane",
+      "mss": "Sloane 2232",
       "ff": null,
       "page": 919
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 10,286. ff. 2-114",
-      "mss": "add. 10,286.",
+      "collection": "Additional",
+      "mss": "Add. 10,286.",
       "ff": "ff. 2-114",
       "page": 921
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 16,563",
-      "mss": "add. 16,563",
+      "collection": "Additional",
+      "mss": "Add. 16,563",
       "ff": null,
       "page": 903
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 17,914",
-      "mss": "add. 17,914",
+      "collection": "Additional",
+      "mss": "Add. 17,914",
       "ff": null,
       "page": 909
     }
   ],
-  "sir gowghter": [
+  "Sir Gowghter": [
     {
-      "collection": "royal",
-      "mss_ff": "17. b. xliii. ff. 116-131 b",
-      "mss": "17. b. xliii.",
+      "collection": "Royal",
+      "mss": "17. B. xliii.",
       "ff": "ff. 116-131 b",
       "page": 419
     }
   ],
-  "tale of gamelyn": [
+  "Tale of Gamelyn": [
     {
-      "collection": "royal",
-      "mss_ff": "17. d. xv. ff. 66 b-79 b",
-      "mss": "17. d. xv.",
+      "collection": "Royal",
+      "mss": "17. D. xv.",
       "ff": "ff. 66 b-79 b",
       "page": 515
     },
     {
-      "collection": "royal",
-      "mss_ff": "18. c. ii. ff. 56 b-67 b",
-      "mss": "18. c. ii.",
+      "collection": "Royal",
+      "mss": "18. C. ii.",
       "ff": "ff. 56 b-67 b",
       "page": 514
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 1758. ff. 48-55",
-      "mss": "harley 1758.",
+      "collection": "Harley",
+      "mss": "Harley 1758.",
       "ff": "ff. 48-55",
       "page": 513
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 7334. ff. 59-70 b",
-      "mss": "harley 7334.",
+      "collection": "Harley",
+      "mss": "Harley 7334.",
       "ff": "ff. 59-70 b",
       "page": 508
     },
     {
-      "collection": "lansdowne",
-      "mss_ff": "lansdowne 851. ff. 54 b-65",
-      "mss": "lansdowne 851.",
+      "collection": "Lansdowne",
+      "mss": "Lansdowne 851.",
       "ff": "ff. 54 b-65",
       "page": 512
     },
     {
-      "collection": "sloane",
-      "mss_ff": "sloane 1685. ff. 51 b-62 b",
-      "mss": "sloane 1685.",
+      "collection": "Sloane",
+      "mss": "Sloane 1685.",
       "ff": "ff. 51 b-62 b",
       "page": 514
     },
     {
-      "collection": "sloane",
-      "mss_ff": "sloane 1686. ff. 71-86 b",
-      "mss": "sloane 1686.",
+      "collection": "Sloane",
+      "mss": "Sloane 1686.",
       "ff": "ff. 71-86 b",
       "page": 515
     }
   ],
-  "recueil des histoires de troie": [
+  "Recueil des Histoires de Troie": [
     {
-      "collection": "royal",
-      "mss_ff": "17. e. ii.",
-      "mss": "17. e. ii.",
+      "collection": "Royal",
+      "mss": "17. E. ii.",
       "ff": null,
       "page": 64
     }
   ],
-  "mélusine": [
+  "Mélusine": [
     {
-      "collection": "royal",
-      "mss_ff": "18. b. ii.",
-      "mss": "18. b. ii.",
+      "collection": "Royal",
+      "mss": "18. B. ii.",
       "ff": null,
       "page": 690
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 4418",
-      "mss": "harley 4418",
+      "collection": "Harley",
+      "mss": "Harley 4418",
       "ff": null,
       "page": 687
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 6796",
-      "mss": "add. 6796",
+      "collection": "Additional",
+      "mss": "Add. 6796",
       "ff": null,
       "page": 692
     }
   ],
-  "troy book": [
+  "Troy Book": [
     {
-      "collection": "royal",
-      "mss_ff": "18. d. ii. ff. 6-146",
-      "mss": "18. d. ii.",
+      "collection": "Royal",
+      "mss": "18. D. ii.",
       "ff": "ff. 6-146",
       "page": 81
     },
     {
-      "collection": "royal",
-      "mss_ff": "18. d. vi.",
-      "mss": "18. d. vi.",
+      "collection": "Royal",
+      "mss": "18. D. vi.",
       "ff": null,
       "page": 79
     },
     {
-      "collection": "cotton",
-      "mss_ff": "augustus a. iv.",
-      "mss": "augustus a. iv.",
+      "collection": "Cotton",
+      "mss": "Augustus A. iv.",
       "ff": null,
       "page": 75
     },
     {
-      "collection": "arundel",
-      "mss_ff": "arundel 99",
-      "mss": "arundel 99",
+      "collection": "Arundel",
+      "mss": "Arundel 99",
       "ff": null,
       "page": 80
     }
   ],
-  "romance of thebes": [
+  "Romance of Thebes": [
     {
-      "collection": "royal",
-      "mss_ff": "18. d. ii. ff. 147 b-162",
-      "mss": "18. d. ii.",
+      "collection": "Royal",
+      "mss": "18. D. ii.",
       "ff": "ff. 147 b-162",
       "page": 90
     },
     {
-      "collection": "cotton",
-      "mss_ff": "cotton appendix xxvii. ff. 11-61; formerly ff. 106-130 b, and xxxix. ff. 80-103 b",
-      "mss": "cotton appendix xxvii.",
+      "collection": "Cotton",
+      "mss": "Cotton Appendix xxvii.",
       "ff": "ff. 11-61; formerly ff. 106-130 b, and xxxix. ff. 80-103 b",
       "page": 91
     },
     {
-      "collection": "arundel",
-      "mss_ff": "arundel 119",
-      "mss": "arundel 119",
+      "collection": "Arundel",
+      "mss": "Arundel 119",
       "ff": null,
       "page": 87
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 18,632. ff. 5-33",
-      "mss": "add. 18,632.",
+      "collection": "Additional",
+      "mss": "Add. 18,632.",
       "ff": "ff. 5-33",
       "page": 89
     }
   ],
-  "roman de la rose": [
+  "Roman de la Rose": [
     {
-      "collection": "royal",
-      "mss_ff": "19. a. xviii.",
-      "mss": "19. a. xviii.",
+      "collection": "Royal",
+      "mss": "19. A. xviii.",
       "ff": null,
       "page": 885
     },
     {
-      "collection": "royal",
-      "mss_ff": "19. b. xii. ff. 2-147 b",
-      "mss": "19. b. xii.",
+      "collection": "Royal",
+      "mss": "19. B. xii.",
       "ff": "ff. 2-147 b",
       "page": 888
     },
     {
-      "collection": "royal",
-      "mss_ff": "19. b. xiii.",
-      "mss": "19. b. xiii.",
+      "collection": "Royal",
+      "mss": "19. B. xiii.",
       "ff": null,
       "page": 874
     },
     {
-      "collection": "royal",
-      "mss_ff": "20. a. xvii.",
-      "mss": "20. a. xvii.",
+      "collection": "Royal",
+      "mss": "20. A. xvii.",
       "ff": null,
       "page": 880
     },
     {
-      "collection": "royal",
-      "mss_ff": "20. d. vii.",
-      "mss": "20. d. vii.",
+      "collection": "Royal",
+      "mss": "20. D. vii.",
       "ff": null,
       "page": 889
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 4425",
-      "mss": "harley 4425",
+      "collection": "Harley",
+      "mss": "Harley 4425",
       "ff": null,
       "page": 892
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 12,042",
-      "mss": "add. 12,042",
+      "collection": "Additional",
+      "mss": "Add. 12,042",
       "ff": null,
       "page": 887
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 16,169. ff. 1, 477",
-      "mss": "add. 16,169.",
+      "collection": "Additional",
+      "mss": "Add. 16,169.",
       "ff": "ff. 1, 477",
       "page": 894
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 31,840",
-      "mss": "add. 31,840",
+      "collection": "Additional",
+      "mss": "Add. 31,840",
       "ff": null,
       "page": 884
     },
     {
-      "collection": "egerton",
-      "mss_ff": "egerton 881",
-      "mss": "egerton 881",
+      "collection": "Egerton",
+      "mss": "Egerton 881",
       "ff": null,
       "page": 879
     },
     {
-      "collection": "egerton",
-      "mss_ff": "egerton 1069",
-      "mss": "egerton 1069",
+      "collection": "Egerton",
+      "mss": "Egerton 1069",
       "ff": null,
       "page": 890
     },
     {
-      "collection": "egerton",
-      "mss_ff": "egerton 2022",
-      "mss": "egerton 2022",
+      "collection": "Egerton",
+      "mss": "Egerton 2022",
       "ff": null,
       "page": 891
     }
   ],
-  "la vengeance d'alexandre": [
+  "La Vengeance d'Alexandre": [
     {
-      "collection": "royal",
-      "mss_ff": "19. d. i. ff. 47-57",
-      "mss": "19. d. i.",
+      "collection": "Royal",
+      "mss": "19. D. i.",
       "ff": "ff. 47-57",
       "page": 143
     }
   ],
-  "guillaume d'orange": [
+  "Guillaume d'Orange": [
     {
-      "collection": "royal",
-      "mss_ff": "20. b. xix.",
-      "mss": "20. b. xix.",
+      "collection": "Royal",
+      "mss": "20. B. xix.",
       "ff": null,
       "page": 654
     },
     {
-      "collection": "royal",
-      "mss_ff": "20. d. xi.",
-      "mss": "20. d. xi.",
+      "collection": "Royal",
+      "mss": "20. D. xi.",
       "ff": null,
       "page": 632
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 1321",
-      "mss": "harley 1321",
+      "collection": "Harley",
+      "mss": "Harley 1321",
       "ff": null,
       "page": 660
     }
   ],
-  "cleriadus et meliadice": [
+  "Cleriadus et Meliadice": [
     {
-      "collection": "royal",
-      "mss_ff": "20. c. ii. ff. 1-209 b",
-      "mss": "20. c. ii.",
+      "collection": "Royal",
+      "mss": "20. C. ii.",
       "ff": "ff. 1-209 b",
       "page": 383
     }
   ],
-  "tristram": [
+  "Tristram": [
     {
-      "collection": "royal",
-      "mss_ff": "20. d. ii.",
-      "mss": "20. d. ii.",
+      "collection": "Royal",
+      "mss": "20. D. ii.",
       "ff": null,
       "page": 361
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 49",
-      "mss": "harley 49",
+      "collection": "Harley",
+      "mss": "Harley 49",
       "ff": null,
       "page": 358
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 4389",
-      "mss": "harley 4389",
+      "collection": "Harley",
+      "mss": "Harley 4389",
       "ff": null,
       "page": 356
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 5474",
-      "mss": "add. 5474",
+      "collection": "Additional",
+      "mss": "Add. 5474",
       "ff": null,
       "page": 359
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 23,829",
-      "mss": "add. 23,829",
+      "collection": "Additional",
+      "mss": "Add. 23,829",
       "ff": null,
       "page": 357
     },
     {
-      "collection": "egerton",
-      "mss_ff": "egerton 989",
-      "mss": "egerton 989",
+      "collection": "Egerton",
+      "mss": "Egerton 989",
       "ff": null,
       "page": 362
     }
   ],
-  "gesta regum britannia": [
+  "Gesta Regum Britannia": [
     {
-      "collection": "cotton",
-      "mss_ff": "julius d. xi. ff. 2-60",
-      "mss": "julius d. xi.",
+      "collection": "Cotton",
+      "mss": "Julius D. xi.",
       "ff": "ff. 2-60",
       "page": 274
     }
   ],
-  "sir eglamour of artois": [
+  "Sir Eglamour of Artois": [
     {
-      "collection": "cotton",
-      "mss_ff": "caligula a. ii. ff. 5 b-13",
-      "mss": "caligula a. ii.",
+      "collection": "Cotton",
+      "mss": "Caligula A. ii.",
       "ff": "ff. 5 b-13",
       "page": 766
     }
   ],
-  "octavian the emperor": [
+  "Octavian the Emperor": [
     {
-      "collection": "cotton",
-      "mss_ff": "caligula a. ii. ff. 22 b-35",
-      "mss": "caligula a. ii.",
+      "collection": "Cotton",
+      "mss": "Caligula A. ii.",
       "ff": "ff. 22 b-35",
       "page": 762
     }
   ],
-  "sir launfal": [
+  "Sir Launfal": [
     {
-      "collection": "cotton",
-      "mss_ff": "caligula a. ii. ff. 35 b-42 b",
-      "mss": "caligula a. ii.",
+      "collection": "Cotton",
+      "mss": "Caligula A. ii.",
       "ff": "ff. 35 b-42 b",
       "page": 416
     }
   ],
-  "lybeaus desconus": [
+  "Lybeaus Desconus": [
     {
-      "collection": "cotton",
-      "mss_ff": "caligula a. ii. ff. 42 b-57",
-      "mss": "caligula a. ii.",
+      "collection": "Cotton",
+      "mss": "Caligula A. ii.",
       "ff": "ff. 42 b-57",
       "page": 400
     }
   ],
-  "emare": [
+  "Emare": [
     {
-      "collection": "cotton",
-      "mss_ff": "caligula a. ii. ff. 71-76 b",
-      "mss": "caligula a. ii.",
+      "collection": "Cotton",
+      "mss": "Caligula A. ii.",
       "ff": "ff. 71-76 b",
       "page": 418
     }
   ],
-  "sir isumbras": [
+  "Sir Isumbras": [
     {
-      "collection": "cotton",
-      "mss_ff": "caligula a. ii. ff. 130-134",
-      "mss": "caligula a. ii.",
+      "collection": "Cotton",
+      "mss": "Caligula A. ii.",
       "ff": "ff. 130-134",
       "page": 760
     }
   ],
-  "lazamon's brut": [
+  "Lazamon's Brut": [
     {
-      "collection": "cotton",
-      "mss_ff": "caligula a. ix. ff. 3-194 b",
-      "mss": "caligula a. ix.",
+      "collection": "Cotton",
+      "mss": "Caligula A. ix.",
       "ff": "ff. 3-194 b",
       "page": 268
     }
   ],
-  "prophecy of merlin": [
+  "Prophecy of Merlin": [
     {
-      "collection": "cotton",
-      "mss_ff": "caligula b. vii. ff. 210-213",
-      "mss": "caligula b. vii.",
+      "collection": "Cotton",
+      "mss": "Caligula B. vii.",
       "ff": "ff. 210-213",
       "page": 303
     },
     {
-      "collection": "cotton",
-      "mss_ff": "titus d. vii. ff. 26-36",
-      "mss": "titus d. vii.",
+      "collection": "Cotton",
+      "mss": "Titus D. vii.",
       "ff": "ff. 26-36",
       "page": 301
     },
     {
-      "collection": "cotton",
-      "mss_ff": "cleopatra c. iv. ff. 55 b and 66-68 b",
-      "mss": "cleopatra c. iv.",
+      "collection": "Cotton",
+      "mss": "Cleopatra C. iv.",
       "ff": "ff. 55 b and 66-68 b",
       "page": 298
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 838. ff. 92-93 b",
-      "mss": "harley 838.",
+      "collection": "Harley",
+      "mss": "Harley 838.",
       "ff": "ff. 92-93 b",
       "page": 302
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 25,014. ff. 119 b, col. 2",
-      "mss": "add. 25,014.",
+      "collection": "Additional",
+      "mss": "Add. 25,014.",
       "ff": "ff. 119 b, col. 2",
       "page": 292
     }
   ],
-  "prophecies": [
+  "Prophecies": [
     {
-      "collection": "cotton",
-      "mss_ff": "claudius e. viii. ff. 1 b, 23",
-      "mss": "claudius e. viii.",
+      "collection": "Cotton",
+      "mss": "Claudius E. viii.",
       "ff": "ff. 1 b, 23",
       "page": 317
     },
     {
-      "collection": "cotton",
-      "mss_ff": "titus d. xix. ff. 118",
-      "mss": "titus d. xix.",
+      "collection": "Cotton",
+      "mss": "Titus D. xix.",
       "ff": "ff. 118",
       "page": 319
     },
     {
-      "collection": "cotton",
-      "mss_ff": "faustina b. ix. ff. 241 b, 242",
-      "mss": "faustina b. ix.",
+      "collection": "Cotton",
+      "mss": "Faustina B. ix.",
       "ff": "ff. 241 b, 242",
       "page": 319
     }
   ],
-  "sir gawain and the green knight": [
+  "Sir Gawain and the Green Knight": [
     {
-      "collection": "cotton",
-      "mss_ff": "nero a. x. ff. 90 b-126",
-      "mss": "nero a. x.",
+      "collection": "Cotton",
+      "mss": "Nero A. x.",
       "ff": "ff. 90 b-126",
       "page": 387
     }
   ],
-  "story of albina and her sisters": [
+  "Story of Albina and her Sisters": [
     {
-      "collection": "cotton",
-      "mss_ff": "nero d. viii. ff. 186, 187",
-      "mss": "nero d. viii.",
+      "collection": "Cotton",
+      "mss": "Nero D. viii.",
       "ff": "ff. 186, 187",
       "page": 199
     },
     {
-      "collection": "cotton",
-      "mss_ff": "vespasian e. x. ff. 390 b-392",
-      "mss": "vespasian e. x.",
+      "collection": "Cotton",
+      "mss": "Vespasian E. x.",
       "ff": "ff. 390 b-392",
       "page": 200
     },
     {
-      "collection": "cotton",
-      "mss_ff": "titus a. xix. ff. 103",
-      "mss": "titus a. xix.",
+      "collection": "Cotton",
+      "mss": "Titus A. xix.",
       "ff": "ff. 103",
       "page": 201
     },
     {
-      "collection": "cotton",
-      "mss_ff": "cleopatra d. viii. ff. 3 b-5",
-      "mss": "cleopatra d. viii.",
+      "collection": "Cotton",
+      "mss": "Cleopatra D. viii.",
       "ff": "ff. 3 b-5",
       "page": 200
     },
     {
-      "collection": "cotton",
-      "mss_ff": "cleopatra d. ix. ff. 67, 68",
-      "mss": "cleopatra d. ix.",
+      "collection": "Cotton",
+      "mss": "Cleopatra D. ix.",
       "ff": "ff. 67, 68",
       "page": 198
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 941. ff. 1-3",
-      "mss": "harley 941.",
+      "collection": "Harley",
+      "mss": "Harley 941.",
       "ff": "ff. 1-3",
       "page": 201
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 2386. ff. 65 b-67",
-      "mss": "harley 2386.",
+      "collection": "Harley",
+      "mss": "Harley 2386.",
       "ff": "ff. 65 b-67",
       "page": 202
     }
   ],
-  "petit jean de saintré": [
+  "Petit Jean de Saintré": [
     {
-      "collection": "cotton",
-      "mss_ff": "nero d. ix. ff. 1-108",
-      "mss": "nero d. ix.",
+      "collection": "Cotton",
+      "mss": "Nero D. ix.",
       "ff": "ff. 1-108",
       "page": 775
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 11,614",
-      "mss": "add. 11,614",
+      "collection": "Additional",
+      "mss": "Add. 11,614",
       "ff": null,
       "page": 778
     }
   ],
-  "floridam and elluide": [
+  "Floridam and Elluide": [
     {
-      "collection": "cotton",
-      "mss_ff": "nero d. ix. ff. 109-115",
-      "mss": "nero d. ix.",
+      "collection": "Cotton",
+      "mss": "Nero D. ix.",
       "ff": "ff. 109-115",
       "page": 779
     }
   ],
-  "ywain and gawain": [
+  "Ywain and Gawain": [
     {
-      "collection": "cotton",
-      "mss_ff": "galba e. ix. ff. 4-25",
-      "mss": "galba e. ix.",
+      "collection": "Cotton",
+      "mss": "Galba E. ix.",
       "ff": "ff. 4-25",
       "page": 392
     }
   ],
-  "merlin's prophecy of the six kings": [
+  "Merlin's Prophecy of the Six Kings": [
     {
-      "collection": "cotton",
-      "mss_ff": "galba e. ix. ff. 49, 50",
-      "mss": "galba e. ix.",
+      "collection": "Cotton",
+      "mss": "Galba E. ix.",
       "ff": "ff. 49, 50",
       "page": 309
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 746. ff. 1 b-3",
-      "mss": "harley 746.",
+      "collection": "Harley",
+      "mss": "Harley 746.",
       "ff": "ff. 1 b-3",
       "page": 309
     }
   ],
-  "letters of dindimus to alexander the great": [
+  "Letters of Dindimus to Alexander the Great": [
     {
-      "collection": "cotton",
-      "mss_ff": "galba e. xi. ff. 98 b-101 b",
-      "mss": "galba e. xi.",
+      "collection": "Cotton",
+      "mss": "Galba E. xi.",
       "ff": "ff. 98 b-101 b",
       "page": 136
     }
   ],
-  "lisamon's brut": [
+  "Lisamon's Brut": [
     {
-      "collection": "cotton",
-      "mss_ff": "otho c. xiii.",
-      "mss": "otho c. xiii.",
+      "collection": "Cotton",
+      "mss": "Otho C. xiii.",
       "ff": null,
       "page": 271
     }
   ],
-  "marvels of india": [
+  "Marvels of India": [
     {
-      "collection": "cotton",
-      "mss_ff": "vitellius a. xv. ff. 109-133 b",
-      "mss": "vitellius a. xv.",
+      "collection": "Cotton",
+      "mss": "Vitellius A. xv.",
       "ff": "ff. 109-133 b",
       "page": 134
     },
     {
-      "collection": "arundel",
-      "mss_ff": "arundel 242. ff. 160-182",
-      "mss": "arundel 242.",
+      "collection": "Arundel",
+      "mss": "Arundel 242.",
       "ff": "ff. 160-182",
       "page": 133
     }
   ],
-  "floyras and blanchefleur": [
+  "Floyras and Blanchefleur": [
     {
-      "collection": "cotton",
-      "mss_ff": "vitellius d. iii. ff. 6-8 b",
-      "mss": "vitellius d. iii.",
+      "collection": "Cotton",
+      "mss": "Vitellius D. iii.",
       "ff": "ff. 6-8 b",
       "page": 716
     }
   ],
-  "thomas of erceldoune": [
+  "Thomas of Erceldoune": [
     {
-      "collection": "cotton",
-      "mss_ff": "vitellius e. x. ff. 240 b-243",
-      "mss": "vitellius e. x.",
+      "collection": "Cotton",
+      "mss": "Vitellius E. x.",
       "ff": "ff. 240 b-243",
       "page": 330
     },
     {
-      "collection": "lansdowne",
-      "mss_ff": "lansdowne 762. ff. 24-31, 48-58 b, 61 b-71, 75-88",
-      "mss": "lansdowne 762.",
+      "collection": "Lansdowne",
+      "mss": "Lansdowne 762.",
       "ff": "ff. 24-31, 48-58 b, 61 b-71, 75-88",
       "page": 331
     }
   ],
-  "ipomodon": [
+  "Ipomodon": [
     {
-      "collection": "cotton",
-      "mss_ff": "vespasian a. vii. ff. 37-104",
-      "mss": "vespasian a. vii.",
+      "collection": "Cotton",
+      "mss": "Vespasian A. vii.",
       "ff": "ff. 37-104",
       "page": 728
     }
   ],
-  "brutus": [
+  "Brutus": [
     {
-      "collection": "cotton",
-      "mss_ff": "vespasian a. x. ff. 44 b-51",
-      "mss": "vespasian a. x.",
+      "collection": "Cotton",
+      "mss": "Vespasian A. x.",
       "ff": "ff. 44 b-51",
       "page": 277
     }
   ],
-  "lanval": [
+  "Lanval": [
     {
-      "collection": "cotton",
-      "mss_ff": "vespasian b. xiv. ff. 1-8 b",
-      "mss": "vespasian b. xiv.",
+      "collection": "Cotton",
+      "mss": "Vespasian B. xiv.",
       "ff": "ff. 1-8 b",
       "page": 415
     }
   ],
-  "fall of troy": [
+  "Fall of Troy": [
     {
-      "collection": "cotton",
-      "mss_ff": "vespasian b. xiv. ff. 18, 18 b",
-      "mss": "vespasian b. xiv.",
+      "collection": "Cotton",
+      "mss": "Vespasian B. xiv.",
       "ff": "ff. 18, 18 b",
       "page": 31
     },
     {
-      "collection": "cotton",
-      "mss_ff": "cleopatra a. viii. ff. 56-58",
-      "mss": "cleopatra a. viii.",
+      "collection": "Cotton",
+      "mss": "Cleopatra A. viii.",
       "ff": "ff. 56-58",
       "page": 30
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 3202. ff. 114 b-115 b",
-      "mss": "harley 3202.",
+      "collection": "Harley",
+      "mss": "Harley 3202.",
       "ff": "ff. 114 b-115 b",
       "page": 32
     }
   ],
-  "fall of troy and adventures of æneas": [
+  "Fall of Troy and Adventures of Æneas": [
     {
-      "collection": "cotton",
-      "mss_ff": "vespasian b. xxiii. part iii. ff. 118 b-122 b",
-      "mss": "vespasian b. xxiii. part iii.",
+      "collection": "Cotton",
+      "mss": "Vespasian B. xxiii. Part III.",
       "ff": "ff. 118 b-122 b",
       "page": 33
     }
   ],
-  "two prophecies": [
+  "Two Prophecies": [
     {
-      "collection": "cotton",
-      "mss_ff": "vespasian d. xviii. ff. 125 b-127* b",
-      "mss": "vespasian d. xviii.",
+      "collection": "Cotton",
+      "mss": "Vespasian D. xviii.",
       "ff": "ff. 125 b-127* b",
       "page": 325
     }
   ],
-  "prophecies of merlin, etc.": [
+  "Prophecies of Merlin, etc.": [
     {
-      "collection": "cotton",
-      "mss_ff": "vespasian e. vii. ff. 78-126, 129, 130",
-      "mss": "vespasian e. vii.",
+      "collection": "Cotton",
+      "mss": "Vespasian E. vii.",
       "ff": "ff. 78-126, 129, 130",
       "page": 320
     }
   ],
-  "whole prophecy of scotland": [
+  "Whole Prophecy of Scotland": [
     {
-      "collection": "cotton",
-      "mss_ff": "vespasian e. viii. ff. 16-29",
-      "mss": "vespasian e. viii.",
+      "collection": "Cotton",
+      "mss": "Vespasian E. viii.",
       "ff": "ff. 16-29",
       "page": 337
     },
     {
-      "collection": "sloane",
-      "mss_ff": "sloane 1802",
-      "mss": "sloane 1802",
+      "collection": "Sloane",
+      "mss": "Sloane 1802",
       "ff": null,
       "page": 334
     }
   ],
-  "battle of roncevaux": [
+  "Battle of Roncevaux": [
     {
-      "collection": "cotton",
-      "mss_ff": "titus a. xix. ff. 153-155",
-      "mss": "titus a. xix.",
+      "collection": "Cotton",
+      "mss": "Titus A. xix.",
       "ff": "ff. 153-155",
       "page": 630
     }
   ],
-  "story of troy and adventures of æneas": [
+  "Story of Troy and Adventures of Æneas": [
     {
-      "collection": "cotton",
-      "mss_ff": "titus a. xx. ff. 99-104",
-      "mss": "titus a. xx.",
+      "collection": "Cotton",
+      "mss": "Titus A. xx.",
       "ff": "ff. 99-104",
       "page": 29
     }
   ],
-  "brut y brenhinoedd": [
+  "Brut y Brenhinoedd": [
     {
-      "collection": "cotton",
-      "mss_ff": "cleopatra b. v. ff. 1-108 b",
-      "mss": "cleopatra b. v.",
+      "collection": "Cotton",
+      "mss": "Cleopatra B. v.",
       "ff": "ff. 1-108 b",
       "page": 255
     }
   ],
-  "prophecy of the lily, the lion, and the son of man": [
+  "Prophecy of the Lily, the Lion, and the Son of Man": [
     {
-      "collection": "cotton",
-      "mss_ff": "cleopatra d. iii. ff. 184",
-      "mss": "cleopatra d. iii.",
+      "collection": "Cotton",
+      "mss": "Cleopatra D. iii.",
       "ff": "ff. 184",
       "page": 318
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 1008. ff. 81",
-      "mss": "harley 1008.",
+      "collection": "Harley",
+      "mss": "Harley 1008.",
       "ff": "ff. 81",
       "page": 318
     }
   ],
-  "meriadoc and gawain": [
+  "Meriadoc and Gawain": [
     {
-      "collection": "cotton",
-      "mss_ff": "faustina b. vi. ff. 2-40 b",
-      "mss": "faustina b. vi.",
+      "collection": "Cotton",
+      "mss": "Faustina B. vi.",
       "ff": "ff. 2-40 b",
       "page": 374
     }
   ],
-  "four prophecies": [
+  "Four Prophecies": [
     {
-      "collection": "cotton",
-      "mss_ff": "cotton roll ii. 23",
-      "mss": "cotton roll ii. 23",
+      "collection": "Cotton",
+      "mss": "Cotton Roll ii. 23",
       "ff": null,
       "page": 324
     }
   ],
-  "the three kings' sons": [
+  "The Three Kings' Sons": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 326. ff. 8-123 b",
-      "mss": "harley 326.",
+      "collection": "Harley",
+      "mss": "Harley 326.",
       "ff": "ff. 8-123 b",
       "page": 782
     }
   ],
-  "romance of troy": [
+  "Romance of Troy": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 525. ff. 1-34 b",
-      "mss": "harley 525.",
+      "collection": "Harley",
+      "mss": "Harley 525.",
       "ff": "ff. 1-34 b",
       "page": 84
     }
   ],
-  "king robert of sicily": [
+  "King Robert of Sicily": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 525. ff. 35-43 b",
-      "mss": "harley 525.",
+      "collection": "Harley",
+      "mss": "Harley 525.",
       "ff": "ff. 35-43 b",
       "page": 765
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 1701. ff. 92-95",
-      "mss": "harley 1701.",
+      "collection": "Harley",
+      "mss": "Harley 1701.",
       "ff": "ff. 92-95",
       "page": 765
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 22,283. ff. 90 b-91 b",
-      "mss": "add. 22,283.",
+      "collection": "Additional",
+      "mss": "Add. 22,283.",
       "ff": "ff. 90 b-91 b",
       "page": 763
     }
   ],
-  "gui de bourgogne": [
+  "Gui de Bourgogne": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 527. ff. 1-32",
-      "mss": "harley 527.",
+      "collection": "Harley",
+      "mss": "Harley 527.",
       "ff": "ff. 1-32",
       "page": 630
     }
   ],
-  "king horn": [
+  "King Horn": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 527. ff. 59-73 b",
-      "mss": "harley 527.",
+      "collection": "Harley",
+      "mss": "Harley 527.",
       "ff": "ff. 59-73 b",
       "page": 468
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 2253. ff. 83-92 b",
-      "mss": "harley 2253.",
+      "collection": "Harley",
+      "mss": "Harley 2253.",
       "ff": "ff. 83-92 b",
       "page": 447
     }
   ],
-  "political prophecies": [
+  "Political Prophecies": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 559. ff. 1-13, 31-35, 39-48",
-      "mss": "harley 559.",
+      "collection": "Harley",
+      "mss": "Harley 559.",
       "ff": "ff. 1-13, 31-35, 39-48",
       "page": 326
     }
   ],
-  "lays of marie de france": [
+  "Lays of Marie de France": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 978. ff. 118-160",
-      "mss": "harley 978.",
+      "collection": "Harley",
+      "mss": "Harley 978.",
       "ff": "ff. 118-160",
       "page": 407
     }
   ],
-  "troilus and cryseyde": [
+  "Troilus and Cryseyde": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 1239. ff. 1-62 b",
-      "mss": "harley 1239.",
+      "collection": "Harley",
+      "mss": "Harley 1239.",
       "ff": "ff. 1-62 b",
       "page": 73
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 2280",
-      "mss": "harley 2280",
+      "collection": "Harley",
+      "mss": "Harley 2280",
       "ff": null,
       "page": 70
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 2392",
-      "mss": "harley 2392",
+      "collection": "Harley",
+      "mss": "Harley 2392",
       "ff": null,
       "page": 73
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 3943",
-      "mss": "harley 3943",
+      "collection": "Harley",
+      "mss": "Harley 3943",
       "ff": null,
       "page": 72
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 4912",
-      "mss": "harley 4912",
+      "collection": "Harley",
+      "mss": "Harley 4912",
       "ff": null,
       "page": 74
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 12,044",
-      "mss": "add. 12,044",
+      "collection": "Additional",
+      "mss": "Add. 12,044",
       "ff": null,
       "page": 71
     }
   ],
-  "chanson de brut": [
+  "Chanson de Brut": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 1605. art. i.",
-      "mss": "harley 1605. art. i.",
+      "collection": "Harley",
+      "mss": "Harley 1605. Art. I.",
       "ff": null,
       "page": 272
     }
   ],
-  "prophecies de merlin": [
+  "Prophecies de Merlin": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 1629",
-      "mss": "harley 1629",
+      "collection": "Harley",
+      "mss": "Harley 1629",
       "ff": null,
       "page": 373
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 25,434",
-      "mss": "add. 25,434",
+      "collection": "Additional",
+      "mss": "Add. 25,434",
       "ff": null,
       "page": 371
     }
   ],
-  "prophecies of merlin and others": [
+  "Prophecies of Merlin and others": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 1717. ff. 249 b-250 b",
-      "mss": "harley 1717.",
+      "collection": "Harley",
+      "mss": "Harley 1717.",
       "ff": "ff. 249 b-250 b",
       "page": 312
     }
   ],
-  "ipomedon": [
+  "Ipomedon": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 2252. ff. 54-84",
-      "mss": "harley 2252.",
+      "collection": "Harley",
+      "mss": "Harley 2252.",
       "ff": "ff. 54-84",
       "page": 755
     }
   ],
-  "morte arthur": [
+  "Morte Arthur": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 2252. ff. 86-133 b",
-      "mss": "harley 2252.",
+      "collection": "Harley",
+      "mss": "Harley 2252.",
       "ff": "ff. 86-133 b",
       "page": 405
     }
   ],
-  "six fabliaux": [
+  "Six Fabliaux": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 2253. ff. 67 b, 107 b, 110, 115 b, 118, 122 b",
-      "mss": "harley 2253.",
+      "collection": "Harley",
+      "mss": "Harley 2253.",
       "ff": "ff. 67 b, 107 b, 110, 115 b, 118, 122 b",
       "page": 813
     }
   ],
-  "prophecy of thomas of erceldoune": [
+  "Prophecy of Thomas of Erceldoune": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 2253. ff. 127, col. 2",
-      "mss": "harley 2253.",
+      "collection": "Harley",
+      "mss": "Harley 2253.",
       "ff": "ff. 127, col. 2",
       "page": 328
     }
   ],
-  "amys and amylion": [
+  "Amys and Amylion": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 2386. ff. 131-138",
-      "mss": "harley 2386.",
+      "collection": "Harley",
+      "mss": "Harley 2386.",
       "ff": "ff. 131-138",
       "page": 677
     }
   ],
-  "letter of dindimus to alexander the great": [
+  "Letter of Dindimus to Alexander the Great": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 2488. ff. 114-117 b",
-      "mss": "harley 2488.",
+      "collection": "Harley",
+      "mss": "Harley 2488.",
       "ff": "ff. 114-117 b",
       "page": 139
     },
     {
-      "collection": "arundel",
-      "mss_ff": "arundel 138. ff. 126, 126 b",
-      "mss": "arundel 138.",
+      "collection": "Arundel",
+      "mss": "Arundel 138.",
       "ff": "ff. 126, 126 b",
       "page": 140
     },
     {
-      "collection": "sloane",
-      "mss_ff": "sloane 3991. ff. 95-97",
-      "mss": "sloane 3991.",
+      "collection": "Sloane",
+      "mss": "Sloane 3991.",
       "ff": "ff. 95-97",
       "page": 140
     }
   ],
-  "aronus and marina": [
+  "Aronus and Marina": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 2678. ff. 93-96 b",
-      "mss": "harley 2678.",
+      "collection": "Harley",
+      "mss": "Harley 2678.",
       "ff": "ff. 93-96 b",
       "page": 797
     }
   ],
-  "filocolo": [
+  "Filocolo": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 3314",
-      "mss": "harley 3314",
+      "collection": "Harley",
+      "mss": "Harley 3314",
       "ff": null,
       "page": 725
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 14,682",
-      "mss": "add. 14,682",
+      "collection": "Additional",
+      "mss": "Add. 14,682",
       "ff": null,
       "page": 716
     }
   ],
-  "dictys cretensis": [
+  "Dictys Cretensis": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 3514",
-      "mss": "harley 3514",
+      "collection": "Harley",
+      "mss": "Harley 3514",
       "ff": null,
       "page": 11
     },
     {
-      "collection": "burney",
-      "mss_ff": "burney 170",
-      "mss": "burney 170",
+      "collection": "Burney",
+      "mss": "Burney 170",
       "ff": null,
       "page": 9
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 15,429",
-      "mss": "add. 15,429",
+      "collection": "Additional",
+      "mss": "Add. 15,429",
       "ff": null,
       "page": 10
     }
   ],
-  "corbaccio": [
+  "Corbaccio": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 3581",
-      "mss": "harley 3581",
+      "collection": "Harley",
+      "mss": "Harley 3581",
       "ff": null,
       "page": 794
     }
   ],
-  "fiammetta": [
+  "Fiammetta": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 3573",
-      "mss": "harley 3573",
+      "collection": "Harley",
+      "mss": "Harley 3573",
       "ff": null,
       "page": 793
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 5427",
-      "mss": "harley 5427",
+      "collection": "Harley",
+      "mss": "Harley 5427",
       "ff": null,
       "page": 792
     }
   ],
-  "life of harold, king of england": [
+  "Life of Harold, King of England": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 3776. ff. 1-24 b",
-      "mss": "harley 3776.",
+      "collection": "Harley",
+      "mss": "Harley 3776.",
       "ff": "ff. 1-24 b",
       "page": 941
     }
   ],
-  "sir orpheo": [
+  "Sir Orpheo": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 3810. part i. ff. 1-10",
-      "mss": "harley 3810. part i.",
+      "collection": "Harley",
+      "mss": "Harley 3810. Part I.",
       "ff": "ff. 1-10",
       "page": 171
     }
   ],
-  "tale of antiochus": [
+  "Tale of Antiochus": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 3830. ff. 11 b-17 b",
-      "mss": "harley 3830.",
+      "collection": "Harley",
+      "mss": "Harley 3830.",
       "ff": "ff. 11 b-17 b",
       "page": 798
     }
   ],
-  "florimont": [
+  "Florimont": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 3983. ff. 2-82 b",
-      "mss": "harley 3983.",
+      "collection": "Harley",
+      "mss": "Harley 3983.",
       "ff": "ff. 2-82 b",
       "page": 159
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 4487. ff. 3-96",
-      "mss": "harley 4487.",
+      "collection": "Harley",
+      "mss": "Harley 4487.",
       "ff": "ff. 3-96",
       "page": 156
     }
   ],
-  "voeux du paon": [
+  "Voeux du Paon": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 3992",
-      "mss": "harley 3992",
+      "collection": "Harley",
+      "mss": "Harley 3992",
       "ff": null,
       "page": 154
     },
     {
-      "collection": "arundel",
-      "mss_ff": "arundel 230 ff. 181 b",
-      "mss": "arundel 230",
+      "collection": "Arundel",
+      "mss": "Arundel 230",
       "ff": "ff. 181 b",
       "page": 155
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 16,956",
-      "mss": "add. 16,956",
+      "collection": "Additional",
+      "mss": "Add. 16,956",
       "ff": null,
       "page": 146
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 30864",
-      "mss": "add. 30864",
+      "collection": "Additional",
+      "mss": "Add. 30864",
       "ff": null,
       "page": 926
     }
   ],
-  "l'ordène de chevalerie": [
+  "L'Ordène de Chevalerie": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 4333. ff. 115-117 b",
-      "mss": "harley 4333.",
+      "collection": "Harley",
+      "mss": "Harley 4333.",
       "ff": "ff. 115-117 b",
       "page": 810
     }
   ],
-  "girard de roussillon": [
+  "Girard de Roussillon": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 4334",
-      "mss": "harley 4334",
+      "collection": "Harley",
+      "mss": "Harley 4334",
       "ff": null,
       "page": 663
     }
   ],
-  "doon de la roche": [
+  "Doon de la Roche": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 4404. ff. 1-98",
-      "mss": "harley 4404.",
+      "collection": "Harley",
+      "mss": "Harley 4404.",
       "ff": "ff. 1-98",
       "page": 671
     }
   ],
-  "enfances ogier": [
+  "Enfances Ogier": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 4404. ff. 102-251 b",
-      "mss": "harley 4404.",
+      "collection": "Harley",
+      "mss": "Harley 4404.",
       "ff": "ff. 102-251 b",
       "page": 610
     }
   ],
-  "roman de troie": [
+  "Roman de Troie": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 4482",
-      "mss": "harley 4482",
+      "collection": "Harley",
+      "mss": "Harley 4482",
       "ff": null,
       "page": 35
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 30863",
-      "mss": "add. 30863",
+      "collection": "Additional",
+      "mss": "Add. 30863",
       "ff": null,
       "page": 924
     }
   ],
-  "richard cœur-de-lion": [
+  "Richard Cœur-de-Lion": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 4690. ff. 106-115",
-      "mss": "harley 4690.",
+      "collection": "Harley",
+      "mss": "Harley 4690.",
       "ff": "ff. 106-115",
       "page": 949
     }
   ],
-  "prophecies taken from geoffrey of monmouth and others": [
+  "Prophecies taken from Geoffrey of Monmouth and others": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 6148. ff. 86-98 b",
-      "mss": "harley 6148.",
+      "collection": "Harley",
+      "mss": "Harley 6148.",
       "ff": "ff. 86-98 b",
       "page": 311
     }
   ],
-  "merlin": [
+  "Merlin": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 6223. art. i.",
-      "mss": "harley 6223. art. i.",
+      "collection": "Harley",
+      "mss": "Harley 6223. Art. I.",
       "ff": null,
       "page": 385
     },
     {
-      "collection": "harley",
-      "mss_ff": "harley 6340",
-      "mss": "harley 6340",
+      "collection": "Harley",
+      "mss": "Harley 6340",
       "ff": null,
       "page": 344
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 10,292. ff. 76-216 b",
-      "mss": "add. 10,292.",
+      "collection": "Additional",
+      "mss": "Add. 10,292.",
       "ff": "ff. 76-216 b",
       "page": 343
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 27879 ff. 72 b-89",
-      "mss": "add. 27879",
+      "collection": "Additional",
+      "mss": "Add. 27879",
       "ff": "ff. 72 b-89",
       "page": 386
     }
   ],
-  "theagenes and stelliana": [
+  "Theagenes and Stelliana": [
     {
-      "collection": "harley",
-      "mss_ff": "harley 6758",
-      "mss": "harley 6758",
+      "collection": "Harley",
+      "mss": "Harley 6758",
       "ff": null,
       "page": 795
     }
   ],
-  "kings of britain": [
+  "Kings of Britain": [
     {
-      "collection": "lansdowne",
-      "mss_ff": "lansdowne 214. ff. 85-193",
-      "mss": "lansdowne 214.",
+      "collection": "Lansdowne",
+      "mss": "Lansdowne 214.",
       "ff": "ff. 85-193",
       "page": 251
     }
   ],
-  "florence de rome": [
+  "Florence de Rome": [
     {
-      "collection": "lansdowne",
-      "mss_ff": "lansdowne 362. ff. 75*, 75**, 76, 77",
-      "mss": "lansdowne 362.",
+      "collection": "Lansdowne",
+      "mss": "Lansdowne 362.",
       "ff": "ff. 75*, 75**, 76, 77",
       "page": 711
     }
   ],
-  "abridgement of historia trojana": [
+  "Abridgement of Historia Trojana": [
     {
-      "collection": "lansdowne",
-      "mss_ff": "lansdowne 380. ff. 36-39 b",
-      "mss": "lansdowne 380.",
+      "collection": "Lansdowne",
+      "mss": "Lansdowne 380.",
       "ff": "ff. 36-39 b",
       "page": 59
     }
   ],
-  "chanson de roland": [
+  "Chanson de Roland": [
     {
-      "collection": "lansdowne",
-      "mss_ff": "lansdowne 388. ff. 381-395 b",
-      "mss": "lansdowne 388.",
+      "collection": "Lansdowne",
+      "mss": "Lansdowne 388.",
       "ff": "ff. 381-395 b",
       "page": 631
     }
   ],
-  "amadis de gaula": [
+  "Amadis de Gaula": [
     {
-      "collection": "lansdowne",
-      "mss_ff": "lansdowne 766. ff. 1-18 b",
-      "mss": "lansdowne 766.",
+      "collection": "Lansdowne",
+      "mss": "Lansdowne 766.",
       "ff": "ff. 1-18 b",
       "page": 787
     }
   ],
-  "chanson d'aspremont": [
+  "Chanson d'Aspremont": [
     {
-      "collection": "lansdowne",
-      "mss_ff": "lansdowne 782",
-      "mss": "lansdowne 782",
+      "collection": "Lansdowne",
+      "mss": "Lansdowne 782",
       "ff": null,
       "page": 600
     }
   ],
-  "prophecies of merlin, gildas, and thomas of ercildoune": [
+  "Prophecies of Merlin, Gildas, and Thomas of Ercildoune": [
     {
-      "collection": "arundel",
-      "mss_ff": "arundel 57. ff. 4 b-11",
-      "mss": "arundel 57.",
+      "collection": "Arundel",
+      "mss": "Arundel 57.",
       "ff": "ff. 4 b-11",
       "page": 307
     }
   ],
-  "birth of merlin": [
+  "Birth of Merlin": [
     {
-      "collection": "arundel",
-      "mss_ff": "arundel 220. art. l",
-      "mss": "arundel 220. art. l",
+      "collection": "Arundel",
+      "mss": "Arundel 220. Art. L",
       "ff": null,
       "page": 384
     }
   ],
-  "treatise on the brahmins": [
+  "Treatise on the Brahmins": [
     {
-      "collection": "arundel",
-      "mss_ff": "arundel 546. ff. 265 b-280 b",
-      "mss": "arundel 546.",
+      "collection": "Arundel",
+      "mss": "Arundel 546.",
       "ff": "ff. 265 b-280 b",
       "page": 134
     }
   ],
-  "history of troy": [
+  "History of Troy": [
     {
-      "collection": "burney",
-      "mss_ff": "burney 186. ff. 116-128",
-      "mss": "burney 186.",
+      "collection": "Burney",
+      "mss": "Burney 186.",
       "ff": "ff. 116-128",
       "page": 66
     }
   ],
-  "cassandra": [
+  "Cassandra": [
     {
-      "collection": "sloane",
-      "mss_ff": "sloane 457",
-      "mss": "sloane 457",
+      "collection": "Sloane",
+      "mss": "Sloane 457",
       "ff": null,
       "page": 803
     }
   ],
-  "life of robin hood": [
+  "Life of Robin Hood": [
     {
-      "collection": "sloane",
-      "mss_ff": "sloane 780. ff. 46-48 b",
-      "mss": "sloane 780.",
+      "collection": "Sloane",
+      "mss": "Sloane 780.",
       "ff": "ff. 46-48 b",
       "page": 517
     }
   ],
-  "collection of prophecies": [
+  "Collection of Prophecies": [
     {
-      "collection": "sloane",
-      "mss_ff": "sloane 2578",
-      "mss": "sloane 2578",
+      "collection": "Sloane",
+      "mss": "Sloane 2578",
       "ff": null,
       "page": 333
     }
   ],
-  "robyn and gandelyn": [
+  "Robyn and Gandelyn": [
     {
-      "collection": "sloane",
-      "mss_ff": "sloane 2593. ff. 14 b-15 b",
-      "mss": "sloane 2593.",
+      "collection": "Sloane",
+      "mss": "Sloane 2593.",
       "ff": "ff. 14 b-15 b",
       "page": 516
     }
   ],
-  "five romantic tales": [
+  "Five Romantic Tales": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 4857. ff. 89, 97 b, 110, 134, 139 b",
-      "mss": "add. 4857.",
+      "collection": "Additional",
+      "mss": "Add. 4857.",
       "ff": "ff. 89, 97 b, 110, 134, 139 b",
       "page": 841
     }
   ],
-  "ívents saga": [
+  "Ívents saga": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 4857. ff. 113 b-133 b",
-      "mss": "add. 4857.",
+      "collection": "Additional",
+      "mss": "Add. 4857.",
       "ff": "ff. 113 b-133 b",
       "page": 393
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 4857. ff. 32-45 b",
-      "mss": "add. 4857.",
+      "collection": "Additional",
+      "mss": "Add. 4857.",
       "ff": "ff. 32-45 b",
       "page": 393
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 4859. ff. 32-45 b",
-      "mss": "add. 4859.",
+      "collection": "Additional",
+      "mss": "Add. 4859.",
       "ff": "ff. 32-45 b",
       "page": 394
     }
   ],
-  "eight romantic tales": [
+  "Eight Romantic Tales": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 4859. ff. 10, 15, 142 b, 240, 313, 314, 344 b, 367",
-      "mss": "add. 4859.",
+      "collection": "Additional",
+      "mss": "Add. 4859.",
       "ff": "ff. 10, 15, 142 b, 240, 313, 314, 344 b, 367",
       "page": 843
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 4859. ff. 10, 15, 142 b, 240, 813, 314, 344 b, 367",
-      "mss": "add. 4859.",
+      "collection": "Additional",
+      "mss": "Add. 4859.",
       "ff": "ff. 10, 15, 142 b, 240, 813, 314, 344 b, 367",
       "page": 843
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 4860. ff. 1, 17, 29, 95, 273, 285, 293, 329",
-      "mss": "add. 4860.",
+      "collection": "Additional",
+      "mss": "Add. 4860.",
       "ff": "ff. 1, 17, 29, 95, 273, 285, 293, 329",
       "page": 846
     }
   ],
-  "parcevals saga and valvers þáttr": [
+  "Parcevals saga and Valvers þáttr": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 4859. ff. 46-65 b",
-      "mss": "add. 4859.",
+      "collection": "Additional",
+      "mss": "Add. 4859.",
       "ff": "ff. 46-65 b",
       "page": 395
     }
   ],
-  "ereks saga artuskappa": [
+  "Ereks saga Artuskappa": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 4859. ff. 66-74 b",
-      "mss": "add. 4859.",
+      "collection": "Additional",
+      "mss": "Add. 4859.",
       "ff": "ff. 66-74 b",
       "page": 403
     }
   ],
-  "möttuls saga": [
+  "Möttuls saga": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 4859. ff. 75-81",
-      "mss": "add. 4859.",
+      "collection": "Additional",
+      "mss": "Add. 4859.",
       "ff": "ff. 75-81",
       "page": 405
     }
   ],
-  "life of virgilius": [
+  "Life of Virgilius": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 4859. ff. 81 b-91",
-      "mss": "add. 4859.",
+      "collection": "Additional",
+      "mss": "Add. 4859.",
       "ff": "ff. 81 b-91",
       "page": 196
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 11,141. ff. 132-147",
-      "mss": "add. 11,141.",
+      "collection": "Additional",
+      "mss": "Add. 11,141.",
       "ff": "ff. 132-147",
       "page": 197
     }
   ],
-  "magus saga jarls": [
+  "Magus saga Jarls": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 4860. ff. 157-188 b",
-      "mss": "add. 4860.",
+      "collection": "Additional",
+      "mss": "Add. 4860.",
       "ff": "ff. 157-188 b",
       "page": 686
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 4869. ff. 67-101 b",
-      "mss": "add. 4869.",
+      "collection": "Additional",
+      "mss": "Add. 4869.",
       "ff": "ff. 67-101 b",
       "page": 684
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 4874. ff. 1-66",
-      "mss": "add. 4874.",
+      "collection": "Additional",
+      "mss": "Add. 4874.",
       "ff": "ff. 1-66",
       "page": 688
     }
   ],
-  "partalópa saga": [
+  "Partalópa saga": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 4860. ff. 189-206",
-      "mss": "add. 4860.",
+      "collection": "Additional",
+      "mss": "Add. 4860.",
       "ff": "ff. 189-206",
       "page": 707
     }
   ],
-  "seven romantic tales": [
+  "Seven Romantic Tales": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 4863. ff. 25, 69, 119, 153, 181, 189, 229",
-      "mss": "add. 4863.",
+      "collection": "Additional",
+      "mss": "Add. 4863.",
       "ff": "ff. 25, 69, 119, 153, 181, 189, 229",
       "page": 847
     }
   ],
-  "samsons saga fagra": [
+  "Samsons saga Fagra": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 4863. ff. 47-68 b",
-      "mss": "add. 4863.",
+      "collection": "Additional",
+      "mss": "Add. 4863.",
       "ff": "ff. 47-68 b",
       "page": 407
     }
   ],
-  "trójumanna saga": [
+  "Trójumanna saga": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 4869. ff. 2-66",
-      "mss": "add. 4869.",
+      "collection": "Additional",
+      "mss": "Add. 4869.",
       "ff": "ff. 2-66",
       "page": 62
     }
   ],
-  "two romantic tales": [
+  "Two Romantic Tales": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 4869. ff. 161, 206",
-      "mss": "add. 4869.",
+      "collection": "Additional",
+      "mss": "Add. 4869.",
       "ff": "ff. 161, 206",
       "page": 850
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 11,241. ff. 95, 140",
-      "mss": "add. 11,241.",
+      "collection": "Additional",
+      "mss": "Add. 11,241.",
       "ff": "ff. 95, 140",
       "page": 867
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 24,973. ff. 2-69 b",
-      "mss": "add. 24,973.",
+      "collection": "Additional",
+      "mss": "Add. 24,973.",
       "ff": "ff. 2-69 b",
       "page": 872
     }
   ],
-  "three romantic tales": [
+  "Three Romantic Tales": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 4870. ff. 62, 69, 83 b",
-      "mss": "add. 4870.",
+      "collection": "Additional",
+      "mss": "Add. 4870.",
       "ff": "ff. 62, 69, 83 b",
       "page": 851
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 4874. ff. 98 b, 110, 138",
-      "mss": "add. 4874.",
+      "collection": "Additional",
+      "mss": "Add. 4874.",
       "ff": "ff. 98 b, 110, 138",
       "page": 852
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 4875. ff. 1, 25 b, 54 b",
-      "mss": "add. 4875.",
+      "collection": "Additional",
+      "mss": "Add. 4875.",
       "ff": "ff. 1, 25 b, 54 b",
       "page": 854
     }
   ],
-  "saga of ajax frækni": [
+  "Saga of Ajax Frækni": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 4884. ff. 167-178",
-      "mss": "add. 4884.",
+      "collection": "Additional",
+      "mss": "Add. 4884.",
       "ff": "ff. 167-178",
       "page": 854
     }
   ],
-  "merlínus spá": [
+  "Merlínus Spá": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 6121. ff. 55-71",
-      "mss": "add. 6121.",
+      "collection": "Additional",
+      "mss": "Add. 6121.",
       "ff": "ff. 55-71",
       "page": 304
     }
   ],
-  "juglet": [
+  "Juglet": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 10,289. ff. 175 b-178 b",
-      "mss": "add. 10,289.",
+      "collection": "Additional",
+      "mss": "Add. 10,289.",
       "ff": "ff. 175 b-178 b",
       "page": 812
     }
   ],
-  "romance of jason": [
+  "Romance of Jason": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 10,290. ff. 2-161",
-      "mss": "add. 10,290.",
+      "collection": "Additional",
+      "mss": "Add. 10,290.",
       "ff": "ff. 2-161",
       "page": 92
     }
   ],
-  "artus de bretagne": [
+  "Artus de Bretagne": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 10,295",
-      "mss": "add. 10,295",
+      "collection": "Additional",
+      "mss": "Add. 10,295",
       "ff": null,
       "page": 382
     }
   ],
-  "fioccolo": [
+  "Fioccolo": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 10,296",
-      "mss": "add. 10,296",
+      "collection": "Additional",
+      "mss": "Add. 10,296",
       "ff": null,
       "page": 724
     }
   ],
-  "riccardetto": [
+  "Riccardetto": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 10,321",
-      "mss": "add. 10,321",
+      "collection": "Additional",
+      "mss": "Add. 10,321",
       "ff": null,
       "page": 680
     }
   ],
-  "romance of the peers of france": [
+  "Romance of the Peers of France": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 10,508. ff. 64-96 b",
-      "mss": "add. 10,508.",
+      "collection": "Additional",
+      "mss": "Add. 10,508.",
       "ff": "ff. 64-96 b",
       "page": 682
     }
   ],
-  "rimur of remund": [
+  "Rimur of Remund": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 11,110. ff. 101-144",
-      "mss": "add. 11,110.",
+      "collection": "Additional",
+      "mss": "Add. 11,110.",
       "ff": "ff. 101-144",
       "page": 855
     }
   ],
-  "rimur from trójumanna saga": [
+  "Rimur from Trójumanna saga": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 11,113. ff. 171-281",
-      "mss": "add. 11,113.",
+      "collection": "Additional",
+      "mss": "Add. 11,113.",
       "ff": "ff. 171-281",
       "page": 63
     }
   ],
-  "collection of anecdotes": [
+  "Collection of Anecdotes": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 11,153. ff. 182-263",
-      "mss": "add. 11,153.",
+      "collection": "Additional",
+      "mss": "Add. 11,153.",
       "ff": "ff. 182-263",
       "page": 865
     }
   ],
-  "gabons saga ok vigolea": [
+  "Gabons saga ok Vigolea": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 11,157. ff. 1-46 b",
-      "mss": "add. 11,157.",
+      "collection": "Additional",
+      "mss": "Add. 11,157.",
       "ff": "ff. 1-46 b",
       "page": 402
     }
   ],
-  "valentine and orson and tales": [
+  "Valentine and Orson and Tales": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 11,157. ff. 90, 176, 188",
-      "mss": "add. 11,157.",
+      "collection": "Additional",
+      "mss": "Add. 11,157.",
       "ff": "ff. 90, 176, 188",
       "page": 857
     }
   ],
-  "ten romantic tales": [
+  "Ten Romantic Tales": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 11,158. ff. 1, 24, 83, 71, 123, 201, 233, 251, 261 b, 268, 289",
-      "mss": "add. 11,158.",
+      "collection": "Additional",
+      "mss": "Add. 11,158.",
       "ff": "ff. 1, 24, 83, 71, 123, 201, 233, 251, 261 b, 268, 289",
       "page": 858
     }
   ],
-  "patient griselda": [
+  "Patient Griselda": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 11,163. ff. 120 b-136 b",
-      "mss": "add. 11,163.",
+      "collection": "Additional",
+      "mss": "Add. 11,163.",
       "ff": "ff. 120 b-136 b",
       "page": 865
     }
   ],
-  "argenis": [
+  "Argenis": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 11,164",
-      "mss": "add. 11,164",
+      "collection": "Additional",
+      "mss": "Add. 11,164",
       "ff": null,
       "page": 866
     }
   ],
-  "merlinus spá": [
+  "Merlinus Spá": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 11,174. ff. 85-98",
-      "mss": "add. 11,174.",
+      "collection": "Additional",
+      "mss": "Add. 11,174.",
       "ff": "ff. 85-98",
       "page": 307
     }
   ],
-  "alexander saga": [
+  "Alexander saga": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 11,238. ff. 507-692 b",
-      "mss": "add. 11,238.",
+      "collection": "Additional",
+      "mss": "Add. 11,238.",
       "ff": "ff. 507-692 b",
       "page": 104
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 24,969. ff. 128 b-151 b",
-      "mss": "add. 24,969.",
+      "collection": "Additional",
+      "mss": "Add. 24,969.",
       "ff": "ff. 128 b-151 b",
       "page": 105
     }
   ],
-  "uberto and philomena": [
+  "Uberto and Philomena": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 12,196. ff. 1-48 b",
-      "mss": "add. 12,196.",
+      "collection": "Additional",
+      "mss": "Add. 12,196.",
       "ff": "ff. 1-48 b",
       "page": 784
     }
   ],
-  "tinctoris, compostella": [
+  "Tinctoris, Compostella": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 12,213. ff. 160 b-181 b",
-      "mss": "add. 12,213.",
+      "collection": "Additional",
+      "mss": "Add. 12,213.",
       "ff": "ff. 160 b-181 b",
       "page": 951
     }
   ],
-  "meliadus": [
+  "Meliadus": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 12,228",
-      "mss": "add. 12,228",
+      "collection": "Additional",
+      "mss": "Add. 12,228",
       "ff": null,
       "page": 364
     }
   ],
-  "roman d'eneas": [
+  "Roman d'Eneas": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 14,100",
-      "mss": "add. 14,100",
+      "collection": "Additional",
+      "mss": "Add. 14,100",
       "ff": null,
       "page": 82
     }
   ],
-  "hanes taliesin": [
+  "Hanes Taliesin": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 14,697. ff. 205-208 b",
-      "mss": "add. 14,697.",
+      "collection": "Additional",
+      "mss": "Add. 14,697.",
       "ff": "ff. 205-208 b",
       "page": 421
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 15,002. ff. 144 b-147 b",
-      "mss": "add. 15,002.",
+      "collection": "Additional",
+      "mss": "Add. 15,002.",
       "ff": "ff. 144 b-147 b",
       "page": 422
     }
   ],
-  "brut gruffydd ap arthur": [
+  "Brut Gruffydd ap Arthur": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 14,903. ff. 20-177",
-      "mss": "add. 14,903.",
+      "collection": "Additional",
+      "mss": "Add. 14,903.",
       "ff": "ff. 20-177",
       "page": 258
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 19,709. ff. 8-84",
-      "mss": "add. 19,709.",
+      "collection": "Additional",
+      "mss": "Add. 19,709.",
       "ff": "ff. 8-84",
       "page": 257
     }
   ],
-  "peredur ab efrawc": [
+  "Peredur ab Efrawc": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 14,907. ff. 149-167",
-      "mss": "add. 14,907.",
+      "collection": "Additional",
+      "mss": "Add. 14,907.",
       "ff": "ff. 149-167",
       "page": 395
     }
   ],
-  "extracts from brut y brenhinoedd": [
+  "Extracts from Brut y Brenhinoedd": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 15,003. ff. 1-13",
-      "mss": "add. 15,003.",
+      "collection": "Additional",
+      "mss": "Add. 15,003.",
       "ff": "ff. 1-13",
       "page": 259
     }
   ],
-  "isarles y ffynnawn": [
+  "Isarles y Ffynnawn": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 15,035. ff. 57-61",
-      "mss": "add. 15,035.",
+      "collection": "Additional",
+      "mss": "Add. 15,035.",
       "ff": "ff. 57-61",
       "page": 393
     }
   ],
-  "contes et fabliaux": [
+  "Contes et Fabliaux": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 15,210-15,213",
-      "mss": "add. 15,210-15,213",
+      "collection": "Additional",
+      "mss": "Add. 15,210-15,213",
       "ff": null,
       "page": 804
     }
   ],
-  "partonopeus de blois": [
+  "Partonopeus de Blois": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 15,212. ff. 14 b-196 b",
-      "mss": "add. 15,212.",
+      "collection": "Additional",
+      "mss": "Add. 15,212.",
       "ff": "ff. 14 b-196 b",
       "page": 698
     }
   ],
-  "blanchandin et orgueillose d'amors": [
+  "Blanchandin et Orgueillose d'Amors": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 15,212. ff. 197-266 b",
-      "mss": "add. 15,212.",
+      "collection": "Additional",
+      "mss": "Add. 15,212.",
       "ff": "ff. 197-266 b",
       "page": 727
     }
   ],
-  "floire et blancheflor": [
+  "Floire et Blancheflor": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 15,213",
-      "mss": "add. 15,213",
+      "collection": "Additional",
+      "mss": "Add. 15,213",
       "ff": null,
       "page": 714
     }
   ],
-  "brut tyailio": [
+  "Brut Tyailio": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 15,566. ff. 6-140",
-      "mss": "add. 15,566.",
+      "collection": "Additional",
+      "mss": "Add. 15,566.",
       "ff": "ff. 6-140",
       "page": 254
     }
   ],
-  "les deux chevaliers, and le dit de guillaume d'angleterre": [
+  "Les deux Chevaliers, and Le dit de Guillaume d'Angleterre": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 15,606. ff. 110, col. 2,-113, col. 2; and 140 b-152",
-      "mss": "add. 15,606.",
+      "collection": "Additional",
+      "mss": "Add. 15,606.",
       "ff": "ff. 110, col. 2,-113, col. 2; and 140 b-152",
       "page": 757
     }
   ],
-  "roman d'athis et profilas": [
+  "Roman d'Athis et Profilas": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 16,441",
-      "mss": "add. 16,441",
+      "collection": "Additional",
+      "mss": "Add. 16,441",
       "ff": null,
       "page": 173
     },
     {
-      "collection": "additional",
-      "mss_ff": "add. 16,441",
-      "mss": "add. 16,441",
+      "collection": "Additional",
+      "mss": "Add. 16,441",
       "ff": null,
       "page": 929
     }
   ],
-  "voeux du paon and restor du paon": [
+  "Voeux du Paon and Restor du Paon": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 16,888",
-      "mss": "add. 16,888",
+      "collection": "Additional",
+      "mss": "Add. 16,888",
       "ff": null,
       "page": 150
     }
   ],
-  "theseus de cologne": [
+  "Theseus de Cologne": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 16,955",
-      "mss": "add. 16,955",
+      "collection": "Additional",
+      "mss": "Add. 16,955",
       "ff": null,
       "page": 769
     }
   ],
-  "the diana of montemayor": [
+  "The Diana of Montemayor": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 18,688",
-      "mss": "add. 18,688",
+      "collection": "Additional",
+      "mss": "Add. 18,688",
       "ff": null,
       "page": 789
     }
   ],
-  "amis and amylion": [
+  "Amis and Amylion": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 18,922. ff. 204-221 b",
-      "mss": "add. 18,922.",
+      "collection": "Additional",
+      "mss": "Add. 18,922.",
       "ff": "ff. 204-221 b",
       "page": 678
     }
   ],
-  "wigalois": [
+  "Wigalois": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 19,554. ff. 2-56 b",
-      "mss": "add. 19,554.",
+      "collection": "Additional",
+      "mss": "Add. 19,554.",
       "ff": "ff. 2-56 b",
       "page": 398
     }
   ],
-  "iwein": [
+  "Iwein": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 19,554. ff. 57-100 b",
-      "mss": "add. 19,554.",
+      "collection": "Additional",
+      "mss": "Add. 19,554.",
       "ff": "ff. 57-100 b",
       "page": 390
     }
   ],
-  "may colvin": [
+  "May Colvin": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 20,094. ff. 21-26, 30-32 b",
-      "mss": "add. 20,094.",
+      "collection": "Additional",
+      "mss": "Add. 20,094.",
       "ff": "ff. 21-26, 30-32 b",
       "page": 544
     }
   ],
-  "philomena": [
+  "Philomena": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 21,218",
-      "mss": "add. 21,218",
+      "collection": "Additional",
+      "mss": "Add. 21,218",
       "ff": null,
       "page": 596
     }
   ],
-  "filostrato": [
+  "Filostrato": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 21,246",
-      "mss": "add. 21,246",
+      "collection": "Additional",
+      "mss": "Add. 21,246",
       "ff": null,
       "page": 67
     }
   ],
-  "the king of tars and the soudan of damas": [
+  "The King of Tars and the Soudan of Damas": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 22,283. ff. 126-128 b",
-      "mss": "add. 22,283.",
+      "collection": "Additional",
+      "mss": "Add. 22,283.",
       "ff": "ff. 126-128 b",
       "page": 767
     }
   ],
-  "scottish ballads": [
+  "Scottish Ballads": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 22,311",
-      "mss": "add. 22,311",
+      "collection": "Additional",
+      "mss": "Add. 22,311",
       "ff": null,
       "page": 531
     }
   ],
-  "reali di francia": [
+  "Reali di Francia": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 22,312",
-      "mss": "add. 22,312",
+      "collection": "Additional",
+      "mss": "Add. 22,312",
       "ff": null,
       "page": 672
     }
   ],
-  "guiron le courtois": [
+  "Guiron le Courtois": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 23,930. ff. 1-87 b",
-      "mss": "add. 23,930.",
+      "collection": "Additional",
+      "mss": "Add. 23,930.",
       "ff": "ff. 1-87 b",
       "page": 369
     }
   ],
-  "tales and fables": [
+  "Tales and Fables": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 24,946",
-      "mss": "add. 24,946",
+      "collection": "Additional",
+      "mss": "Add. 24,946",
       "ff": null,
       "page": 826
     }
   ],
-  "nine romantic tales": [
+  "Nine Romantic Tales": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 24,969. ff. 25, 62, 69 b, 74, 78 b, 83, 94, 209, 270",
-      "mss": "add. 24,969.",
+      "collection": "Additional",
+      "mss": "Add. 24,969.",
       "ff": "ff. 25, 62, 69 b, 74, 78 b, 83, 94, 209, 270",
       "page": 867
     }
   ],
-  "story of sigurgaror": [
+  "Story of Sigurgaror": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 24,970",
-      "mss": "add. 24,970",
+      "collection": "Additional",
+      "mss": "Add. 24,970",
       "ff": null,
       "page": 871
     }
   ],
-  "fertrams saga": [
+  "Fertrams saga": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 24,972. ff. 58-72 b",
-      "mss": "add. 24,972.",
+      "collection": "Additional",
+      "mss": "Add. 24,972.",
       "ff": "ff. 58-72 b",
       "page": 872
     }
   ],
-  "the chaste duchess": [
+  "The Chaste Duchess": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 25,569. ff. 15 b-21",
-      "mss": "add. 25,569.",
+      "collection": "Additional",
+      "mss": "Add. 25,569.",
       "ff": "ff. 15 b-21",
       "page": 713
     }
   ],
-  "romances and ballads": [
+  "Romances and Ballads": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 27,979",
-      "mss": "add. 27,979",
+      "collection": "Additional",
+      "mss": "Add. 27,979",
       "ff": null,
       "page": 817
     }
   ],
-  "robin hood": [
+  "Robin Hood": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 27879 ff. 2-10",
-      "mss": "add. 27879",
+      "collection": "Additional",
+      "mss": "Add. 27879",
       "ff": "ff. 2-10",
       "page": 519
     }
   ],
-  "sir lancelot of dulake": [
+  "Sir Lancelot of Dulake": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 27879 ff. 10-14, 16, 17",
-      "mss": "add. 27879",
+      "collection": "Additional",
+      "mss": "Add. 27879",
       "ff": "ff. 10-14, 16, 17",
       "page": 397
     }
   ],
-  "miscellaneous ballads": [
+  "Miscellaneous Ballads": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 27879 ff. 14 b-24",
-      "mss": "add. 27879",
+      "collection": "Additional",
+      "mss": "Add. 27879",
       "ff": "ff. 14 b-24",
       "page": 525
     }
   ],
-  "the grene knight, turke and gowin, the marriage of sir gawaine": [
+  "The Grene Knight, Turke and Gowin, The Marriage of Sir Gawaine": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 27879. ff. 17 b-24 b, 101 b-105, 223 b-226 b",
-      "mss": "add. 27879.",
+      "collection": "Additional",
+      "mss": "Add. 27879.",
       "ff": "ff. 17 b-24 b, 101 b-105, 223 b-226 b",
       "page": 389
     }
   ],
-  "sir lambewell": [
+  "Sir Lambewell": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 27879. ff. 29 b-33 b",
-      "mss": "add. 27879.",
+      "collection": "Additional",
+      "mss": "Add. 27879.",
       "ff": "ff. 29 b-33 b",
       "page": 417
     }
   ],
-  "king arthur's death": [
+  "King Arthur's Death": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 27879 ff. 89, 91",
-      "mss": "add. 27879",
+      "collection": "Additional",
+      "mss": "Add. 27879",
       "ff": "ff. 89, 91",
       "page": 406
     }
   ],
-  "guye and amarant": [
+  "Guye and Amarant": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 27879 ff. 110-117",
-      "mss": "add. 27879",
+      "collection": "Additional",
+      "mss": "Add. 27879",
       "ff": "ff. 110-117",
       "page": 499
     }
   ],
-  "three ballads of forest life": [
+  "Three Ballads of Forest Life": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 27879 ff. 117 b-210",
-      "mss": "add. 27879",
+      "collection": "Additional",
+      "mss": "Add. 27879",
       "ff": "ff. 117 b-210",
       "page": 523
     }
   ],
-  "guy and phillis": [
+  "Guy and Phillis": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 27879 ff. 126",
-      "mss": "add. 27879",
+      "collection": "Additional",
+      "mss": "Add. 27879",
       "ff": "ff. 126",
       "page": 500
     }
   ],
-  "robin hood ballad": [
+  "Robin Hood Ballad": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 27879 ff. 129-180 b",
-      "mss": "add. 27879",
+      "collection": "Additional",
+      "mss": "Add. 27879",
       "ff": "ff. 129-180 b",
       "page": 520
     }
   ],
-  "boy and mantle": [
+  "Boy and Mantle": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 27879 ff 140, 141",
-      "mss": "add. 27879",
+      "collection": "Additional",
+      "mss": "Add. 27879",
       "ff": "ff140, 141",
       "page": 404
     }
   ],
-  "libius disconius": [
+  "Libius Disconius": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 27879 ff 156 b-171",
-      "mss": "add. 27879",
+      "collection": "Additional",
+      "mss": "Add. 27879",
       "ff": "ff156 b-171",
       "page": 401
     }
   ],
-  "guy and colebrande": [
+  "Guy and Colebrande": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 27879 ff 172 b-176b",
-      "mss": "add. 27879",
+      "collection": "Additional",
+      "mss": "Add. 27879",
       "ff": "ff172 b-176b",
       "page": 500
     }
   ],
-  "two ballads relating to adam bell": [
+  "Two Ballads relating to Adam Bell": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 27879 ff 194-201",
-      "mss": "add. 27879",
+      "collection": "Additional",
+      "mss": "Add. 27879",
       "ff": "ff194-201",
       "page": 522
     }
   ],
-  "a propecye": [
+  "A Propecye": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 27879 f 239 b",
-      "mss": "add. 27879 f 239 b",
+      "collection": "Additional",
+      "mss": "Add. 27879 f 239 b",
       "ff": null,
       "page": 327
     }
   ],
-  "king humber": [
+  "King Humber": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 27879 f 248",
-      "mss": "add. 27879 f 248",
+      "collection": "Additional",
+      "mss": "Add. 27879 f 248",
       "ff": null,
       "page": 339
     }
   ],
-  "robin hood's garland": [
+  "Robin Hood's Garland": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 28638",
-      "mss": "add. 28638",
+      "collection": "Additional",
+      "mss": "Add. 28638",
       "ff": null,
       "page": 520
     }
   ],
-  "ballads of scotland": [
+  "Ballads of Scotland": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 29408, 29409",
-      "mss": "add. 29408, 29409",
+      "collection": "Additional",
+      "mss": "Add. 29408, 29409",
       "ff": null,
       "page": 537
     }
   ],
-  "titurel": [
+  "Titurel": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 30984",
-      "mss": "add. 30984",
+      "collection": "Additional",
+      "mss": "Add. 30984",
       "ff": null,
       "page": 932
     }
   ],
-  "two charlemagne romances": [
+  "Two Charlemagne Romances": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 31042 ff 66 b-79 b, 82-94",
-      "mss": "add. 31042",
+      "collection": "Additional",
+      "mss": "Add. 31042",
       "ff": "ff66 b-79 b, 82-94",
       "page": 953
     }
   ],
-  "richard coeur-de-lion": [
+  "Richard Coeur-de-Lion": [
     {
-      "collection": "additional",
-      "mss_ff": "add. 31042 ff 125-163 b",
-      "mss": "add. 31042",
+      "collection": "Additional",
+      "mss": "Add. 31042",
       "ff": "ff125-163 b",
       "page": 944
     }
   ],
-  "ipomedon and prothesilaus": [
+  "Ipomedon and Prothesilaus": [
     {
-      "collection": "egerton",
-      "mss_ff": "egerton 2515 ff. 3-141",
-      "mss": "egerton 2515",
+      "collection": "Egerton",
+      "mss": "Egerton 2515",
       "ff": "ff. 3-141",
       "page": 746
     }

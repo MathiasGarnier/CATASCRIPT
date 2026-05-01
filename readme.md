@@ -4,7 +4,7 @@
     - catalog
         - On y trouve les 3 volumes de CatalogOfRomances. En particulier le volume 1 contient une version formatée xml (inutilisable en raison de la qualité de l'OCR).
     - curated (essentiellement produites avec [batch_ocr_test%20(2).ipynb](scripts/batch_ocr_test%20(2).ipynb))
-        - [to_OCR.pdf](corpus/curated/to_OCR.pdf) : test document à OCRiser
+        - [to_OCR.pdf](corpus/curated/to_OCR.pdf) Test document à OCRiser.
         - [testNotice.json](corpus/curated/testNotice.json) Test non concluant.
         - [segmented_notices (1).json](corpus/curated/segmented_notices%20(1).json) Résultat de l'OCR from scratch mistral.
         - [pdf_ocr_outputful_full.json](corpus/curated/pdf_ocr_output_full.json) Test raté (modèle sous dimensionné).s
