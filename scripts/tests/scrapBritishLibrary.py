@@ -1,6 +1,8 @@
 #OPERA_categories = ["Royal", "Cotton", "Harley", "Lansdowne", "Arundel", "Burney", "Sloane", "Additional", "Egerton"]
 #https://bl.libguides.com/reference-services/manuscripts/shelfmarks
 
+# Serait une extension intéressante du projet, pas fait.
+
 # Royal:
     #
 # Cotton:

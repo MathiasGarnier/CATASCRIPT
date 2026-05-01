@@ -175,7 +175,6 @@ def find_operaTexte(current_item, next_item):
             x_min = int(coords.split(',')[0]) if coords else 0
             centered = is_centered(x_min, page_num)
             
-            # --- 1. CONDITION D'ARRÊT ---
             # Si on est sur la page de fin et qu'on repère le titre de l'œuvre suivante
             if capturing and next_item and page_num == end_page:
                 if centered:
@@ -184,7 +183,6 @@ def find_operaTexte(current_item, next_item):
                         capturing = False
                         break # Sort de la boucle des lignes
                         
-            # --- 2. CONDITION DE DÉMARRAGE ---
             # Si on est sur la page de départ et qu'on cherche le titre
             if not capturing and page_num == start_page:
                 if centered:
@@ -194,7 +192,6 @@ def find_operaTexte(current_item, next_item):
                         extracted_text.append(line_text) # Optionnel: inclure le titre
                         continue
             
-            # --- 3. SÉCURITÉ / FALLBACK ---
             # Si le titre de départ n'a pas été repéré (OCR trop mauvais), 
             # mais qu'on a dépassé la page de départ, on force la capture du texte probable.
             if not capturing and start_page < page_num <= end_page:

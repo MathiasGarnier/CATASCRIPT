@@ -1,0 +1,22 @@
+# Que trouver et où?
+
+- corpus
+    - catalog
+        - On y trouve les 3 volumes de CatalogOfRomances. En particulier le volume 1 contient une version formatée xml (inutilisable en raison de la qualité de l'OCR).
+    - curated (essentiellement produites avec [batch_ocr_test%20(2).ipynb](scripts/batch_ocr_test%20(2).ipynb))
+        - [to_OCR.pdf](corpus/curated/to_OCR.pdf) : test document à OCRiser
+        - [testNotice.json](corpus/curated/testNotice.json) Test non concluant.
+        - [segmented_notices (1).json](corpus/curated/segmented_notices%20(1).json) Résultat de l'OCR from scratch mistral.
+        - [pdf_ocr_outputful_full.json](corpus/curated/pdf_ocr_output_full.json) Test raté (modèle sous dimensionné).s
+        - [extracted_notices.json](corpus/curated/extracted_notices.json) Notices extraites et chunkées. Clefs : "work_name",         "manuscript", "full_notice_text", "material", "date", "format", "subject", "keywords".
+- results Tables json pour le volume 1 essentiellement (et un élément pour le volume 2). Ont été construites sur l'OCR de mauvaise qualité. Préférer l'utilisation des tables de [curated](corpus/curated/) pour l'utilisation de notices.
+- scripts
+    - [combined tables](scripts/clean_combine_tables/) tests pour combiner des éléments du corpus en des tables json uniformées.
+    - [tests](scripts/tests/) Lasciate ogni speranza, voi che'ntrate. À vos risques et périls. Tests un peu dans tous les sens. Des choses non terminées. De l'exploratoire à gros trait.
+    - [batch_ocr_test%20(2).ipynb](scripts/batch_ocr_test%20(2).ipynb) On refait un OCR from scratch en utilisant Mistral OCR.
+    - [labs](scripts/labs.ipynb) On reprend des éléments des _lab sessions_ et on les adapte à notre corpus.
+    - [manuscrits](scripts/manuscripts.py) Liste tapée à la main des entrées (sommaire + liste manuscrits et oeuvres) nous intéressant.
+    - [microscopic](scripts/microscopic.ipynb) Expérimentations pour la partie microscopique du papier.
+    - [test_desc](scripts/test_desc.ipynb) Visualisation du corpus (attention, la première partie utilise les données non propres OCRisés mais la deuxième utilisant l'OCRisation from scratch).
+    - [test_vis2](scripts/test_vis2.ipynb) Expérimentations pour la partie macroscopique du papier.
+- [Présentation durant la dernière session](pre20260401-catalogueNA.pdf).

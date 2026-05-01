@@ -13,6 +13,10 @@ from matplotlib.animation import FuncAnimation
 from sklearn.manifold import SpectralEmbedding
 from sklearn.cluster import SpectralClustering
 
+# Lasciate ogni speranza, voi che'ntrate
+
+# À vos risques et périls
+
 #################################################################################
 #################################################################################
 # On condense ici quelques petites expérimentations
