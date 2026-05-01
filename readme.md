@@ -4,10 +4,10 @@
     - catalog
         - On y trouve les 3 volumes de CatalogOfRomances. En particulier le volume 1 contient une version formatée xml (inutilisable en raison de la qualité de l'OCR).
     - curated (essentiellement produites avec [batch_ocr_test%20(2).ipynb](scripts/batch_ocr_test%20(2).ipynb))
-        - [to_OCR.pdf](corpus/curated/to_OCR.pdf) : test document à OCRiser
+        - [to_OCR.pdf](corpus/curated/to_OCR.pdf) : test document à OCRiser.
         - [testNotice.json](corpus/curated/testNotice.json) Test non concluant.
         - [segmented_notices (1).json](corpus/curated/segmented_notices%20(1).json) Résultat de l'OCR from scratch mistral.
-        - [pdf_ocr_outputful_full.json](corpus/curated/pdf_ocr_output_full.json) Test raté (modèle sous dimensionné).s
+        - [pdf_ocr_outputful_full.json](corpus/curated/pdf_ocr_output_full.json) Test raté (modèle sous dimensionné).
         - [extracted_notices.json](corpus/curated/extracted_notices.json) Notices extraites et chunkées. Clefs : "work_name",         "manuscript", "full_notice_text", "material", "date", "format", "subject", "keywords".
 - results Tables json pour le volume 1 essentiellement (et un élément pour le volume 2). Ont été construites sur l'OCR de mauvaise qualité. Préférer l'utilisation des tables de [curated](corpus/curated/) pour l'utilisation de notices.
 - scripts
